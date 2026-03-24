@@ -1,4 +1,66 @@
+"use client";
+
+import { FormEvent, useState } from "react";
+import { useRouter } from "next/navigation";
+
 export default function Home() {
+  const router = useRouter();
+
+  const [nombre, setNombre] = useState("");
+  const [email, setEmail] = useState("");
+  const [telefono, setTelefono] = useState("");
+  const [tiempoEnEspana, setTiempoEnEspana] = useState("");
+  const [situacion, setSituacion] = useState("");
+  const [privacidad, setPrivacidad] = useState(false);
+
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError("");
+
+    if (!privacidad) {
+      setError("Debes aceptar la política de privacidad para enviar la consulta.");
+      return;
+    }
+
+    setLoading(true);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          nombre,
+          email,
+          telefono,
+          tiempo_en_espana: tiempoEnEspana,
+          situacion,
+          aceptaPrivacidad: privacidad,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data?.error || "No se pudo enviar la consulta.");
+      }
+
+      router.push("/gracias");
+    } catch (err) {
+      const message =
+        err instanceof Error
+          ? err.message
+          : "Ha ocurrido un error al enviar la consulta.";
+      setError(message);
+    } finally {
+      setLoading(false);
+    }
+  }
+
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white/90 backdrop-blur">
@@ -122,17 +184,15 @@ export default function Home() {
               documentación necesaria y próximos pasos.
             </p>
 
-            <form
-              action="https://formspree.io/f/xlgpqydn"
-              method="POST"
-              className="mt-8 space-y-4"
-            >
+            <form onSubmit={handleSubmit} className="mt-8 space-y-4">
               <input
                 name="nombre"
                 type="text"
                 placeholder="Nombre y apellidos"
                 className="w-full rounded-2xl border border-stone-300 bg-stone-50 px-4 py-3 text-sm outline-none transition focus:border-slate-500 focus:bg-white"
                 required
+                value={nombre}
+                onChange={(e) => setNombre(e.target.value)}
               />
               <input
                 name="email"
@@ -140,18 +200,24 @@ export default function Home() {
                 placeholder="Correo electrónico"
                 className="w-full rounded-2xl border border-stone-300 bg-stone-50 px-4 py-3 text-sm outline-none transition focus:border-slate-500 focus:bg-white"
                 required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
               <input
                 name="telefono"
                 type="tel"
                 placeholder="Teléfono"
                 className="w-full rounded-2xl border border-stone-300 bg-stone-50 px-4 py-3 text-sm outline-none transition focus:border-slate-500 focus:bg-white"
+                value={telefono}
+                onChange={(e) => setTelefono(e.target.value)}
               />
               <input
                 name="tiempo_en_espana"
                 type="text"
                 placeholder="¿Desde cuándo estás en España?"
                 className="w-full rounded-2xl border border-stone-300 bg-stone-50 px-4 py-3 text-sm outline-none transition focus:border-slate-500 focus:bg-white"
+                value={tiempoEnEspana}
+                onChange={(e) => setTiempoEnEspana(e.target.value)}
               />
               <textarea
                 name="situacion"
@@ -159,26 +225,40 @@ export default function Home() {
                 rows={5}
                 className="w-full rounded-2xl border border-stone-300 bg-stone-50 px-4 py-3 text-sm outline-none transition focus:border-slate-500 focus:bg-white"
                 required
+                value={situacion}
+                onChange={(e) => setSituacion(e.target.value)}
               />
+
               <p className="text-sm text-slate-600">
                 Respuesta en menos de 24h. Sin compromiso.
               </p>
+
               <label className="flex items-start gap-2 text-sm text-slate-600">
                 <input
                   name="privacidad"
                   type="checkbox"
-                  value="aceptada"
                   className="mt-1"
+                  checked={privacidad}
+                  onChange={(e) => setPrivacidad(e.target.checked)}
                   required
                 />
                 He leído y acepto la política de privacidad
               </label>
+
+              {error ? (
+                <div className="rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+                  {error}
+                </div>
+              ) : null}
+
               <button
                 type="submit"
-                className="w-full rounded-2xl bg-slate-950 px-5 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5"
+                disabled={loading}
+                className="w-full rounded-2xl bg-slate-950 px-5 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-70"
               >
-                Enviar consulta
+                {loading ? "Enviando..." : "Enviar consulta"}
               </button>
+
               <p className="text-xs text-slate-500">
                 No se crea relación abogado-cliente hasta la aceptación del
                 encargo.
