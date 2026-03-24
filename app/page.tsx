@@ -2,9 +2,9 @@ export default function Home() {
   return (
     <main className="max-w-3xl mx-auto p-6">
 
-      <h1 className="text-4xl font-bold mb-6">
-        Regularización masiva en España 2026
-      </h1>
+     <h1 className="text-4xl font-bold mb-6">
+  TEST CAMBIO WEB HUGO
+</h1>
 
       <p className="text-lg mb-6">
         Compruebo si puedes acceder antes de iniciar el trámite.
