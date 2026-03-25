@@ -111,6 +111,26 @@ export default function DespachoPage() {
         </div>
       </section>
 
+      <footer className="border-t border-stone-200 bg-stone-50">
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+          <div>© 2026 Hugo Alonso Abogado. Todos los derechos reservados.</div>
+          <div className="flex gap-6">
+            <a href="/despacho" className="hover:text-slate-800">
+              Despacho
+            </a>
+            <a href="/aviso-legal" className="hover:text-slate-800">
+              Aviso legal
+            </a>
+            <a href="/politica-privacidad" className="hover:text-slate-800">
+              Política de privacidad
+            </a>
+            <a href="/cookies" className="hover:text-slate-800">
+              Cookies
+            </a>
+          </div>
+        </div>
+      </footer>
+
     </main>
   );
 }

@@ -59,8 +59,8 @@ export default function PoliticaPrivacidadPage() {
 
         <div className="mt-10">
           <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5"
+             href="/"
+            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
           >
             Volver a la web
           </a>
