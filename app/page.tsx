@@ -191,14 +191,15 @@ export default function Home() {
               ))}
             </div>
 
-            <div className="mt-8 flex flex-col gap-2 text-sm text-slate-600 underline">
-            <a href="/regularizacion-espana">
-              Más información sobre la regularización en España
-            </a>
+           <div className="mt-8 flex flex-col gap-2 text-sm text-slate-600 underline">
+           <a href="/regularizacion-espana">
+             Más información sobre la regularización en España
+           </a>
 
-            <a href="/arraigo-social">
-              Información sobre arraigo social (arraigo sociolaboral)
-            </a>
+           <a href="/arraigo-social">
+             Información sobre arraigo social (arraigo sociolaboral)
+           </a>
+          </div>
           </div>
 
           <aside
