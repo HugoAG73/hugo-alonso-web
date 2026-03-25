@@ -65,7 +65,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white">
-        <div className="mx-auto flex max-w-7xl items-start justify-between px-6 py-5 pt-2 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-start justify-between px-6 py-3 lg:px-8">
           <a
             href="/"
             aria-label="Ir a la página principal"
@@ -74,10 +74,10 @@ export default function Home() {
             <Image
               src="/logo-header.png"
               alt="Hugo Alonso Abogado"
-              width={260}
-              height={80}
+              width={300}
+              height={100}
               priority
-              className="h-[80px] w-auto"
+              className="h-[120px] w-auto"
             />
           </a>
 
