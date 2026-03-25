@@ -64,26 +64,28 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
-      <header className="border-b border-stone-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
-          <div className="flex items-center">
-            <a href="/" aria-label="Ir a la página principal">
-              <Image
-                src="/logo.png"
-                alt="Hugo Alonso Abogado"
-                width={220}
-                height={110}
-                priority
-                className="h-auto w-[180px] md:w-[220px]"
-              />
-            </a>
-          </div>
+      <header className="border-b border-stone-200 bg-white/95 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-8">
+          <a
+            href="/"
+            aria-label="Ir a la página principal"
+            className="flex items-center"
+          >
+            <Image
+              src="/logo.png"
+              alt="Hugo Alonso Abogado"
+              width={320}
+              height={120}
+              priority
+              className="h-auto w-[150px] md:w-[190px] lg:w-[220px]"
+            />
+          </a>
 
           <a
             href="https://wa.me/34686310400?text=Hola,%20quiero%20saber%20si%20puedo%20regularizar%20mi%20situaci%C3%B3n%20en%20Espa%C3%B1a."
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden rounded-xl bg-slate-900 px-4 py-2 text-sm font-medium text-white md:inline-block"
+            className="hidden rounded-2xl bg-slate-950 px-5 py-3 text-sm font-medium text-white shadow-sm transition hover:-translate-y-0.5 md:inline-flex"
           >
             WhatsApp
           </a>
