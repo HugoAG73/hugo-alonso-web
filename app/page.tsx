@@ -72,12 +72,12 @@ export default function Home() {
             className="flex items-center"
           >
             <Image
-              src="/logo.png"
+              src="/logo-header.png"
               alt="Hugo Alonso Abogado"
-              width={520}
-              height={180}
+              width={260}
+              height={80}
               priority
-              className="h-[95px] w-auto md:h-[115px]"
+              className="h-[50px] w-auto md:h-[60px]"
             />
           </a>
 
