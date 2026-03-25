@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function AvisoLegalPage() {
+export default function DespachoPage() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white">
@@ -20,39 +20,55 @@ export default function AvisoLegalPage() {
 
       <section className="mx-auto max-w-4xl px-6 py-16">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Aviso legal
+          Despacho
         </h1>
 
         <div className="mt-8 space-y-6 text-base leading-8 text-slate-700">
           <p>
-            <strong>Titular:</strong> Hugo Alonso
-            <br />
-            <strong>Nombre comercial o denominación del sitio web:</strong> Hugo Alonso Abogado
-            <br />
-            <strong>Actividad:</strong> Ejercicio de la abogacía
-            <br />
-            <strong>Colegiación:</strong> Ilustre Colegio de Abogados de Madrid (ICAM), núm. 105.437
-            <br />
-            <strong>Domicilio profesional:</strong> Calle Guillermo de Osma núm. 5, bajo 1, C.P. 28045 Madrid
-            <br />
-            <strong>Email:</strong> hugoalonso@icam.es
-            <br />
-            <strong>Teléfono:</strong> 686 310 400
+            Soy abogado ejerciente en Madrid y desarrollo mi actividad con enfoque
+            individualizado en materia de extranjería, especialmente en el análisis
+            de viabilidad, preparación documental y estrategia jurídica de cada caso.
           </p>
 
           <p>
-            Este sitio web tiene finalidad informativa y de contacto. La información
-            contenida en él no constituye asesoramiento jurídico y requiere análisis
-            individualizado de cada caso.
+            Trabajo con atención directa, sin intermediarios, revisando personalmente
+            la situación de cada cliente y la documentación disponible antes de
+            recomendar cualquier actuación.
+          </p>
+
+          <p>
+            Estoy colegiado en el Ilustre Colegio de Abogados de Madrid (ICAM), con
+            número de colegiación 105.437.
+          </p>
+
+          <p>
+            Mi forma de trabajo se basa en tres principios: claridad, realismo y
+            rigor jurídico. Si un caso presenta dificultades o no resulta viable,
+            también lo indico con franqueza.
+          </p>
+
+          <p>
+            La finalidad del despacho es ofrecer una valoración jurídica seria,
+            ordenada y útil, evitando respuestas genéricas y planteamientos que
+            puedan perjudicar al interesado por falta de preparación.
           </p>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <a
-            href="/"
+            href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5"
           >
-            Volver a la web
+            Solicitar valoración inicial
+          </a>
+
+          <a
+            href="https://wa.me/34686310400?text=Hola,%20quiero%20hacer%20una%20consulta%20sobre%20mi%20situaci%C3%B3n."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-2xl bg-green-600 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-green-600/20 transition hover:-translate-y-0.5"
+          >
+            Escribirme por WhatsApp
           </a>
         </div>
       </section>

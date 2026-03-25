@@ -30,8 +30,8 @@ export default function CookiesPage() {
           </p>
 
           <p>
-            No se utilizan cookies publicitarias, de personalización ni de
-            análisis con finalidad comercial o estadística.
+            No se utilizan cookies publicitarias, de personalización ni de análisis
+            con finalidad comercial o estadística.
           </p>
         </div>
 
@@ -49,6 +49,9 @@ export default function CookiesPage() {
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div>© 2026 Hugo Alonso Abogado. Todos los derechos reservados.</div>
           <div className="flex gap-6">
+            <a href="/despacho" className="hover:text-slate-800">
+              Despacho
+            </a>
             <a href="/aviso-legal" className="hover:text-slate-800">
               Aviso legal
             </a>

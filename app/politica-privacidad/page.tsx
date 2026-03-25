@@ -25,28 +25,28 @@ export default function PoliticaPrivacidadPage() {
 
         <div className="mt-8 space-y-6 text-base leading-8 text-slate-700">
           <p>
-            <strong>Responsable del tratamiento:</strong> Hugo Alonso (hugoalonso@icam.es).
+            <strong>Responsable del tratamiento:</strong> Hugo Alonso
+            <br />
+            <strong>Email de contacto:</strong> hugoalonso@icam.es
           </p>
 
           <p>
-            Los datos personales facilitados a través de esta web se tratarán con
-            la finalidad de atender consultas, responder comunicaciones
-            profesionales y, en su caso, mantener el contacto derivado de la
-            solicitud realizada por el usuario.
+            Los datos personales facilitados a través de esta web se tratarán con la
+            finalidad de atender consultas, responder comunicaciones profesionales y,
+            en su caso, mantener el contacto derivado de la solicitud realizada por
+            el usuario.
           </p>
 
           <p>
-            La base jurídica del tratamiento es el consentimiento del interesado
-            al remitir voluntariamente sus datos mediante el formulario de
-            contacto o por cualquier otro medio de comunicación habilitado en la
-            web.
+            La base jurídica del tratamiento es el consentimiento del interesado al
+            remitir voluntariamente sus datos mediante el formulario de contacto o
+            por cualquier otro medio de comunicación habilitado en la web.
           </p>
 
           <p>
-            Los datos no se cederán a terceros salvo obligación legal o cuando
-            ello resulte necesario para la correcta prestación de servicios
-            estrictamente vinculados al funcionamiento técnico de la web o de las
-            comunicaciones.
+            Los datos no se cederán a terceros salvo obligación legal o cuando ello
+            resulte necesario para la correcta prestación de servicios estrictamente
+            vinculados al funcionamiento técnico de la web o de las comunicaciones.
           </p>
 
           <p>
@@ -71,6 +71,9 @@ export default function PoliticaPrivacidadPage() {
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div>© 2026 Hugo Alonso Abogado. Todos los derechos reservados.</div>
           <div className="flex gap-6">
+            <a href="/despacho" className="hover:text-slate-800">
+              Despacho
+            </a>
             <a href="/aviso-legal" className="hover:text-slate-800">
               Aviso legal
             </a>

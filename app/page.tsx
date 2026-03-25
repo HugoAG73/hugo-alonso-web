@@ -77,14 +77,23 @@ export default function Home() {
             />
           </a>
 
-          <a
-            href="https://wa.me/34686310400?text=Hola,%20quiero%20saber%20si%20puedo%20regularizar%20mi%20situaci%C3%B3n%20en%20Espa%C3%B1a."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden rounded-2xl bg-slate-950 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition hover:-translate-y-0.5 md:inline-flex"
-          >
-            WhatsApp
-          </a>
+          <div className="hidden items-center gap-6 md:flex">
+            <a
+              href="/despacho"
+              className="text-sm font-medium text-slate-600 transition hover:text-slate-950"
+            >
+              Despacho
+            </a>
+
+            <a
+              href="https://wa.me/34686310400?text=Hola,%20quiero%20saber%20si%20puedo%20regularizar%20mi%20situaci%C3%B3n%20en%20Espa%C3%B1a."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-2xl bg-slate-950 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition hover:-translate-y-0.5"
+            >
+              WhatsApp
+            </a>
+          </div>
         </div>
       </header>
 
@@ -117,8 +126,8 @@ export default function Home() {
             </p>
 
             <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-600">
-              Abogado de extranjería en Madrid. Análisis individual, sin
-              respuestas genéricas ni soluciones estandarizadas.
+              Estudio personal de tu caso, sin respuestas genéricas ni soluciones
+              estandarizadas.
             </p>
 
             <p className="mt-4 max-w-2xl text-sm leading-6 text-amber-700">
@@ -162,7 +171,7 @@ export default function Home() {
                 ],
                 [
                   "Seguimiento directo",
-                  "Atención personal, sin intermediarios, con revisión directa del expediente.",
+                  "Atención personal, sin intermediarios, con revisión directa de cada expediente.",
                 ],
               ].map(([title, text]) => (
                 <div
@@ -191,9 +200,11 @@ export default function Home() {
             <div className="text-xs uppercase tracking-[0.3em] text-slate-500">
               Consulta inicial
             </div>
+
             <h2 className="mt-3 text-2xl font-semibold tracking-tight text-slate-950">
               Comprueba si tu caso puede encajar
             </h2>
+
             <p className="mt-4 text-sm leading-6 text-slate-600">
               Evaluación preliminar orientada a detectar riesgos, documentación
               necesaria y siguientes pasos.
@@ -249,7 +260,8 @@ export default function Home() {
               </p>
 
               <p className="text-xs leading-5 text-slate-500">
-                Consulta confidencial. No se compartirán tus datos con terceros salvo obligación legal.
+                Consulta confidencial. No se compartirán tus datos con terceros
+                salvo obligación legal.
               </p>
 
               <label className="flex items-start gap-2 text-sm text-slate-600">
@@ -406,6 +418,9 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div>© 2026 Hugo Alonso Abogado. Todos los derechos reservados.</div>
           <div className="flex gap-6">
+            <a href="/despacho" className="hover:text-slate-800">
+              Despacho
+            </a>
             <a href="/aviso-legal" className="hover:text-slate-800">
               Aviso legal
             </a>
