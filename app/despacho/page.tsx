@@ -3,69 +3,94 @@ import Image from "next/image";
 export default function DespachoPage() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
+      
+      {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
-        <div className="mx-auto flex max-w-7xl items-center justify-center px-6 py-2 lg:px-8">
-          <a href="/" aria-label="Ir a la página principal">
+        <div className="flex justify-center py-4">
+          <a href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
               width={1180}
               height={240}
-              priority
               className="h-[90px] w-auto md:h-[110px]"
+              priority
             />
           </a>
         </div>
       </header>
 
-      <section className="mx-auto max-w-4xl px-6 py-16">
+      {/* CONTENIDO */}
+      <section className="mx-auto max-w-2xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
           Despacho
         </h1>
 
-        <div className="mt-8 space-y-6 text-base leading-8 text-slate-700">
+        <div className="mt-8 space-y-6 text-base leading-7 text-slate-700">
+          
           <p>
-            Soy abogado ejerciente en Madrid y desarrollo mi actividad con enfoque
-            individualizado en materia de extranjería, especialmente en el análisis
-            de viabilidad, preparación documental y estrategia jurídica de cada caso.
+            Abogado ejerciente en Madrid especializado en Derecho de Extranjería,
+            con más de 15 años de experiencia en el análisis y tramitación de
+            expedientes relacionados con la regularización administrativa.
           </p>
 
           <p>
-            Trabajo con atención directa, sin intermediarios, revisando personalmente
-            la situación de cada cliente y la documentación disponible antes de
-            recomendar cualquier actuación.
+            Trabajo de forma directa, sin intermediarios, analizando personalmente
+            cada caso para determinar si existe una vía real de actuación.
           </p>
 
           <p>
-            Estoy colegiado en el Ilustre Colegio de Abogados de Madrid (ICAM), con
-            número de colegiación 105.437.
+            No todos los supuestos pueden tramitarse ni todas las situaciones
+            tienen una solución viable. Por eso, el primer paso siempre es un
+            análisis jurídico riguroso de la situación concreta.
           </p>
 
           <p>
-            Mi forma de trabajo se basa en tres principios: claridad, realismo y
-            rigor jurídico. Si un caso presenta dificultades o no resulta viable,
-            también lo indico con franqueza.
+            El trabajo se centra en tres aspectos:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2">
+            <li>Evaluación realista de la situación administrativa</li>
+            <li>Definición de una estrategia adecuada al caso concreto</li>
+            <li>Preparación y revisión del expediente con criterio jurídico</li>
+          </ul>
+
+          <p>
+            Cada decisión se toma en función de la viabilidad real del
+            procedimiento, evitando actuaciones que puedan generar riesgos
+            innecesarios.
           </p>
 
           <p>
-            La finalidad del despacho es ofrecer una valoración jurídica seria,
-            ordenada y útil, evitando respuestas genéricas y planteamientos que
-            puedan perjudicar al interesado por falta de preparación.
+            El objetivo no es iniciar procedimientos sin garantías, sino
+            identificar si existe una vía razonable y, en su caso, trabajarla
+            correctamente desde el inicio.
+          </p>
+
+          <p>
+            Abogado colegiado en el Ilustre Colegio de Abogados de Madrid
+            (ICAM), nº 105.437.
+          </p>
+
+          <p className="text-sm text-slate-600">
+            Licenciado en Derecho por la Universidad Complutense de Madrid y
+            formación de acceso a la abogacía en la Escuela de Práctica Jurídica.
+          </p>
+
+          <p className="font-medium text-slate-800">
+            El objetivo es que tomes decisiones con información clara, evitando
+            errores que puedan afectar a tu situación administrativa.
           </p>
         </div>
 
-        <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-  slate-700 transition hover:bg-stone-100"
-          >
-            Volver a la web
-          </a>
+        {/* BOTONES */}
+        <div className="mt-12 flex flex-col gap-4 sm:flex-row">
+          
           <a
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5"
           >
-            Solicitar valoración inicial
+            Solicitar valoración
           </a>
 
           <a
@@ -76,28 +101,16 @@ export default function DespachoPage() {
           >
             Escribirme por WhatsApp
           </a>
+
+          <a
+            href="/"
+            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
+          >
+            Volver a la web
+          </a>
         </div>
       </section>
 
-      <footer className="border-t border-stone-200 bg-stone-50">
-        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
-          <div>© 2026 Hugo Alonso Abogado. Todos los derechos reservados.</div>
-          <div className="flex gap-6">
-            <a href="/despacho" className="hover:text-slate-800">
-              Despacho
-            </a>
-            <a href="/aviso-legal" className="hover:text-slate-800">
-              Aviso legal
-            </a>
-            <a href="/politica-privacidad" className="hover:text-slate-800">
-              Política de privacidad
-            </a>
-            <a href="/cookies" className="hover:text-slate-800">
-              Cookies
-            </a>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }
