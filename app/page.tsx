@@ -159,8 +159,11 @@ export default function Home() {
               <div>✔ Respuesta en menos de 24h</div>
               <div>✔ Evaluación confidencial</div>
               <div>✔ Sin compromiso inicial</div>
-              <div>✔ He analizado numerosos casos de regularización en distintas situaciones personales y documentales.</div>
             </div>
+
+	    <p className="mt-4 text-sm text-slate-600">
+  	      He analizado numerosos casos de regularización en distintas situaciones personales y documentales.
+            </p>
 
             <div className="mt-12 grid gap-4 sm:grid-cols-3">
               {[
@@ -191,16 +194,21 @@ export default function Home() {
               ))}
             </div>
 
-           <div className="mt-8 flex flex-col gap-2 text-sm text-slate-600 underline">
-           <a href="/regularizacion-espana">
-             Más información sobre la regularización en España
-           </a>
+           <div className="mt-10 space-y-2 text-sm text-slate-600">
+  	   <p>
+    	     Puedes ampliar información sobre las principales vías de regularización:
+ 	   </p>
 
-           <a href="/arraigo-social">
-             Información sobre arraigo social (arraigo sociolaboral)
-           </a>
-          </div>
-          </div>
+  	   <div className="flex flex-col gap-1 underline">
+    	   <a href="/regularizacion-espana">
+      	     Regularización en España: requisitos y viabilidad
+   	   </a>
+
+    	   <a href="/arraigo-social">
+      	     Arraigo social (arraigo sociolaboral): cómo funciona
+    	   </a>
+  	   </div>
+           </div>
 
           <aside
             id="contacto"
