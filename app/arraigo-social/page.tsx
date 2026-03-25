@@ -66,6 +66,13 @@ export default function ArraigoSocialPage() {
           Otros tipos de arraigo
         </h2>
 
+	<p className="mt-4 text-base leading-7 text-slate-700">
+ 	  También puedes consultar información sobre la{" "}
+ 	<a href="/regularizacion-espana" className="underline">
+    	regularización en España
+  	</a>, ya que en algunos casos puede ser más adecuado analizar esa vía antes de iniciar un procedimiento de arraigo.
+	</p>
+
         <p className="mt-4 text-base leading-7 text-slate-700">
           Además del arraigo sociolaboral, existen otras modalidades de arraigo en la normativa de extranjería, como el arraigo laboral o el arraigo familiar.
         </p>

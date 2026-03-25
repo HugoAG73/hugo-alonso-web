@@ -63,6 +63,13 @@ export default function RegularizacionPage() {
           En muchos casos, existen ya vías de regularización actualmente en vigor (como distintos tipos de arraigo) que pueden ser más adecuadas que esperar a un proceso futuro.
         </p>
 
+	<p className="mt-4 text-base leading-7 text-slate-700">
+  	  También puedes consultar información sobre la{" "}
+  	<a href="/regularizacion-espana" className="underline">
+   	  regularización en España
+ 	</a>, ya que en algunos casos puede ser más adecuado analizar esa vía antes de iniciar un procedimiento de arraigo.
+	</p>
+
         <p className="mt-4 text-base leading-7 text-slate-700">
           En otros supuestos, puede ser recomendable esperar y preparar la documentación necesaria con antelación.
         </p>
