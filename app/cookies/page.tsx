@@ -4,7 +4,7 @@ export default function CookiesPage() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white">
-        <div className="mx-auto flex max-w-7xl items-center justify-center px-6 py-3 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-center justify-center px-6 py-2 lg:px-8">
           <a href="/" aria-label="Ir a la página principal">
             <Image
               src="/logo-header-cropped.png"
@@ -12,7 +12,7 @@ export default function CookiesPage() {
               width={1180}
               height={240}
               priority
-              className="h-[64px] w-auto md:h-[74px]"
+              className="h-[90px] w-auto md:h-[110px]"
             />
           </a>
         </div>
