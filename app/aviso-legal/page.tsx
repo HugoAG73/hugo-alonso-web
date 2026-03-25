@@ -4,36 +4,40 @@ export default function AvisoLegalPage() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white">
-  <div className="mx-auto flex max-w-7xl items-center justify-center px-6 py-5 lg:px-8">
-    <a href="/" aria-label="Ir a la página principal">
-      <Image
-        src="/logo-header.png"
-        alt="Hugo Alonso Abogado"
-        width={260}
-        height={60}
-        className="h-[50px] w-auto"
-        priority
-      />
-    </a>
-  </div>
-</header>
+        <div className="mx-auto flex max-w-7xl items-center justify-center px-6 py-3 lg:px-8">
+          <a href="/" aria-label="Ir a la página principal">
+            <Image
+              src="/logo-header-cropped.png"
+              alt="Hugo Alonso Abogado"
+              width={1180}
+              height={240}
+              priority
+              className="h-[64px] w-auto md:h-[74px]"
+            />
+          </a>
+        </div>
+      </header>
 
       <section className="mx-auto max-w-4xl px-6 py-16">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
           Aviso legal
         </h1>
 
-        <div className="mt-8 space-y-6 text-base leading-7 text-slate-700">
+        <div className="mt-8 space-y-6 text-base leading-8 text-slate-700">
           <p>
-            Titular: Hugo Alonso Abogado
+            <strong>Titular:</strong> Hugo Alonso
             <br />
-            Actividad: Ejercicio de la abogacía
+            <strong>Nombre comercial o denominación del sitio web:</strong> Hugo
+            Alonso Abogado
             <br />
-            Domicilio: Calle Guillermo de Osma núm. 5, bajo 1, C.P. 28045 Madrid
+            <strong>Actividad:</strong> Ejercicio de la abogacía
             <br />
-            Email: hugoalonso@icam.es
+            <strong>Domicilio:</strong> Calle Guillermo de Osma núm. 5, bajo 1,
+            C.P. 28045 Madrid
             <br />
-            Teléfono: 686 310 400
+            <strong>Email:</strong> hugoalonso@icam.es
+            <br />
+            <strong>Teléfono:</strong> 686 310 400
           </p>
 
           <p>
@@ -52,6 +56,23 @@ export default function AvisoLegalPage() {
           </a>
         </div>
       </section>
+
+      <footer className="border-t border-stone-200 bg-stone-50">
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+          <div>© 2026 Hugo Alonso Abogado. Todos los derechos reservados.</div>
+          <div className="flex gap-6">
+            <a href="/aviso-legal" className="hover:text-slate-800">
+              Aviso legal
+            </a>
+            <a href="/politica-privacidad" className="hover:text-slate-800">
+              Política de privacidad
+            </a>
+            <a href="/cookies" className="hover:text-slate-800">
+              Cookies
+            </a>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }

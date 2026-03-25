@@ -4,44 +4,57 @@ export default function PoliticaPrivacidadPage() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white">
-  <div className="mx-auto flex max-w-7xl items-center justify-center px-6 py-5 lg:px-8">
-    <a href="/" aria-label="Ir a la página principal">
-      <Image
-        src="/logo-header.png"
-        alt="Hugo Alonso Abogado"
-        width={260}
-        height={60}
-        className="h-[50px] w-auto"
-        priority
-      />
-    </a>
-  </div>
-</header>
+        <div className="mx-auto flex max-w-7xl items-center justify-center px-6 py-3 lg:px-8">
+          <a href="/" aria-label="Ir a la página principal">
+            <Image
+              src="/logo-header-cropped.png"
+              alt="Hugo Alonso Abogado"
+              width={1180}
+              height={240}
+              priority
+              className="h-[64px] w-auto md:h-[74px]"
+            />
+          </a>
+        </div>
+      </header>
 
       <section className="mx-auto max-w-4xl px-6 py-16">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
           Política de privacidad
         </h1>
 
-        <div className="mt-8 space-y-6 text-base leading-7 text-slate-700">
+        <div className="mt-8 space-y-6 text-base leading-8 text-slate-700">
           <p>
-            Responsable: Hugo Alonso Abogado (hugoalonso@icam.es).
+            <strong>Responsable del tratamiento:</strong> Hugo Alonso
+            (hugoalonso@icam.es).
           </p>
 
           <p>
-            Los datos que puedan facilitarse a través de esta web se tratarán
-            para atender consultas y comunicaciones profesionales. La base legal
-            del tratamiento es el consentimiento del interesado.
+            Los datos personales facilitados a través de esta web se tratarán
+            con la finalidad de atender consultas, responder comunicaciones
+            profesionales y, en su caso, mantener el contacto derivado de la
+            solicitud realizada por el usuario.
           </p>
 
           <p>
-            No se cederán datos a terceros salvo obligación legal.
+            La base jurídica del tratamiento es el consentimiento del interesado
+            al remitir voluntariamente sus datos mediante el formulario de
+            contacto o por cualquier otro medio de comunicación habilitado en la
+            web.
           </p>
 
           <p>
-            Puede ejercer sus derechos de acceso, rectificación, supresión,
-            oposición y demás legalmente previstos mediante comunicación a la
-            dirección de correo indicada.
+            Los datos no se cederán a terceros salvo obligación legal o cuando
+            ello resulte necesario para la correcta prestación de servicios
+            estrictamente vinculados al funcionamiento técnico de la web o de las
+            comunicaciones.
+          </p>
+
+          <p>
+            El usuario puede ejercer sus derechos de acceso, rectificación,
+            supresión, oposición, limitación del tratamiento y demás derechos
+            legalmente previstos mediante comunicación dirigida a la dirección de
+            correo electrónico indicada en esta página.
           </p>
         </div>
 
@@ -54,6 +67,23 @@ export default function PoliticaPrivacidadPage() {
           </a>
         </div>
       </section>
+
+      <footer className="border-t border-stone-200 bg-stone-50">
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+          <div>© 2026 Hugo Alonso Abogado. Todos los derechos reservados.</div>
+          <div className="flex gap-6">
+            <a href="/aviso-legal" className="hover:text-slate-800">
+              Aviso legal
+            </a>
+            <a href="/politica-privacidad" className="hover:text-slate-800">
+              Política de privacidad
+            </a>
+            <a href="/cookies" className="hover:text-slate-800">
+              Cookies
+            </a>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
