@@ -65,7 +65,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white/95 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
           <a
             href="/"
             aria-label="Ir a la página principal"
@@ -77,7 +77,7 @@ export default function Home() {
               width={520}
               height={180}
               priority
-              className="h-[78px] w-auto md:h-[92px]"
+              className="h-[95px] w-auto md:h-[115px]"
             />
           </a>
 
