@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -65,14 +66,19 @@ export default function Home() {
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
-          <div>
-            <div className="text-xs uppercase tracking-[0.35em] text-slate-500">
-              HA · Hugo Alonso Abogado
-            </div>
-            <div className="mt-1 text-sm text-slate-500">
-              Abogado de extranjería
-            </div>
+          <div className="flex items-center">
+            <a href="/" aria-label="Ir a la página principal">
+              <Image
+                src="/logo.png"
+                alt="Hugo Alonso Abogado"
+                width={220}
+                height={110}
+                priority
+                className="h-auto w-[180px] md:w-[220px]"
+              />
+            </a>
           </div>
+
           <a
             href="https://wa.me/34686310400?text=Hola,%20quiero%20saber%20si%20puedo%20regularizar%20mi%20situaci%C3%B3n%20en%20Espa%C3%B1a."
             target="_blank"
