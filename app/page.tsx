@@ -85,7 +85,7 @@ export default function Home() {
             href="https://wa.me/34686310400?text=Hola,%20quiero%20saber%20si%20puedo%20regularizar%20mi%20situaci%C3%B3n%20en%20Espa%C3%B1a."
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden rounded-2xl bg-slate-950 px-5 py-3 text-sm font-medium text-white shadow-sm transition hover:-translate-y-0.5 md:inline-flex"
+            className="hidden rounded-2xl bg-slate-950 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition hover:-translate-y-0.5 md:inline-flex"
           >
             WhatsApp
           </a>
