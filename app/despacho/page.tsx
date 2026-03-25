@@ -84,6 +84,11 @@ export default function DespachoPage() {
             formación de acceso a la abogacía en la Escuela de Práctica Jurídica.
           </p>
 
+          <p className="text-sm text-slate-600">
+            El análisis previo es determinante para evitar errores que puedan condicionar el resultado del procedimiento.
+          </p>
+
+
           <p className="font-medium text-slate-800">
             El objetivo es que tomes decisiones con información clara, evitando
             errores que puedan afectar a tu situación administrativa.

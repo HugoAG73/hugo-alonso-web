@@ -137,17 +137,12 @@ export default function Home() {
               soluciones estandarizadas.
             </p>
 
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-700">
-              La diferencia suele estar en cómo se plantea el caso desde el
-              inicio.
-            </p>
-
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
                 href="#contacto"
                 className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5"
               >
-                Evaluar mi caso
+                Evaluar mi caso en 24h
               </a>
 
               <a
@@ -164,6 +159,7 @@ export default function Home() {
               <div>✔ Respuesta en menos de 24h</div>
               <div>✔ Evaluación confidencial</div>
               <div>✔ Sin compromiso inicial</div>
+              <div>✔ He analizado numerosos casos de regularización en distintas situaciones personales y documentales.</div>
             </div>
 
             <div className="mt-12 grid gap-4 sm:grid-cols-3">
@@ -312,13 +308,13 @@ export default function Home() {
 
       <section id="informacion" className="mx-auto max-w-4xl px-6 py-16">
         <h2 className="text-3xl font-semibold text-slate-900">
-          Regularización en España: requisitos, riesgos y enfoque jurídico
+          Regularización de extranjeros en España: requisitos, riesgos y enfoque jurídico
         </h2>
 
         <p className="mt-6 leading-7 text-slate-700">
           La llamada regularización masiva en España es un proceso
           extraordinario que puede permitir a determinadas personas extranjeras
-          regularizar su situación administrativa.
+          regularizar su situación administrativa. El análisis previo es determinante para evitar errores que puedan condicionar el resultado del procedimiento.
         </p>
 
         <p className="mt-4 leading-7 text-slate-700">
@@ -360,6 +356,10 @@ export default function Home() {
         <h2 className="text-3xl font-semibold text-slate-900">
           Abogado de extranjería en Madrid
         </h2>
+
+        <p className="mt-6 leading-7 text-slate-700">
+          Asesoramiento en procedimientos de regularización y obtención de autorización de residencia en España.
+        </p>
 
         <p className="mt-6 leading-7 text-slate-700">
           Si buscas un abogado de extranjería en Madrid para regularizar tu
