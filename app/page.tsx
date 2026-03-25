@@ -139,7 +139,6 @@ export default function Home() {
               expediente es clave.
             </p>
 
-            {/* TEXTO NUEVO BIEN COLOCADO */}
             <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-600">
               Cada situación es distinta, pero muchas personas se encuentran en escenarios similares al tuyo.
             </p>
@@ -202,7 +201,7 @@ export default function Home() {
             </p>
           </div>
 
-                      <div className="text-xs uppercase tracking-[0.3em] text-slate-500">
+          <div className="text-xs uppercase tracking-[0.3em] text-slate-500">
               Consulta inicial
             </div>
 
@@ -264,7 +263,6 @@ export default function Home() {
                 Respuesta en menos de 24h. Sin compromiso.
               </p>
 
-              {/* SOLO UNA VEZ — SIN DUPLICADOS */}
               <p className="text-xs leading-5 text-slate-500">
                 Consulta confidencial. No se compartirán tus datos con terceros salvo obligación legal.
               </p>
