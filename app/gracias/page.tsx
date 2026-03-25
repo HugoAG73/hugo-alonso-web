@@ -1,7 +1,24 @@
+import Image from "next/image";
+
 export default function GraciasPage() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
-      <section className="mx-auto flex min-h-screen max-w-3xl items-center justify-center px-6 py-20">
+      <header className="border-b border-stone-200 bg-white">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+          <a href="/" aria-label="Volver a la página principal">
+            <Image
+              src="/logo-header-cropped.png"
+              alt="Hugo Alonso Abogado"
+              width={1180}
+              height={240}
+              priority
+              className="h-[64px] w-auto md:h-[74px]"
+            />
+          </a>
+        </div>
+      </header>
+
+      <section className="mx-auto flex min-h-[calc(100vh-97px)] max-w-3xl items-center justify-center px-6 py-20">
         <div className="w-full rounded-[2rem] border border-stone-200 bg-white p-10 text-center shadow-xl shadow-stone-200/60">
           <div className="text-xs uppercase tracking-[0.3em] text-slate-500">
             Consulta enviada
