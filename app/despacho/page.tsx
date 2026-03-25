@@ -59,6 +59,10 @@ export default function DespachoPage() {
           </ul>
 
           <p>
+            Cada caso se analiza de forma individual, sin aplicar soluciones estándar.
+          </p>
+
+          <p>
             Cada decisión se toma en función de la viabilidad real del
             procedimiento, evitando actuaciones que puedan generar riesgos
             innecesarios.

@@ -128,6 +128,10 @@ export default function Home() {
               (ICAM).
             </p>
 
+            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
+              Abogado de extranjería en Madrid especializado en regularización de situación administrativa.
+            </p>
+
             <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-600">
               Estudio personal de tu caso, sin respuestas genéricas ni
               soluciones estandarizadas.
@@ -136,16 +140,6 @@ export default function Home() {
             <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-700">
               La diferencia suele estar en cómo se plantea el caso desde el
               inicio.
-            </p>
-
-            <p className="mt-4 max-w-2xl text-sm leading-6 text-amber-700">
-              Procedimiento extraordinario en fase inicial. La preparación del
-              expediente es clave.
-            </p>
-
-            <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-600">
-              Cada situación es distinta, pero muchas personas se encuentran en
-              escenarios similares al tuyo.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
