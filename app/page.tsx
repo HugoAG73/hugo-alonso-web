@@ -64,7 +64,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
-      <header className="border-b border-stone-200 bg-white/95 backdrop-blur">
+      <header className="border-b border-stone-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-start justify-between px-6 py-5 pt-2 lg:px-8">
           <a
             href="/"
@@ -77,7 +77,7 @@ export default function Home() {
               width={260}
               height={80}
               priority
-              className="h-[50px] w-auto md:h-[60px]"
+              className="h-[80px] w-auto md:h-[60px]"
             />
           </a>
 
