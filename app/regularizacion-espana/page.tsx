@@ -64,10 +64,10 @@ export default function RegularizacionPage() {
         </p>
 
 	<p className="mt-4 text-base leading-7 text-slate-700">
-  	  También puedes consultar información sobre la{" "}
-  	<a href="/regularizacion-espana" className="underline">
-   	  regularización en España
- 	</a>, ya que en algunos casos puede ser más adecuado analizar esa vía antes de iniciar un procedimiento de arraigo.
+ 	  Entre estas vías se encuentra el{" "}
+  	<a href="/arraigo-social" className="underline">
+    	  arraigo social (arraigo sociolaboral)
+ 	</a>, que puede ser una alternativa real en función de la situación concreta.
 	</p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
