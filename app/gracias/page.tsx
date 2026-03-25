@@ -12,7 +12,7 @@ export default function GraciasPage() {
               width={1180}
               height={240}
               priority
-              className="h-[64px] w-auto md:h-[74px]"
+              className="h-[70px] w-auto md:h-[85px]"
             />
           </a>
         </div>

@@ -13,7 +13,7 @@ export default function DespachoPage() {
               alt="Hugo Alonso Abogado"
               width={1180}
               height={240}
-              className="h-[90px] w-auto md:h-[110px]"
+              className="h-[70px] w-auto md:h-[85px]"
               priority
             />
           </a>
@@ -25,6 +25,9 @@ export default function DespachoPage() {
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
           Despacho
         </h1>
+          <p className="mt-3 text-sm text-slate-600">
+            Despacho centrado en Derecho de Extranjería en Madrid.
+          </p>
 
         <div className="mt-8 space-y-6 text-base leading-7 text-slate-700">
           

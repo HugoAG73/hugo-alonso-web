@@ -12,7 +12,7 @@ export default function AvisoLegalPage() {
               width={1180}
               height={240}
               priority
-              className="h-[90px] w-auto md:h-[110px]"
+              className="h-[70px] w-auto md:h-[85px]"
             />
           </a>
         </div>
