@@ -65,19 +65,19 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white">
-        <div className="mx-auto flex max-w-7xl items-start justify-between px-6 py-3 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <a
             href="/"
             aria-label="Ir a la página principal"
             className="flex items-center"
           >
             <Image
-              src="/logo-header.png"
+              src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
-              width={400}
-              height={120}
+              width={1180}
+              height={240}
               priority
-              className="h-[110px] w-auto"
+              className="h-[64px] w-auto md:h-[74px]"
             />
           </a>
 
