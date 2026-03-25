@@ -4,19 +4,19 @@ export default function PoliticaPrivacidadPage() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-8">
-          <a href="/" aria-label="Ir a la página principal">
-            <Image
-              src="/logo-header-cropped.png"
-              alt="Hugo Alonso Abogado"
-              width={1180}
-              height={240}
-              priority
-              className="h-[64px] w-auto md:h-[74px]"
-            />
-          </a>
-        </div>
-      </header>
+  <div className="mx-auto flex max-w-7xl items-center justify-center px-6 py-5 lg:px-8">
+    <a href="/" aria-label="Ir a la página principal">
+      <Image
+        src="/logo-header.png"
+        alt="Hugo Alonso Abogado"
+        width={260}
+        height={60}
+        className="h-[50px] w-auto"
+        priority
+      />
+    </a>
+  </div>
+</header>
 
       <section className="mx-auto max-w-4xl px-6 py-16">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
