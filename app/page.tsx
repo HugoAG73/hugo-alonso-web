@@ -386,65 +386,64 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-4xl px-6 py-16 text-sm text-slate-600">
-        <h3 id="aviso-legal" className="text-xl font-semibold text-slate-900">
-          Aviso legal
-        </h3>
-        <p className="mt-4 leading-7">
-          Titular: Hugo Alonso Abogado
-          <br />
-          Actividad: Ejercicio de la abogacía
-          <br />
-          Domicilio: Calle Guillermo de Osma núm. 5, bajo 1, C.P. 28045 Madrid
-          <br />
-          Email: hugoalonso@icam.es
-          <br />
-          Teléfono: 686 310 400
-        </p>
-        <p className="mt-4 leading-7">
-          Este sitio web tiene finalidad informativa y de contacto. La
-          información contenida en él no constituye asesoramiento jurídico y
-          requiere análisis individualizado de cada caso.
-        </p>
+        <div id="aviso-legal" className="scroll-mt-24">
+          <h3 className="text-xl font-semibold text-slate-900">Aviso legal</h3>
+          <p className="mt-4 leading-7">
+            Titular: Hugo Alonso Abogado
+            <br />
+            Actividad: Ejercicio de la abogacía
+            <br />
+            Domicilio: Calle Guillermo de Osma núm. 5, bajo 1, C.P. 28045 Madrid
+            <br />
+            Email: hugoalonso@icam.es
+            <br />
+            Teléfono: 686 310 400
+          </p>
+          <p className="mt-4 leading-7">
+            Este sitio web tiene finalidad informativa y de contacto. La
+            información contenida en él no constituye asesoramiento jurídico y
+            requiere análisis individualizado de cada caso.
+          </p>
+        </div>
 
-        <h3
-          id="politica-privacidad"
-          className="mt-10 text-xl font-semibold text-slate-900"
-        >
-          Política de privacidad
-        </h3>
-        <p className="mt-4 leading-7">
-          Responsable: Hugo Alonso Abogado (hugoalonso@icam.es). Los datos que
-          puedan facilitarse a través de esta web se tratarán para atender
-          consultas y comunicaciones profesionales. La base legal del
-          tratamiento es el consentimiento del interesado. No se cederán datos a
-          terceros salvo obligación legal.
-        </p>
-        <p className="mt-2 leading-7">
-          Puede ejercer sus derechos de acceso, rectificación, supresión,
-          oposición y demás legalmente previstos mediante comunicación a la
-          dirección de correo indicada.
-        </p>
+        <div id="politica-privacidad" className="mt-10 scroll-mt-24">
+          <h3 className="text-xl font-semibold text-slate-900">
+            Política de privacidad
+          </h3>
+          <p className="mt-4 leading-7">
+            Responsable: Hugo Alonso Abogado (hugoalonso@icam.es). Los datos que
+            puedan facilitarse a través de esta web se tratarán para atender
+            consultas y comunicaciones profesionales. La base legal del
+            tratamiento es el consentimiento del interesado. No se cederán datos a
+            terceros salvo obligación legal.
+          </p>
+          <p className="mt-2 leading-7">
+            Puede ejercer sus derechos de acceso, rectificación, supresión,
+            oposición y demás legalmente previstos mediante comunicación a la
+            dirección de correo indicada.
+          </p>
+        </div>
 
-        <h3 id="cookies" className="mt-10 text-xl font-semibold text-slate-900">
-          Cookies
-        </h3>
-        <p className="mt-4 leading-7">
-          Esta web utiliza únicamente cookies técnicas necesarias para su
-          funcionamiento. No se utilizan cookies publicitarias ni de análisis.
-        </p>
+        <div id="cookies" className="mt-10 scroll-mt-24">
+          <h3 className="text-xl font-semibold text-slate-900">Cookies</h3>
+          <p className="mt-4 leading-7">
+            Esta web utiliza únicamente cookies técnicas necesarias para su
+            funcionamiento. No se utilizan cookies publicitarias ni de análisis.
+          </p>
+        </div>
       </section>
 
       <footer className="border-t border-stone-200 bg-stone-50">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div>© 2026 Hugo Alonso Abogado. Todos los derechos reservados.</div>
           <div className="flex gap-6">
-            <a href="#aviso-legal" className="hover:text-slate-800">
+            <a href="/#aviso-legal" className="hover:text-slate-800">
               Aviso legal
             </a>
-            <a href="#politica-privacidad" className="hover:text-slate-800">
+            <a href="/#politica-privacidad" className="hover:text-slate-800">
               Política de privacidad
             </a>
-            <a href="#cookies" className="hover:text-slate-800">
+            <a href="/#cookies" className="hover:text-slate-800">
               Cookies
             </a>
           </div>
