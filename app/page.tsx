@@ -108,10 +108,17 @@ export default function Home() {
               Y, si existe una vía razonable, qué puedes hacer exactamente en tu situación.
             </p>
 
+            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-700">
+              Cada caso es distinto. Un error en el planteamiento puede cerrar opciones.
+            </p>
+
+            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
+              Abogado colegiado en el Ilustre Colegio de Abogados de Madrid (ICAM).
+            </p>
+
             <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-600">
-              Abogado de extranjería en Madrid, colegiado en el Ilustre Colegio de
-              Abogados de Madrid. Estudio personal de tu caso, sin respuestas
-              genéricas ni soluciones estandarizadas.
+              Abogado de extranjería en Madrid. Análisis individual, sin
+              respuestas genéricas ni soluciones estandarizadas.
             </p>
 
             <p className="mt-4 max-w-2xl text-sm leading-6 text-amber-700">
@@ -124,7 +131,7 @@ export default function Home() {
                 href="#contacto"
                 className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5"
               >
-                Evaluar mi caso ahora
+                Evaluar mi caso
               </a>
 
               <a
@@ -242,8 +249,7 @@ export default function Home() {
               </p>
 
               <p className="text-xs leading-5 text-slate-500">
-                Consulta confidencial. No se compartirán tus datos con terceros
-                salvo obligación legal.
+                Consulta confidencial. No se compartirán tus datos con terceros salvo obligación legal.
               </p>
 
               <label className="flex items-start gap-2 text-sm text-slate-600">
