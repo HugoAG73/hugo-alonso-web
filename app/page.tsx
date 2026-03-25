@@ -100,14 +100,17 @@ export default function Home() {
               ¿Puedes conseguir papeles en España en 2026?
             </h1>
 
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-700">
-              Te digo en menos de 24 horas si tu caso es viable o no, con
-              criterio jurídico real.
+            <p className="mt-6 max-w-2xl text-2xl leading-9 text-slate-800">
+              Te digo en menos de 24 horas si tu caso es viable o no.
             </p>
 
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
-              Abogado de extranjería en Madrid. Análisis individual, sin
-              respuestas genéricas.
+            <p className="mt-3 max-w-2xl text-base leading-7 text-slate-700">
+              Con criterio jurídico real. Sin respuestas genéricas.
+            </p>
+
+            <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-600">
+              Abogado de extranjería en Madrid. Estudio individual de tu situación,
+              documentación disponible y estrategia más adecuada.
             </p>
 
             <p className="mt-4 max-w-2xl text-sm leading-6 text-amber-700">
@@ -120,7 +123,7 @@ export default function Home() {
                 href="#contacto"
                 className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5"
               >
-                Evaluar mi caso ahora
+                Evaluar mi caso
               </a>
 
               <a
@@ -151,7 +154,7 @@ export default function Home() {
                 ],
                 [
                   "Seguimiento directo",
-                  "Trabajo de forma individual, sin intermediarios, con revisión directa de cada expediente.",
+                  "Atención personal, sin intermediarios, con revisión directa del expediente.",
                 ],
               ].map(([title, text]) => (
                 <div
@@ -169,7 +172,7 @@ export default function Home() {
             </div>
 
             <p className="mt-8 text-sm text-slate-600 underline">
-              <a href="#contacto">Más información sobre la regularización masiva</a>
+              <a href="#informacion">Más información sobre la regularización</a>
             </p>
           </div>
 
@@ -184,8 +187,8 @@ export default function Home() {
               Comprueba si tu caso puede encajar
             </h2>
             <p className="mt-4 text-sm leading-6 text-slate-600">
-              Evaluación preliminar orientada a identificar riesgos,
-              documentación necesaria y próximos pasos.
+              Evaluación preliminar orientada a detectar riesgos, documentación
+              necesaria y siguientes pasos.
             </p>
 
             <form onSubmit={handleSubmit} className="mt-8 space-y-4">
@@ -237,6 +240,11 @@ export default function Home() {
                 Respuesta en menos de 24h. Sin compromiso.
               </p>
 
+              <p className="text-xs leading-5 text-slate-500">
+                Tu información será tratada con confidencialidad y no se compartirá
+                con terceros salvo obligación legal.
+              </p>
+
               <label className="flex items-start gap-2 text-sm text-slate-600">
                 <input
                   name="privacidad"
@@ -264,42 +272,38 @@ export default function Home() {
               </button>
 
               <p className="text-xs text-slate-500">
-                No se crea relación abogado-cliente hasta la aceptación del
-                encargo.
+                No se crea relación abogado-cliente hasta la aceptación expresa del
+                encargo profesional.
               </p>
             </form>
-
-            <p className="mt-4 text-xs leading-5 text-slate-500">
-              El envío del formulario no crea relación abogado-cliente ni
-              garantiza la viabilidad del expediente. Cada caso requiere
-              análisis individualizado.
-            </p>
           </aside>
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 py-16">
+      <section id="informacion" className="mx-auto max-w-4xl px-6 py-16">
         <h2 className="text-3xl font-semibold text-slate-900">
-          Regularización masiva en España: requisitos, proceso y asesoramiento
-          legal
+          Regularización en España: requisitos, riesgos y enfoque jurídico
         </h2>
 
         <p className="mt-6 leading-7 text-slate-700">
-          La llamada regularización masiva en España es un proceso
-          extraordinario que puede permitir a determinadas personas extranjeras
-          regularizar su situación administrativa. Aunque muchas personas se
-          refieren a este procedimiento como “regularización masiva”,
-          jurídicamente exige un análisis individualizado de cada caso.
+          La llamada regularización masiva en España es un proceso extraordinario
+          que puede permitir a determinadas personas extranjeras regularizar su
+          situación administrativa.
+        </p>
+
+        <p className="mt-4 leading-7 text-slate-700">
+          No todos los casos pueden tramitarse del mismo modo. Por eso es
+          esencial estudiar la permanencia en España, la documentación disponible
+          y el encaje real de cada situación antes de iniciar cualquier actuación.
         </p>
 
         <h3 className="mt-10 text-xl font-semibold text-slate-900">
-          ¿Quién puede acceder a la regularización masiva?
+          ¿Quién puede acceder?
         </h3>
         <p className="mt-4 leading-7 text-slate-700">
-          Con carácter general, será necesario estudiar la permanencia en
-          España, la documentación identificativa disponible y el encaje real de
-          cada situación. No todos los supuestos pueden tramitarse del mismo
-          modo ni con la misma estrategia.
+          Será necesario analizar cada caso de forma individual. La estrategia no
+          puede ser idéntica para todos los supuestos ni basarse en respuestas
+          genéricas.
         </p>
 
         <h3 className="mt-10 text-xl font-semibold text-slate-900">
@@ -307,49 +311,51 @@ export default function Home() {
         </h3>
         <p className="mt-4 leading-7 text-slate-700">
           Presentar una solicitud sin preparación suficiente puede dar lugar a
-          requerimientos, incidencias o denegaciones. Por ello, resulta
-          aconsejable realizar primero un estudio serio de viabilidad.
+          requerimientos, incidencias o denegaciones. Antes de iniciar el
+          procedimiento conviene realizar un estudio serio de viabilidad.
         </p>
 
         <h3 className="mt-10 text-xl font-semibold text-slate-900">
-          Abogado para regularización masiva en España
+          ¿Qué puedo hacer por tu caso?
         </h3>
         <p className="mt-4 leading-7 text-slate-700">
-          Trabajo de forma individual, sin intermediarios, analizando cada
-          expediente con rigor jurídico. El objetivo es que tomes decisiones
-          informadas y reduzcas riesgos en un procedimiento especialmente
-          sensible.
+          Trabajo de forma individual, sin intermediarios, revisando la
+          documentación, valorando riesgos y definiendo una estrategia jurídica
+          realista para reducir errores y tomar decisiones informadas.
         </p>
       </section>
 
       <section className="mx-auto max-w-4xl px-6 py-20">
         <h2 className="text-3xl font-semibold text-slate-900">
-          Abogado de extranjería en Madrid: regularización masiva y obtención de
-          papeles
+          Abogado de extranjería en Madrid
         </h2>
 
         <p className="mt-6 leading-7 text-slate-700">
           Si buscas un abogado de extranjería en Madrid para regularizar tu
           situación en España, conviene contar con asesoramiento jurídico
-          individualizado. La regularización masiva requiere preparación
-          documental, criterio técnico y revisión cuidadosa de cada caso.
+          individualizado.
+        </p>
+
+        <p className="mt-4 leading-7 text-slate-700">
+          Cada expediente exige preparación documental, criterio técnico y una
+          revisión cuidadosa de los hechos y de la prueba disponible.
         </p>
 
         <h3 className="mt-10 text-xl font-semibold text-slate-900">
-          Servicios de abogado de extranjería
+          Servicios
         </h3>
         <p className="mt-4 leading-7 text-slate-700">
-          Ofrezco análisis de viabilidad, preparación de expedientes y
-          seguimiento completo en procedimientos de extranjería. Cada caso se
-          estudia de forma individual, sin soluciones genéricas.
+          Análisis de viabilidad, preparación de expedientes y seguimiento en
+          procedimientos de extranjería, siempre con estudio individual y sin
+          soluciones estandarizadas.
         </p>
 
         <h3 className="mt-10 text-xl font-semibold text-slate-900">
-          Consulta con abogado de extranjería en Madrid
+          Primera valoración
         </h3>
         <p className="mt-4 leading-7 text-slate-700">
-          Puedes contactar directamente para una revisión inicial de tu caso y
-          determinar si es posible iniciar un procedimiento de regularización.
+          Puedes contactar para una revisión inicial de tu caso y determinar si
+          existe una vía razonable para iniciar el procedimiento.
         </p>
       </section>
 
@@ -360,12 +366,12 @@ export default function Home() {
               Contacto
             </div>
             <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-950">
-              Consulta abogado regularización masiva en España
+              Consulta abogado de extranjería en Madrid
             </h2>
             <p className="mt-6 max-w-xl text-base leading-7 text-slate-600">
-              Si deseas una revisión profesional de tu situación, puedes
-              contactar para una primera valoración y definir la mejor
-              estrategia de actuación.
+              Si deseas una revisión profesional de tu situación, puedes contactar
+              para una primera valoración y definir la mejor estrategia de
+              actuación.
             </p>
           </div>
           <div className="grid gap-4 text-sm text-slate-700">
