@@ -77,7 +77,7 @@ export default function Home() {
               width={400}
               height={120}
               priority
-              className="h-[70px] w-auto"
+              className="h-[110px] w-auto"
             />
           </a>
 
