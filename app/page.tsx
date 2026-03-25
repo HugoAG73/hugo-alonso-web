@@ -74,10 +74,10 @@ export default function Home() {
             <Image
               src="/logo-header.png"
               alt="Hugo Alonso Abogado"
-              width={300}
-              height={100}
+              width={400}
+              height={120}
               priority
-              className="h-[120px] w-auto"
+              className="h-[70px] w-auto"
             />
           </a>
 
