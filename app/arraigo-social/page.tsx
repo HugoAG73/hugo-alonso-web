@@ -24,15 +24,15 @@ export default function ArraigoSocialPage() {
       <section className="mx-auto max-w-3xl px-6 py-20">
 
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Arraigo social (arraigo sociolaboral): cómo regularizar tu situación en España
+          Arraigo social o arraigo sociolaboral: cómo obtener papeles en España
         </h1>
 
         <p className="mt-6 text-base leading-7 text-slate-700">
-          El arraigo social —denominado actualmente arraigo sociolaboral tras la última reforma normativa— es una de las principales vías para obtener papeles en España.
+          El arraigo social —actualmente denominado arraigo sociolaboral tras la última reforma normativa— es una de las principales vías para obtener papeles en España.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Muchas personas siguen utilizando el término “arraigo social”, aunque en la práctica se refieren al arraigo sociolaboral. Es importante analizar cada caso para determinar si encaja realmente en este tipo de autorización.
+          El arraigo social —actualmente denominado arraigo sociolaboral tras la última reforma normativa— es una de las principales vías para obtener papeles en España.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -48,14 +48,20 @@ export default function ArraigoSocialPage() {
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Requisitos principales
+          Requisitos principales del arraigo sociolaboral
         </h2>
 
+	<p className="mt-6 text-base leading-7 text-slate-700">
+          <p className="mt-6 text-base leading-7 text-slate-700">
+          Los requisitos pueden variar en función del caso concreto, pero generalmente es necesario acreditar:
+        </p>
+        </p>
+
         <ul className="mt-4 list-disc pl-5 space-y-2 text-slate-700">
-          <li>Permanencia continuada en España durante el tiempo exigido</li>
-          <li>Vínculos o integración en el entorno social</li>
-          <li>Posibilidad real de actividad laboral</li>
+          <li>Permanencia continuada en España durante los dos años anteriores inmediatos a la solicitud</li>
+          <li>Disponer de un precontrato u oferta de contrato de trabajo</li>
           <li>Ausencia de antecedentes penales relevantes</li>
+	  <li>Disponer de pruebas de estancia en España durante el plazo de tiempo exigido para este tipo de residencia</li>
         </ul>
 
         <p className="mt-6 text-base leading-7 text-slate-700">
@@ -69,7 +75,7 @@ export default function ArraigoSocialPage() {
 	<p className="mt-4 text-base leading-7 text-slate-700">
  	  También puedes consultar información sobre la{" "}
  	<a href="/regularizacion-espana" className="underline">
-    	regularización en España
+    	  regularización en España
   	</a>, ya que en algunos casos puede ser más adecuado analizar esa vía antes de iniciar un procedimiento de arraigo.
 	</p>
 
@@ -84,6 +90,10 @@ export default function ArraigoSocialPage() {
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           ¿Es viable tu caso?
         </h2>
+
+ 	<p className="mt-4 text-base leading-7 text-slate-700">
+ 	  No todas las situaciones permiten acceder al arraigo sociolaboral. En muchos casos, pequeños detalles pueden determinar si el procedimiento es viable o no.
+	</p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Antes de iniciar el procedimiento, es recomendable realizar un análisis previo para evitar errores que puedan dar lugar a requerimientos o denegaciones.

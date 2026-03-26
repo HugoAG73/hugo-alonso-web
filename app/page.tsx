@@ -162,7 +162,7 @@ export default function Home() {
             </div>
 
 	    <p className="mt-4 text-sm text-slate-600">
-  	      He analizado numerosos casos de regularización en distintas situaciones personales y documentales.
+  	      He analizado numerosos casos de regularización en distintas situaciones personales y documentales, definiendo la estrategia más adecuada en función de cada caso.
             </p>
 
             <div className="mt-12 grid gap-4 sm:grid-cols-3">
@@ -194,7 +194,7 @@ export default function Home() {
               ))}
             </div>
 
-           <div className="mt-10 space-y-2 text-sm text-slate-600">
+           <div className="mt-12 space-y-2 text-sm text-slate-600">
   	     <p>
     	       Puedes ampliar información sobre las principales vías de regularización:
  	     </p>
