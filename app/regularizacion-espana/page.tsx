@@ -24,27 +24,39 @@ export default function RegularizacionPage() {
       <section className="mx-auto max-w-3xl px-6 py-20">
 
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Regularización en España: cómo obtener papeles y si puedes beneficiarte del nuevo proceso
+          Regularización en España: ¿qué opciones existen en tu caso y cuál puede ser viable?
         </h1>
 
-        <p className="mt-0 text-base leading-7 text-slate-700">
-          Muchas personas se preguntan si podrán obtener papeles en España a través de la llamada regularización extraordinaria.
-	</p>
+        <p className="mt-6 text-base leading-7 text-slate-700">
+          La regularización en España no responde a un único procedimiento. Existen distintas vías, cada una con requisitos y condiciones específicas que deben analizarse en función de cada caso.
+        </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-	  Sin embargo, es importante entender qué se sabe realmente a día de hoy y si esta vía puede aplicarse a tu situación concreta.
+          Antes de tomar decisiones, es importante determinar si existe una vía viable de regularización en tu situación concreta y si conviene iniciar un procedimiento o esperar.
+        </p>
+
+        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
+          Qué puede implicar la regularización en tu caso
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          La posibilidad de regularizar la situación administrativa depende de factores como el tiempo de permanencia en España, la situación personal, la documentación disponible y la vía que pueda resultar adecuada.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          No todos los casos permiten acceder a una autorización de residencia en el mismo momento, por lo que es necesario analizar cada situación antes de iniciar cualquier procedimiento.
         </p>
 
 	<h2 className="mt-12 text-2xl font-semibold text-slate-900">
- 	 ¿Puede aplicarse a tu caso?
+          ¿Puede aplicarse a tu situación?
 	</h2>
 
 	<p className="mt-4 text-base leading-7 text-slate-700">
-  	  No todas las personas en situación administrativa irregular podrán acogerse a este tipo de regularización.
+  	  No en todos los supuestos será posible acceder a este tipo de regularización.
 	</p>
 
 	<p className="mt-4 text-base leading-7 text-slate-700">
-  	  La aplicación de este proceso dependerá de factores como el tiempo de permanencia en España, la situación personal y la documentación disponible.
+  	  En algunos casos, puede ser posible acceder a este tipo de regularización, mientras que en otros será necesario valorar alternativas o esperar a contar con una base documental suficiente.
 	</p>
 
 	<p className="mt-4 text-base leading-7 text-slate-700">
@@ -83,7 +95,7 @@ export default function RegularizacionPage() {
 	</p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En otros casos, puede ser más conveniente esperar y preparar la documentación necesaria con antelación.
+          En otros casos, puede resultar más conveniente esperar y preparar la documentación necesaria con antelación.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -95,7 +107,7 @@ export default function RegularizacionPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Cada caso debe valorarse de forma individual para determinar si existe una vía viable y cuál es la mejor estrategia.
+          Cada caso debe valorarse de forma individual para determinar si existe una vía viable y definir la estrategia más adecuada.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -110,9 +122,24 @@ export default function RegularizacionPage() {
           El estudio previo es determinante para evitar errores que puedan dar lugar a incidencias, requerimientos o denegaciones.
         </p>
 
-	<p className="mt-10 text-sm text-slate-600">
- 	  He analizado numerosos casos de regularización en distintas situaciones personales y documentales, definiendo la estrategia más adecuada en función de cada caso.
-	</p>
+        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
+          Importancia de valorar la estrategia adecuada
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En muchos casos, la diferencia entre una solicitud adecuada y un procedimiento que genera incidencias está en la preparación previa y en la elección de la vía más adecuada.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Analizar la situación antes de iniciar actuaciones permite evitar errores que puedan limitar opciones futuras o dificultar la regularización.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si ya has recibido una resolución desfavorable en un procedimiento de extranjería, también puedes consultar la página sobre{" "}
+          <a href="/denegacion-extranjeria" className="underline">
+            denegación de extranjería
+          </a>, donde se explica qué puede revisarse tras una resolución negativa y cuándo puede ser conveniente recurrir o plantear una nueva solicitud.
+        </p>
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
@@ -121,7 +148,7 @@ export default function RegularizacionPage() {
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
-            Evaluar mi caso en 24h
+            Solicitar revisión de mi caso
           </a>
 
           <a

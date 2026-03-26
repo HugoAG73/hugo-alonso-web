@@ -104,9 +104,9 @@ export default function ArraigoSocialPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           También puedes consultar información sobre la{" "}
- 	<a href="/regularizacion-espana" className="underline">
-    	  regularización en España
-  	</a>, ya que en algunos casos puede ser más adecuado analizar esa vía antes de iniciar un procedimiento de arraigo.
+          <a href="/regularizacion-espana" className="underline">
+            regularización en España
+          </a>, ya que en algunos casos puede ser más adecuado analizar esa vía antes de iniciar un procedimiento de arraigo.
 	</p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -136,6 +136,13 @@ export default function ArraigoSocialPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si tienes dudas sobre si cumples los requisitos o sobre cómo plantear el procedimiento, puedes solicitar una revisión inicial de tu caso.
         </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si ya has recibido una resolución desfavorable en extranjería, también puedes consultar información sobre la{" "}
+          <a href="/denegacion-extranjeria" className="underline">
+            denegación de extranjería
+          </a>, ya que en algunos casos conviene valorar si resulta más adecuado recurrir o replantear la estrategia.
+          </p>
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">

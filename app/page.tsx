@@ -155,7 +155,7 @@ export default function Home() {
 
             <div className="mt-8 space-y-2 text-sm text-slate-600">
               <p>
-                Puedes ampliar información sobre algunas de las vías y escenarios más habituales:
+                Puedes ampliar información sobre algunas de las principales vías y sobre situaciones frecuentes en extranjería:
               </p>
 
               <div className="flex flex-col gap-1 underline">
@@ -165,6 +165,10 @@ export default function Home() {
 
                 <a href="/arraigo-social">
                   Arraigo social (arraigo sociolaboral): cómo funciona
+                </a>
+
+                <a href="/denegacion-extranjeria">
+                  Denegación de extranjería: qué hacer tras una resolución desfavorable
                 </a>
               </div>
             </div>

@@ -22,13 +22,13 @@ export default function DenegacionExtranjeriaPage() {
       {/* CONTENIDO */}
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Denegación de extranjería: qué hacer tras una resolución desfavorable
+          Denegación de extranjería: ¿qué hacer tras una resolución desfavorable?
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
           Si has recibido una denegación en tu solicitud de residencia,
           regularización o arraigo, es importante revisar la resolución y
-          valorar con precisión qué opciones existen en tu caso.
+          valorar con precisión qué opciones pueden existir en tu caso.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -44,7 +44,7 @@ export default function DenegacionExtranjeriaPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           Tras recibir una resolución desfavorable, lo primero es analizar los
           motivos concretos de la denegación y comprobar qué plazo existe para
-          reaccionar.
+          actuar.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -106,7 +106,7 @@ export default function DenegacionExtranjeriaPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           Antes de interponer un recurso, conviene valorar si existen argumentos
           sólidos, si la documentación permite sostener la impugnación y si esa
-          vía ofrece una posibilidad real de mejorar la situación.
+          vía ofrece una posibilidad real de modificar el resultado.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -161,7 +161,7 @@ export default function DenegacionExtranjeriaPage() {
             regularización en España
           </a>
           , ya que en determinados supuestos puede ser más adecuado replantear la
-          vía antes de continuar.
+          estrategia antes de continuar.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -181,7 +181,7 @@ export default function DenegacionExtranjeriaPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si necesitas valorar qué puede hacerse tras una denegación de
-          extranjería, puedes solicitar una revisión inicial de tu caso.
+          extranjería, puedes solicitar una revisión inicial para valorar las opciones disponibles en tu caso.
         </p>
 
         {/* CTA */}
