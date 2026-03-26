@@ -24,19 +24,42 @@ export default function ArraigoSocialPage() {
       <section className="mx-auto max-w-3xl px-6 py-20">
 
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Arraigo social o arraigo sociolaboral: cómo obtener papeles en España
+          Arraigo social o arraigo sociolaboral: ¿puedes regularizar tu situación en tu caso concreto?
         </h1>
 
+        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
+          ¿Cuándo puede encajar el arraigo sociolaboral?
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Esta vía puede resultar adecuada cuando existe una permanencia continuada en España, una posible relación laboral y una base documental suficiente para acreditar la situación.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          No obstante, no todos los casos cumplen los requisitos en el mismo grado, por lo que es necesario revisar cada situación antes de iniciar el procedimiento.
+        </p>
+
+        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
+          Problemas frecuentes en el arraigo sociolaboral
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En la práctica, muchos expedientes presentan dificultades que pueden afectar al resultado del procedimiento.
+        </p>
+
+        <ul className="mt-4 list-disc pl-5 space-y-2 text-slate-700">
+          <li>Contratos de trabajo que no cumplen los requisitos exigidos</li>
+          <li>Pruebas insuficientes de permanencia en España</li>
+          <li>Documentación incompleta o mal planteada</li>
+          <li>Dudas sobre antecedentes o situaciones previas</li>
+        </ul>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Estos aspectos deben revisarse previamente antes de iniciar la solicitud para evitar incidencias o denegaciones.
+        </p>
+
         <p className="mt-8 text-base leading-7 text-slate-700">
-          El arraigo social —actualmente denominado arraigo sociolaboral tras la última reforma normativa— es una de las principales vías para obtener papeles en España.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Muchas personas siguen utilizando el término “arraigo social”, aunque en la práctica se refieren al arraigo sociolaboral. Por eso es fundamental estudiar cada caso para determinar si realmente encaja en este tipo de autorización.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          No todos los supuestos permiten acceder a esta vía, por lo que es fundamental analizar cada situación antes de iniciar el procedimiento.
+          Cada caso debe valorarse de forma individual, ya que pequeños detalles pueden determinar si el procedimiento puede prosperar.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -51,28 +74,36 @@ export default function ArraigoSocialPage() {
           Requisitos principales del arraigo sociolaboral
         </h2>
 
-	<p className="mt-8 text-base leading-7 text-slate-700">
-  	  Los requisitos pueden variar en función del caso concreto, pero generalmente es necesario acreditar:
-	</p>
+        <p className="mt-8 text-base leading-7 text-slate-700">
+          Los requisitos pueden variar en función del caso concreto, por lo que es necesario revisar cada situación antes de iniciar el procedimiento. No obstante, de forma general, suele ser necesario acreditar:
+        </p>
 
         <ul className="mt-4 list-disc pl-5 space-y-2 text-slate-700">
           <li>Permanencia continuada en España durante los dos años anteriores inmediatos a la solicitud</li>
           <li>Disponer de un precontrato u oferta de contrato de trabajo</li>
           <li>Ausencia de antecedentes penales relevantes</li>
-	  <li>Disponer de pruebas de estancia en España durante el plazo de tiempo exigido para este tipo de residencia</li>
-	  <li>Integración o vinculación con el entorno social</li>
+          <li>Disponer de pruebas de estancia en España durante el plazo de tiempo exigido para este tipo de residencia</li>
+          <li>Integración o vinculación con el entorno social</li>
         </ul>
 
-        <p className="mt-8 text-base leading-7 text-slate-700">
-          Cada caso debe valorarse de forma individual, ya que pequeños detalles pueden determinar la viabilidad o inviabilidad del procedimiento.
+        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
+          Cuándo el arraigo sociolaboral puede no ser la mejor opción
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          No todos los casos encajan en esta vía. En determinadas situaciones, puede ser más adecuado valorar otras opciones de regularización o posponer la solicitud hasta contar con una base documental suficiente.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Iniciar un procedimiento sin cumplir adecuadamente los requisitos puede generar incidencias o dificultar futuras solicitudes.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Otros tipos de arraigo
         </h2>
 
-	<p className="mt-4 text-base leading-7 text-slate-700">
- 	  También puedes consultar información sobre la{" "}
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          También puedes consultar información sobre la{" "}
  	<a href="/regularizacion-espana" className="underline">
     	  regularización en España
   	</a>, ya que en algunos casos puede ser más adecuado analizar esa vía antes de iniciar un procedimiento de arraigo.
@@ -83,28 +114,28 @@ export default function ArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No todos los casos encajan en el mismo tipo, por lo que es fundamental determinar cuál es la vía más adecuada antes de iniciar cualquier solicitud.
+          No todos los supuestos encajan en el mismo tipo, por lo que es fundamental determinar cuál es la opción más adecuada antes de iniciar cualquier solicitud.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           ¿Es viable tu caso?
         </h2>
 
- 	<p className="mt-4 text-base leading-7 text-slate-700">
- 	  No todas las situaciones permiten acceder al arraigo sociolaboral. En muchos casos, pequeños detalles pueden determinar si el procedimiento es viable o no.
-	</p>
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          No en todos los casos es posible acceder al arraigo sociolaboral. En muchos casos, pequeños detalles pueden determinar si el procedimiento puede iniciarse con garantías.
+        </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Antes de iniciar el procedimiento, es recomendable revisar la documentación disponible para evitar errores que puedan dar lugar a requerimientos o denegaciones.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          El análisis previo permite identificar si existe una vía real de regularización y definir la estrategia adecuada en cada caso.
+          El análisis previo permite identificar si existe una vía viable de regularización y definir la estrategia adecuada en cada caso.
         </p>
 
-	<p className="mt-8 text-sm text-slate-600">
-  	  He analizado numerosos casos de regularización en distintas situaciones personales y documentales, definiendo la estrategia más adecuada en función de cada caso.
-	</p>
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si tienes dudas sobre si cumples los requisitos o sobre cómo plantear el procedimiento, puedes solicitar una revisión inicial de tu caso.
+        </p>
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
@@ -113,7 +144,7 @@ export default function ArraigoSocialPage() {
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
-            Evaluar mi caso en 24h
+            Solicitar revisión de mi caso
           </a>
 
           <a
