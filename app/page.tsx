@@ -195,19 +195,20 @@ export default function Home() {
             </div>
 
            <div className="mt-10 space-y-2 text-sm text-slate-600">
-  	   <p>
-    	     Puedes ampliar información sobre las principales vías de regularización:
- 	   </p>
+  	     <p>
+    	       Puedes ampliar información sobre las principales vías de regularización:
+ 	     </p>
 
-  	   <div className="flex flex-col gap-1 underline">
-    	   <a href="/regularizacion-espana">
-      	     Regularización en España: requisitos y viabilidad
-   	   </a>
+  	     <div className="flex flex-col gap-1 underline">
+    	       <a href="/regularizacion-espana">
+      	         Regularización en España: requisitos y viabilidad
+   	       </a>
 
-    	   <a href="/arraigo-social">
-      	     Arraigo social (arraigo sociolaboral): cómo funciona
-    	   </a>
-  	   </div>
+    	       <a href="/arraigo-social">
+      	         Arraigo social (arraigo sociolaboral): cómo funciona
+    	       </a>
+  	     </div>
+           </div>
            </div>
 
           <aside
