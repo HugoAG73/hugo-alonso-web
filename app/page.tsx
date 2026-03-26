@@ -124,12 +124,11 @@ export default function Home() {
             </p>
 
             <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
-              Abogado colegiado en el Ilustre Colegio de Abogados de Madrid
-              (ICAM).
+              Abogado de extranjería en Madrid especializado en regularización de situación administrativa.
             </p>
 
             <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
-              Abogado de extranjería en Madrid especializado en regularización de situación administrativa.
+              Colegiado en el Ilustre Colegio de Abogados de Madrid (ICAM).
             </p>
 
             <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-600">
@@ -220,7 +219,7 @@ export default function Home() {
             </div>
 
             <h2 className="mt-3 text-2xl font-semibold tracking-tight text-slate-950">
-              Comprueba si tu caso puede encajar
+              Comprueba si tu caso es viable
             </h2>
 
             <p className="mt-4 text-sm leading-6 text-slate-600">
