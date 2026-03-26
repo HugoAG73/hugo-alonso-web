@@ -27,7 +27,7 @@ export default function ArraigoSocialPage() {
           Arraigo social o arraigo sociolaboral: cómo obtener papeles en España
         </h1>
 
-        <p className="mt-6 text-base leading-7 text-slate-700">
+        <p className="mt-8 text-base leading-7 text-slate-700">
           El arraigo social —actualmente denominado arraigo sociolaboral tras la última reforma normativa— es una de las principales vías para obtener papeles en España.
         </p>
 
@@ -36,7 +36,7 @@ export default function ArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No todos los supuestos permiten acceder a esta vía, ni todas las situaciones cumplen los requisitos exigidos por la normativa.
+          No todos los supuestos permiten acceder a esta vía, por lo que es fundamental analizar cada situación antes de iniciar el procedimiento.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -51,7 +51,7 @@ export default function ArraigoSocialPage() {
           Requisitos principales del arraigo sociolaboral
         </h2>
 
-	<p className="mt-6 text-base leading-7 text-slate-700">
+	<p className="mt-8 text-base leading-7 text-slate-700">
   	  Los requisitos pueden variar en función del caso concreto, pero generalmente es necesario acreditar:
 	</p>
 
@@ -63,7 +63,7 @@ export default function ArraigoSocialPage() {
 	  <li>Integración o vinculación con el entorno social</li>
         </ul>
 
-        <p className="mt-6 text-base leading-7 text-slate-700">
+        <p className="mt-8 text-base leading-7 text-slate-700">
           Cada caso debe analizarse de forma individual, ya que pequeños detalles pueden determinar la viabilidad o inviabilidad del procedimiento.
         </p>
 
@@ -99,8 +99,12 @@ export default function ArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          El análisis previo es determinante para evitar errores que puedan dar lugar a requerimientos o denegaciones.
+          El análisis previo permite identificar si existe una vía real de regularización y definir la estrategia adecuada en cada caso.
         </p>
+
+	<p className="mt-8 text-sm text-slate-600">
+  	  He analizado numerosos casos de regularización en distintas situaciones personales y documentales, definiendo la estrategia más adecuada en función de cada caso.
+	</p>
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
@@ -133,7 +137,11 @@ export default function ArraigoSocialPage() {
 
       <footer className="border-t border-stone-200 bg-stone-50">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
-          <div>© 2026 Hugo Alonso Abogado. Todos los derechos reservados.</div>
+          <div>
+  	   Abogado colegiado en el Ilustre Colegio de Abogados de Madrid
+ 	 <br />
+  	   © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
+	</div>
           <div className="flex gap-6">
             <a href="/despacho" className="hover:text-slate-800">
               Despacho
