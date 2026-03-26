@@ -47,6 +47,13 @@ export default function RegularizacionPage() {
           No todos los casos permiten acceder a una autorización de residencia en el mismo momento, por lo que es necesario analizar cada situación antes de iniciar cualquier procedimiento.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si ya dispones de una autorización de residencia y necesitas renovarla, puedes consultar la página sobre{" "}
+          <a href="/renovacion-residencia" className="underline">
+            renovación de residencia
+          </a>, donde se explican los plazos, los requisitos y los problemas más habituales en este tipo de procedimientos.
+        </p>
+
 	<h2 className="mt-12 text-2xl font-semibold text-slate-900">
           ¿Puede aplicarse a tu situación?
 	</h2>

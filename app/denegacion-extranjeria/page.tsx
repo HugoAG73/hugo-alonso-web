@@ -104,6 +104,14 @@ export default function DenegacionExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
+          Si quieres conocer con más detalle los plazos, los tipos de recurso y los
+          aspectos que conviene revisar antes de recurrir, puedes consultar la página sobre{" "}
+          <a href="/recurso-denegacion-extranjeria" className="underline">
+            recurso de denegación de extranjería
+          </a>.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
           Antes de interponer un recurso, conviene valorar si existen argumentos
           sólidos, si la documentación permite sostener la impugnación y si esa
           vía ofrece una posibilidad real de modificar el resultado.
