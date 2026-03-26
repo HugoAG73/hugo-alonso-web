@@ -32,7 +32,7 @@ export default function ArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          El arraigo social —actualmente denominado arraigo sociolaboral tras la última reforma normativa— es una de las principales vías para obtener papeles en España.
+          Muchas personas siguen utilizando el término “arraigo social”, aunque en la práctica se refieren al arraigo sociolaboral. Por eso es fundamental analizar cada caso para determinar si realmente encaja en este tipo de autorización.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -52,16 +52,15 @@ export default function ArraigoSocialPage() {
         </h2>
 
 	<p className="mt-6 text-base leading-7 text-slate-700">
-          <p className="mt-6 text-base leading-7 text-slate-700">
-          Los requisitos pueden variar en función del caso concreto, pero generalmente es necesario acreditar:
-        </p>
-        </p>
+  	  Los requisitos pueden variar en función del caso concreto, pero generalmente es necesario acreditar:
+	</p>
 
         <ul className="mt-4 list-disc pl-5 space-y-2 text-slate-700">
           <li>Permanencia continuada en España durante los dos años anteriores inmediatos a la solicitud</li>
           <li>Disponer de un precontrato u oferta de contrato de trabajo</li>
           <li>Ausencia de antecedentes penales relevantes</li>
 	  <li>Disponer de pruebas de estancia en España durante el plazo de tiempo exigido para este tipo de residencia</li>
+	  <li>Integración o vinculación con el entorno social</li>
         </ul>
 
         <p className="mt-6 text-base leading-7 text-slate-700">
@@ -100,7 +99,7 @@ export default function ArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          El análisis previo es determinante para definir una estrategia adecuada y evitar actuaciones innecesarias.
+          El análisis previo es determinante para evitar errores que puedan dar lugar a requerimientos o denegaciones.
         </p>
 
         {/* CTA */}
