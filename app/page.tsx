@@ -106,34 +106,23 @@ export default function Home() {
             </div>
 
             <h1 className="mt-8 max-w-4xl text-4xl font-semibold tracking-tight text-slate-950 lg:text-6xl">
-              ¿Puedes conseguir papeles en España en 2026?
+              ¿Es viable regularizar tu situación en España?
             </h1>
 
             <p className="mt-6 max-w-2xl text-xl leading-9 text-slate-800">
-              Te digo en menos de 24 horas si tu caso es viable o no.
+              Estudio tu caso y te indico, con criterio jurídico, si existe una vía de regularización viable en tu situación.
             </p>
 
             <p className="mt-3 max-w-2xl text-base leading-7 text-slate-700">
-              Y, si existe una vía razonable, qué puedes hacer exactamente en tu
-              situación.
+              Si tu situación permite iniciar un procedimiento, te indicaré cuál puede encajar mejor y cómo conviene plantearlo.
             </p>
 
             <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-700">
-              Cada caso es distinto. Un error en el planteamiento puede cerrar
-              opciones.
+              Un planteamiento incorrecto puede cerrar opciones o debilitar futuras vías de regularización.
             </p>
 
             <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
-              Abogado de extranjería en Madrid especializado en regularización de situación administrativa.
-            </p>
-
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
-              Colegiado en el Ilustre Colegio de Abogados de Madrid (ICAM).
-            </p>
-
-            <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-600">
-              Estudio personal de tu caso, sin respuestas genéricas ni
-              soluciones estandarizadas.
+              Abogado de extranjería en Madrid, colegiado en el Ilustre Colegio de la Abogacía de Madrid (ICAM), con atención directa y estudio personal de cada caso.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -141,7 +130,7 @@ export default function Home() {
                 href="#contacto"
                 className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5"
               >
-                Evaluar mi caso en 24h
+                Solicitar revisión de mi caso
               </a>
 
               <a
@@ -155,36 +144,36 @@ export default function Home() {
             </div>
 
             <div className="mt-6 flex flex-col gap-2 text-sm text-slate-600">
-              <div>✔ Respuesta en menos de 24h</div>
-              <div>✔ Evaluación confidencial</div>
+              <div>✔ Respuesta inicial en menos de 24h</div>
+              <div>✔ Revisión confidencial</div>
               <div>✔ Sin compromiso inicial</div>
             </div>
 
-	    <p className="mt-4 text-sm text-slate-600">
-  	      He analizado numerosos casos de regularización en distintas situaciones personales y documentales, definiendo la estrategia más adecuada en función de cada caso.
+            <p className="mt-4 text-sm text-slate-600">
+              La regularización exige valorar los hechos, la permanencia en España, la documentación disponible y los riesgos antes de decidir qué vía puede resultar jurídicamente adecuada.
             </p>
 
-	    <div className="mt-8 space-y-2 text-sm text-slate-600">
-  	     <p>
-    	       Puedes ampliar información sobre las principales vías de regularización:
- 	     </p>
+            <div className="mt-8 space-y-2 text-sm text-slate-600">
+              <p>
+                Puedes ampliar información sobre algunas de las vías y escenarios más habituales:
+              </p>
 
-  	     <div className="flex flex-col gap-1 underline">
-    	       <a href="/regularizacion-espana">
-      	         Regularización en España: requisitos y viabilidad
-   	       </a>
+              <div className="flex flex-col gap-1 underline">
+                <a href="/regularizacion-espana">
+                  Regularización en España: requisitos y viabilidad
+                </a>
 
-    	       <a href="/arraigo-social">
-      	         Arraigo social (arraigo sociolaboral): cómo funciona
-    	       </a>
-  	     </div>
-           </div>
+                <a href="/arraigo-social">
+                  Arraigo social (arraigo sociolaboral): cómo funciona
+                </a>
+              </div>
+            </div>
 
             <div className="mt-12 grid gap-4 sm:grid-cols-3">
               {[
                 [
-                  "Análisis previo",
-                  "Estudio realista de tu situación y de las opciones disponibles.",
+                  "Valoración inicial",
+                  "Revisión jurídica de tu situación y de las vías que pueden resultar viables.",
                 ],
                 [
                   "Estrategia documental",
@@ -223,8 +212,7 @@ export default function Home() {
             </h2>
 
             <p className="mt-4 text-sm leading-6 text-slate-600">
-              Evaluación preliminar orientada a detectar riesgos, documentación
-              necesaria y siguientes pasos.
+              Primera valoración orientada a identificar si existe una vía viable, qué documentación conviene revisar y qué riesgos deben tenerse en cuenta.
             </p>
 
             <form onSubmit={handleSubmit} className="mt-8 space-y-4">
@@ -273,12 +261,11 @@ export default function Home() {
               />
 
               <p className="text-sm text-slate-600">
-                Respuesta en menos de 24h. Sin compromiso.
+                Respuesta inicial en menos de 24h. Revisión confidencial y sin compromiso.
               </p>
 
               <p className="text-xs leading-5 text-slate-500">
-                Consulta confidencial. No se compartirán tus datos con terceros
-                salvo obligación legal.
+                Consulta confidencial. Tus datos no se compartirán con terceros salvo obligación legal.
               </p>
 
               <label className="flex items-start gap-2 text-sm text-slate-600">
@@ -326,43 +313,32 @@ export default function Home() {
         </h2>
 
         <p className="mt-6 leading-7 text-slate-700">
-          La llamada regularización masiva en España es un proceso
-          extraordinario que puede permitir a determinadas personas extranjeras
-          regularizar su situación administrativa. El análisis previo es determinante para evitar errores que puedan condicionar el resultado del procedimiento.
+          La regularización de la situación administrativa en España exige revisar con precisión los hechos, la permanencia, la documentación disponible y la posible vía de encaje antes de iniciar cualquier actuación.
         </p>
 
         <p className="mt-4 leading-7 text-slate-700">
-          No todos los casos pueden tramitarse del mismo modo. Por eso es
-          esencial estudiar la permanencia en España, la documentación
-          disponible y el encaje real de cada situación antes de iniciar
-          cualquier actuación.
+          No todos los supuestos pueden plantearse del mismo modo. En muchos casos, la diferencia entre un expediente sólido y un procedimiento débil está en la preparación previa y en la estrategia documental.
         </p>
 
         <h3 className="mt-10 text-xl font-semibold text-slate-900">
-          ¿Quién puede acceder?
+          ¿Cuándo conviene revisar la situación?
         </h3>
         <p className="mt-4 leading-7 text-slate-700">
-          Será necesario analizar cada caso de forma individual. La estrategia
-          no puede ser idéntica para todos los supuestos ni basarse en
-          respuestas genéricas.
+          Conviene hacerlo especialmente cuando existen dudas sobre el tiempo de permanencia en España, la suficiencia de la documentación, antecedentes, salidas del territorio o la vía que puede resultar más adecuada.
         </p>
 
         <h3 className="mt-10 text-xl font-semibold text-slate-900">
           ¿Qué riesgos existen?
         </h3>
         <p className="mt-4 leading-7 text-slate-700">
-          Presentar una solicitud sin preparación suficiente puede dar lugar a
-          requerimientos, incidencias o denegaciones. Antes de iniciar el
-          procedimiento conviene realizar un estudio serio de viabilidad.
+          Iniciar un procedimiento sin una preparación suficiente puede dar lugar a requerimientos, incidencias o denegaciones que compliquen actuaciones posteriores. Por eso es importante revisar antes la viabilidad real del caso.
         </p>
 
         <h3 className="mt-10 text-xl font-semibold text-slate-900">
-          ¿Qué puedo hacer por tu caso?
+          ¿Qué incluye la revisión inicial?
         </h3>
         <p className="mt-4 leading-7 text-slate-700">
-          Reviso la documentación, valoro riesgos y defino una estrategia
-          jurídica realista para ayudarte a tomar decisiones informadas y
-          reducir errores evitables.
+          La revisión inicial permite identificar riesgos, comprobar si existe una vía viable de regularización y ordenar la documentación necesaria antes de decidir si conviene iniciar el procedimiento.
         </p>
       </section>
 
@@ -372,7 +348,7 @@ export default function Home() {
         </h2>
 
         <p className="mt-6 leading-7 text-slate-700">
-          Asesoramiento en procedimientos de regularización y obtención de autorización de residencia en España.
+          Asistencia jurídica en procedimientos de regularización, arraigo y otras vías de residencia, con revisión individual de la viabilidad del expediente.
         </p>
 
         <p className="mt-6 leading-7 text-slate-700">
@@ -387,20 +363,17 @@ export default function Home() {
         </p>
 
         <h3 className="mt-10 text-xl font-semibold text-slate-900">
-          Servicios
+          Cómo trabajo
         </h3>
         <p className="mt-4 leading-7 text-slate-700">
-          Análisis de viabilidad, preparación de expedientes y seguimiento en
-          procedimientos de extranjería, siempre con estudio individual y sin
-          soluciones estandarizadas.
+          El trabajo comienza con una revisión jurídica de la situación concreta, continúa con la preparación ordenada de la documentación y, cuando procede, con el seguimiento directo del expediente.
         </p>
 
         <h3 className="mt-10 text-xl font-semibold text-slate-900">
-          Primera valoración
+          Primera revisión del caso
         </h3>
         <p className="mt-4 leading-7 text-slate-700">
-          Puedes contactar para una revisión inicial de tu caso y determinar si
-          existe una vía razonable para iniciar el procedimiento.
+          Si necesitas saber si tu situación puede encajar en alguna vía de regularización, puedes solicitar una primera revisión para valorar si conviene iniciar actuaciones o esperar.
         </p>
       </section>
 
@@ -411,7 +384,7 @@ export default function Home() {
               Contacto
             </div>
             <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-950">
-              Consulta abogado de extranjería en Madrid
+              Consulta con abogado de extranjería en Madrid
             </h2>
             <p className="mt-6 max-w-xl text-base leading-7 text-slate-600">
               Si deseas una revisión profesional de tu situación, puedes
