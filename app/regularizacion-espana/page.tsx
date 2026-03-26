@@ -24,20 +24,32 @@ export default function RegularizacionPage() {
       <section className="mx-auto max-w-3xl px-6 py-20">
 
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Regularización en España: ¿puedes conseguir papeles con el nuevo proceso?
+          Regularización en España: cómo obtener papeles y si puedes beneficiarte del nuevo proceso
         </h1>
 
-        <p className="mt-6 text-base leading-7 text-slate-700">
-          La posible regularización extraordinaria en España es uno de los temas que más dudas está generando actualmente entre personas extranjeras en situación administrativa irregular.
-        </p>
+        <p className="mt-0 text-base leading-7 text-slate-700">
+          Muchas personas se preguntan si podrán obtener papeles en España a través de la llamada regularización extraordinaria.
+	</p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Muchas personas hablan de una “regularización masiva”, pero es importante entender que, a día de hoy, se trata de un proceso en fase inicial y sujeto a desarrollo normativo.
+	  Sin embargo, es importante entender qué se sabe realmente a día de hoy y si esta vía puede aplicarse a tu situación concreta.
         </p>
 
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Esto significa que no todos los casos podrán acogerse automáticamente, ni existe una vía única aplicable a todas las situaciones.
-        </p>
+	<h2 className="mt-12 text-2xl font-semibold text-slate-900">
+ 	 ¿Puede aplicarse a tu caso?
+	</h2>
+
+	<p className="mt-4 text-base leading-7 text-slate-700">
+  	  No todas las personas en situación administrativa irregular podrán acogerse a este tipo de regularización.
+	</p>
+
+	<p className="mt-4 text-base leading-7 text-slate-700">
+  	  La aplicación de este proceso dependerá de factores como el tiempo de permanencia en España, la situación personal y la documentación disponible.
+	</p>
+
+	<p className="mt-4 text-base leading-7 text-slate-700">
+ 	  Por eso es fundamental valorar cada caso de forma individual antes de tomar decisiones.
+	</p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           ¿Qué se sabe actualmente sobre la regularización?
@@ -56,7 +68,7 @@ export default function RegularizacionPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Depende de tu situación concreta.
+          Depende de tu situación concreta y de los requisitos que finalmente se establezcan.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -71,7 +83,7 @@ export default function RegularizacionPage() {
 	</p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En otros supuestos, puede ser recomendable esperar y preparar la documentación necesaria con antelación.
+          En otros casos, puede ser más conveniente esperar y preparar la documentación necesaria con antelación.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -79,11 +91,11 @@ export default function RegularizacionPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Iniciar trámites sin un estudio previo puede dar lugar a errores que afecten negativamente a tu situación administrativa o limiten futuras opciones.
+          Iniciar trámites sin un estudio previo puede dar lugar a errores que afecten negativamente a tu situación administrativa o limiten futuras opciones de regularización.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Cada caso debe analizarse de forma individual para determinar si existe una vía viable y cuál es la mejor estrategia.
+          Cada caso debe valorarse de forma individual para determinar si existe una vía viable y cuál es la mejor estrategia.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -91,12 +103,16 @@ export default function RegularizacionPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Analizo tu situación concreta para determinar si puedes acogerte a alguna vía de regularización actual o si es conveniente preparar tu caso para posibles cambios normativos.
+          Reviso tu situación concreta para determinar si puedes acogerte a alguna vía de regularización actual o si es conveniente preparar tu caso para posibles cambios normativos.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          El análisis previo es determinante para evitar errores que puedan condicionar el resultado del procedimiento.
+          El estudio previo es determinante para evitar errores que puedan dar lugar a incidencias, requerimientos o denegaciones.
         </p>
+
+	<p className="mt-10 text-sm text-slate-600">
+ 	  He analizado numerosos casos de regularización en distintas situaciones personales y documentales, definiendo la estrategia más adecuada en función de cada caso.
+	</p>
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
