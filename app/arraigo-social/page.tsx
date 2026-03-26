@@ -32,7 +32,7 @@ export default function ArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Muchas personas siguen utilizando el término “arraigo social”, aunque en la práctica se refieren al arraigo sociolaboral. Por eso es fundamental analizar cada caso para determinar si realmente encaja en este tipo de autorización.
+          Muchas personas siguen utilizando el término “arraigo social”, aunque en la práctica se refieren al arraigo sociolaboral. Por eso es fundamental estudiar cada caso para determinar si realmente encaja en este tipo de autorización.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -64,7 +64,7 @@ export default function ArraigoSocialPage() {
         </ul>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
-          Cada caso debe analizarse de forma individual, ya que pequeños detalles pueden determinar la viabilidad o inviabilidad del procedimiento.
+          Cada caso debe valorarse de forma individual, ya que pequeños detalles pueden determinar la viabilidad o inviabilidad del procedimiento.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -95,7 +95,7 @@ export default function ArraigoSocialPage() {
 	</p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Antes de iniciar el procedimiento, es recomendable realizar un análisis previo para evitar errores que puedan dar lugar a requerimientos o denegaciones.
+          Antes de iniciar el procedimiento, es recomendable revisar la documentación disponible para evitar errores que puedan dar lugar a requerimientos o denegaciones.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
