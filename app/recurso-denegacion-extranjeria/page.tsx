@@ -55,6 +55,13 @@ export default function RecursoDenegacionExtranjeriaPage() {
           otra estrategia.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Antes de iniciar cualquier recurso, conviene comprobar con precisión el plazo disponible. Puedes consultar la página sobre{" "}
+          <a href="/plazo-recurso-extranjeria" className="underline">
+            plazo para recurrir en extranjería
+          </a>.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           ¿Conviene recurrir la denegación?
         </h2>

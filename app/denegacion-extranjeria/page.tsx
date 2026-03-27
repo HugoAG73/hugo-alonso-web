@@ -104,8 +104,14 @@ export default function DenegacionExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si quieres conocer con más detalle los plazos, los tipos de recurso y los
-          aspectos que conviene revisar antes de recurrir, puedes consultar la página sobre{" "}
+          Antes de decidir si recurres, es importante comprobar qué plazo tienes para hacerlo y si todavía estás a tiempo de actuar. Puedes consultar la página sobre{" "}
+          <a href="/plazo-recurso-extranjeria" className="underline">
+            plazo para recurrir en extranjería
+          </a>.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Para conocer con más detalle los tipos de recurso y los aspectos que conviene revisar antes de recurrir la resolución, puedes consultar la página sobre{" "}
           <a href="/recurso-denegacion-extranjeria" className="underline">
             recurso de denegación de extranjería
           </a>.
