@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function RenovacionResidenciaPage() {
+export default function RenovarResidenciaFueraDePlazoPage() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
       {/* HEADER */}
@@ -22,103 +22,105 @@ export default function RenovacionResidenciaPage() {
       {/* CONTENIDO */}
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Renovación de residencia en España: plazos, requisitos y cómo evitar
-          problemas
+          Renovar residencia fuera de plazo: qué puede hacerse y cómo actuar
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
-          Si tienes que renovar tu autorización de residencia, es importante
-          revisar el plazo disponible, comprobar si cumples los requisitos y
-          evitar errores que puedan dar lugar a incidencias o denegaciones.
+          Si el plazo para renovar tu autorización de residencia ya ha vencido,
+          es importante actuar con rapidez, revisar tu situación y valorar qué opciones
+          pueden existir en tu caso.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No todas las renovaciones se resuelven del mismo modo. En función del
-          tipo de autorización, de la situación laboral y de la documentación
-          disponible, puede ser necesario valorar con precisión cómo plantear la
-          solicitud.
-        </p>
-
-        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Plazo para renovar la residencia
-        </h2>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          La renovación de residencia debe plantearse dentro del plazo previsto
-          por la normativa. Actuar con retraso o dejar pasar el tiempo sin
-          revisar la situación puede complicar el procedimiento y generar
-          problemas evitables.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Por eso es importante comprobar con antelación la fecha de vencimiento
-          de la autorización y valorar cuanto antes si se cumplen los requisitos
-          exigidos para la renovación.
+          No todas las renovaciones fuera de plazo deben afrontarse del mismo
+          modo. Antes de actuar, conviene analizar la fecha de vencimiento, el
+          tiempo transcurrido, el tipo de autorización y las circunstancias
+          concretas del expediente.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Requisitos para la renovación de residencia
+          Qué significa renovar fuera de plazo
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Los requisitos pueden variar en función del tipo de autorización de
-          residencia, de la situación personal y de la trayectoria laboral del
-          interesado.
+          La renovación de residencia está sujeta a plazos concretos. Cuando la
+          solicitud no se presenta dentro del plazo previsto, pueden surgir
+          incidencias que afecten al procedimiento y a las opciones disponibles.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En muchos casos, será necesario revisar la continuidad de la residencia
-          en España, la situación de empleo o actividad, los periodos de alta y
-          cotización, la documentación disponible y cualquier circunstancia que
-          pueda influir en la renovación.
+          Por eso es importante no asumir automáticamente que la renovación ya no
+          es posible ni actuar sin revisar antes la situación concreta.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Problemas habituales en la renovación de residencia
+          Qué puede ocurrir si ha vencido el plazo
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En la práctica, muchas incidencias en la renovación no derivan de un
-          único problema, sino de pequeños errores o de una revisión insuficiente
-          del expediente antes de presentar la solicitud.
+          El hecho de haber dejado pasar el plazo no produce siempre la misma
+          consecuencia. En algunos supuestos puede seguir existiendo margen de
+          actuación; en otros, puede ser necesario valorar alternativas
+          distintas.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Lo relevante es comprobar cuánto tiempo ha transcurrido desde el vencimiento, qué tipo de
+          autorización se pretende renovar y si concurren circunstancias que
+          puedan influir en la viabilidad del procedimiento.
+        </p>
+
+        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
+          Consecuencias de no actuar a tiempo
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Dejar pasar el tiempo sin revisar la situación o sin adoptar ninguna actuación puede limitar de forma significativa las opciones disponibles.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En este tipo de supuestos, es especialmente importante analizar el caso con rapidez para evitar que la situación se complique o que determinadas vías dejen de ser viables.
+        </p>
+
+        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
+          Problemas frecuentes en las renovaciones fuera de plazo
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En la práctica, muchas incidencias derivan no solo del retraso, sino de
+          errores al valorar sus efectos o de actuar sin revisar previamente el
+          expediente.
         </p>
 
         <ul className="mt-4 list-disc pl-5 space-y-2 text-slate-700">
-          <li>Presentación fuera de plazo</li>
-          <li>Documentación incompleta o mal preparada</li>
-          <li>Periodos de cotización insuficientes o situación laboral irregular</li>
-          <li>Cambios personales o profesionales no valorados correctamente</li>
-          <li>Falta de revisión previa del tipo de renovación aplicable</li>
+          <li>No comprobar correctamente la fecha de vencimiento</li>
+          <li>Esperar demasiado antes de actuar</li>
+          <li>Presentar la renovación sin revisar el encaje del caso</li>
+          <li>No valorar si existen riesgos añadidos en el expediente</li>
+          <li>Descartar otras alternativas sin un análisis previo suficiente</li>
         </ul>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Detectar estos problemas antes de presentar la solicitud permite evitar
-          incidencias, requerimientos o resoluciones desfavorables.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Si la renovación se plantea fuera de plazo, puedes consultar la página sobre{" "}
-          <a href="/renovar-residencia-fuera-de-plazo" className="underline">
-            renovación de residencia fuera de plazo
-          </a>, donde se explican las posibles consecuencias y qué puede valorarse en ese tipo de situaciones.
+          Detectar estos problemas antes de presentar ninguna actuación permite
+          evitar incidencias mayores y proteger mejor la situación del
+          interesado.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Qué ocurre si no cumples todos los requisitos
+          Qué puede valorarse en estos casos
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No en todos los casos la falta de un requisito implica automáticamente
-          la imposibilidad de renovar. En determinadas situaciones, puede ser
-          necesario valorar con detalle si existe margen para sostener la
-          renovación o si conviene estudiar otra alternativa.
+          Cuando la renovación se plantea fuera de plazo, es necesario analizar
+          si todavía existe margen para solicitarla, si conviene justificar la
+          situación de una determinada forma o si resulta más adecuado estudiar
+          otra estrategia.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Antes de iniciar el procedimiento, es importante analizar si la
-          situación permite plantear la renovación con base suficiente o si
-          resulta más adecuado adoptar otra estrategia para evitar una posible
-          denegación.
+          No en todos los casos la respuesta será la misma. Lo determinante es
+          revisar el expediente completo y comprobar qué opción ofrece una base
+          más sólida.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -126,15 +128,15 @@ export default function RenovacionResidenciaPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          El análisis previo permite comprobar si la renovación puede plantearse
-          correctamente, qué documentación conviene preparar y qué aspectos deben
-          revisarse antes de presentar la solicitud.
+          El análisis previo permite comprobar la situación documental, la fecha
+          exacta de vencimiento, los requisitos aplicables y el margen real de
+          actuación antes de presentar una solicitud.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En muchos casos, la diferencia entre una renovación bien preparada y un
-          procedimiento que genera problemas está en revisar con tiempo la
-          situación concreta y la estrategia más adecuada.
+          En muchos supuestos, la diferencia entre una actuación jurídicamente
+          adecuada y un procedimiento que genera nuevos problemas está en revisar
+          con precisión el caso antes de actuar.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -142,26 +144,32 @@ export default function RenovacionResidenciaPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si la renovación presenta dificultades, puede ser necesario estudiar si
-          existe otra vía de regularización o si conviene replantear la
-          estrategia antes de iniciar actuaciones.
+          Si necesitas una visión general del procedimiento ordinario, también
+          puedes consultar la página sobre{" "}
+          <a href="/renovacion-residencia" className="underline">
+            renovación de residencia
+          </a>
+          .
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          También puedes consultar información sobre la{" "}
+          En algunos casos, además, puede ser necesario estudiar si existe otra
+          vía de{" "}
           <a href="/regularizacion-espana" className="underline">
             regularización en España
           </a>{" "}
-          y, si ya has recibido una resolución negativa, sobre la{" "}
+          o, si ya se ha dictado una resolución negativa, revisar la página sobre{" "}
           <a href="/denegacion-extranjeria" className="underline">
             denegación de extranjería
           </a>{" "}
-          y el{" "}
-          <a href="/recurso-denegacion-extranjeria" className="underline">
+          y, en su caso, la de{" "}
+          <a
+            href="/recurso-denegacion-extranjeria"
+            className="underline"
+          >
             recurso de denegación de extranjería
           </a>
-          , ya que en algunos supuestos puede ser necesario valorar otras
-          opciones antes de continuar.
+          .
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -169,20 +177,21 @@ export default function RenovacionResidenciaPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si tienes que renovar tu residencia, conviene revisar la fecha de
-          vencimiento, la documentación disponible y los requisitos aplicables
-          antes de presentar la solicitud.
+          Si el plazo de renovación ya ha vencido, conviene revisar la fecha de
+          caducidad, la documentación disponible y las opciones reales antes de
+          actuar.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Ese análisis permite valorar si la renovación puede plantearse con
-          seguridad, si existe algún riesgo que deba corregirse previamente o si
-          resulta más adecuado estudiar otra estrategia.
+          Ese análisis permite valorar si todavía es posible plantear la
+          renovación, si resulta preferible estudiar otra vía o si conviene
+          adoptar una estrategia distinta para evitar una posible denegación.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si necesitas revisar tu renovación de residencia, puedes solicitar una
-          revisión inicial para valorar las opciones disponibles en tu caso.
+          Si necesitas revisar una renovación de residencia fuera de plazo,
+          puedes solicitar una revisión inicial para valorar las opciones
+          disponibles en tu caso.
         </p>
 
         {/* CTA */}
