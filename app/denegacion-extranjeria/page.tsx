@@ -134,6 +134,13 @@ export default function DenegacionExtranjeriaPage() {
           vía ofrece una posibilidad real de modificar el resultado.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si la vía administrativa no resulta suficiente o ya se ha agotado, puede ser necesario acudir a la jurisdicción contencioso-administrativa. Puedes consultar la página sobre{" "}
+          <a href="/recurso-contencioso-extranjeria" className="underline">
+            recurso contencioso-administrativo en extranjería
+          </a>, donde se explica cuándo procede esta vía y qué aspectos deben valorarse antes de iniciarla.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Cuándo puede no ser conveniente recurrir
         </h2>
