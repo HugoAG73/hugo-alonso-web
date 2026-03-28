@@ -98,6 +98,20 @@ export default function ArraigoSocialPage() {
           Iniciar un procedimiento sin cumplir adecuadamente los requisitos puede generar incidencias o dificultar futuras solicitudes.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si ya has recibido una resolución desfavorable en extranjería, también puedes consultar información sobre la{" "}
+          <a href="/denegacion-extranjeria" className="underline">
+            denegación de extranjería
+          </a>, ya que en algunos casos conviene valorar si resulta más adecuado recurrir o replantear la estrategia.
+          </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si la resolución desfavorable afecta específicamente a una solicitud de arraigo, puedes consultar también la página sobre{" "}
+          <a href="/denegacion-arraigo-social" className="underline">
+            denegación de arraigo social
+          </a>, donde se explican los motivos más frecuentes y qué puede valorarse en ese tipo de situaciones.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Otros tipos de arraigo
         </h2>
@@ -136,13 +150,6 @@ export default function ArraigoSocialPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si tienes dudas sobre si cumples los requisitos o sobre cómo plantear el procedimiento, puedes solicitar una revisión inicial de tu caso.
         </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Si ya has recibido una resolución desfavorable en extranjería, también puedes consultar información sobre la{" "}
-          <a href="/denegacion-extranjeria" className="underline">
-            denegación de extranjería
-          </a>, ya que en algunos casos conviene valorar si resulta más adecuado recurrir o replantear la estrategia.
-          </p>
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">

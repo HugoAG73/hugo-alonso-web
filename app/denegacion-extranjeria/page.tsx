@@ -78,6 +78,17 @@ export default function DenegacionExtranjeriaPage() {
           adecuada.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Tras las últimas modificaciones en la normativa de extranjería, algunas de las situaciones que tradicionalmente se encuadraban como arraigo social han evolucionado, incluyendo supuestos como el arraigo sociolaboral. Por eso, es importante analizar cada caso con precisión y no basarse únicamente en denominaciones generales.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si la resolución desfavorable afecta específicamente a una solicitud de arraigo, puedes consultar también la página sobre{" "}
+          <a href="/denegacion-arraigo-social" className="underline">
+            denegación de arraigo social
+          </a>, donde se explican los motivos más frecuentes y qué puede valorarse en ese tipo de situaciones.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           No todas las denegaciones son iguales
         </h2>
