@@ -38,6 +38,13 @@ export default function SilencioAdministrativoExtranjeriaPage() {
           aplicable y la situación concreta del expediente.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si tienes dudas sobre cuánto puede tardar extranjería en resolver tu solicitud y si el tiempo transcurrido entra dentro de lo normal en tu caso, puedes consultar también la página sobre{" "}
+          <a href="/cuanto-tarda-extranjeria" className="underline">
+            cuánto tarda extranjería en resolver
+          </a>.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Qué es el silencio administrativo en extranjería
         </h2>
