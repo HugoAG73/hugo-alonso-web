@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function RenovacionResidenciaPage() {
   return (
@@ -22,21 +23,19 @@ export default function RenovacionResidenciaPage() {
       {/* CONTENIDO */}
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Renovación de residencia en España: plazos, requisitos y cómo evitar
-          problemas
+          Renovación de residencia en España: plazos, requisitos y posibles problemas
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
-          Si tienes que renovar tu autorización de residencia, es importante
-          revisar el plazo disponible, comprobar si cumples los requisitos y
-          evitar errores que puedan dar lugar a incidencias o denegaciones.
+          La renovación de residencia en España no siempre es un trámite automático. 
+          En muchos casos surgen dudas sobre el plazo, los requisitos o la posibilidad real de renovar, 
+          especialmente cuando ha habido cambios en la situación laboral o personal.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No todas las renovaciones se resuelven del mismo modo. En función del
-          tipo de autorización, de la situación laboral y de la documentación
-          disponible, puede ser necesario valorar con precisión cómo plantear la
-          solicitud.
+          Actuar sin revisar estos aspectos puede llevar a presentar una solicitud fuera de plazo, 
+          incompleta o con riesgo de denegación. Por eso, antes de iniciar la renovación, conviene 
+          analizar con precisión en qué situación se encuentra el expediente.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -56,6 +55,14 @@ export default function RenovacionResidenciaPage() {
           exigidos para la renovación.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Cuando el plazo se ha superado, la situación cambia y puede requerir una valoración distinta,
+          ya que no todos los supuestos fuera de plazo se tratan del mismo modo en la práctica administrativa,
+          <Link href="/renovacion-residencia-fuera-de-plazo" className="underline">
+            especialmente cuando se plantea una renovación fuera de plazo
+          </Link>.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Requisitos para la renovación de residencia
         </h2>
@@ -64,6 +71,12 @@ export default function RenovacionResidenciaPage() {
           Los requisitos pueden variar en función del tipo de autorización de
           residencia, de la situación personal y de la trayectoria laboral del
           interesado.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En la práctica, muchos problemas en la renovación no surgen porque falte todo,
+          sino porque uno o varios requisitos no se cumplen exactamente en la forma en que
+          la Administración los valora.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -92,15 +105,14 @@ export default function RenovacionResidenciaPage() {
         </ul>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Detectar estos problemas antes de presentar la solicitud permite evitar
-          incidencias, requerimientos o resoluciones desfavorables.
+          Estos problemas no siempre se identifican a simple vista. En muchos casos,
+          la solicitud se presenta pensando que todo está correcto y es posteriormente
+          cuando surgen requerimientos o resoluciones desfavorables.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si la renovación se plantea fuera de plazo, puedes consultar la página sobre{" "}
-          <a href="/renovar-residencia-fuera-de-plazo" className="underline">
-            renovación de residencia fuera de plazo
-          </a>, donde se explican las posibles consecuencias y qué puede valorarse en ese tipo de situaciones.
+          Detectar estos problemas antes de presentar la solicitud permite anticipar incidencias,
+          evitar requerimientos y reducir el riesgo de una resolución desfavorable.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -142,26 +154,19 @@ export default function RenovacionResidenciaPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si la renovación presenta dificultades, puede ser necesario estudiar si
-          existe otra vía de regularización o si conviene replantear la
-          estrategia antes de iniciar actuaciones.
+          Si la renovación presenta dificultades, puede ser necesario valorar si existe otra vía
+          de regularización o si conviene replantear la estrategia antes de iniciar actuaciones,
+          <Link href="/regularizacion-espana" className="underline">
+            como ocurre en determinados supuestos de regularización en España
+          </Link>.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          También puedes consultar información sobre la{" "}
-          <a href="/regularizacion-espana" className="underline">
-            regularización en España
-          </a>{" "}
-          y, si ya has recibido una resolución negativa, sobre la{" "}
-          <a href="/denegacion-extranjeria" className="underline">
-            denegación de extranjería
-          </a>{" "}
-          y el{" "}
-          <a href="/recurso-denegacion-extranjeria" className="underline">
-            recurso de denegación de extranjería
-          </a>
-          , ya que en algunos supuestos puede ser necesario valorar otras
-          opciones antes de continuar.
+          Cuando ya existe una resolución negativa, el análisis cambia y pasa a centrarse en la
+          denegación y en las opciones de reacción,
+          <Link href="/denegacion-extranjeria" className="underline">
+            lo que implica entender qué supone una denegación de extranjería
+          </Link>.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -181,8 +186,7 @@ export default function RenovacionResidenciaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si necesitas revisar tu renovación de residencia, puedes solicitar una
-          revisión inicial para valorar las opciones disponibles en tu caso.
+          Antes de presentar la solicitud, una revisión jurídica permite comprobar si la renovación puede plantearse con base suficiente o si existe algún aspecto que convenga corregir previamente.
         </p>
 
         {/* CTA */}

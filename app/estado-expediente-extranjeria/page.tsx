@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function EstadoExpedienteExtranjeriaPage() {
   return (
@@ -22,7 +23,7 @@ export default function EstadoExpedienteExtranjeriaPage() {
       {/* CONTENIDO */}
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Estado del expediente de extranjería: qué significa y qué conviene revisar
+          Estado del expediente de extranjería: qué significa y qué hacer en tu caso
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
@@ -50,6 +51,56 @@ export default function EstadoExpedienteExtranjeriaPage() {
           Por eso es importante no interpretar de forma automática un estado
           determinado sin revisar antes el contexto del expediente y la situación
           concreta del procedimiento.
+        </p>
+
+        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
+          Cómo interpretar el estado de tu expediente en la práctica
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Más allá del texto que aparece en la consulta del expediente, lo relevante es entender en qué situación real se encuentra el procedimiento y qué puede implicar ese estado en tu caso concreto.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En la práctica, pueden darse varias situaciones, como cuando el expediente aparece en trámite, en estudio o ya resuelto, lo que requiere una interpretación distinta en cada caso.
+        </p>
+
+        <ul className="mt-4 list-disc pl-5 space-y-2 text-slate-700">
+          <li>
+            El expediente sigue en tramitación dentro de un plazo razonable, como ocurre en muchos casos en los que figura{" "}
+            <Link href="/expediente-en-tramite-extranjeria" className="underline">
+              en trámite
+            </Link>
+          </li>
+
+          <li>
+            Existe una fase de análisis interno que puede generar dudas sobre el avance del procedimiento, especialmente cuando el expediente aparece{" "}
+            <Link href="/expediente-en-estudio-extranjeria" className="underline">
+              en estudio
+            </Link>
+          </li>
+
+          <li>
+            Se ha producido una falta de resolución en plazo que puede tener efectos jurídicos, como sucede en determinados supuestos de{" "}
+            <Link href="/silencio-administrativo-extranjeria" className="underline">
+              silencio administrativo en extranjería
+            </Link>
+          </li>
+
+          <li>
+            El expediente ha sido resuelto, aunque no siempre se haya notificado correctamente, tanto en casos{" "}
+            <Link href="/expediente-resuelto-favorable-extranjeria" className="underline">
+              favorables
+            </Link>{" "}
+            como en resoluciones{" "}
+            <Link href="/expediente-resuelto-no-favorable-extranjeria" className="underline">
+              no favorables
+            </Link>
+          </li>
+        </ul>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Cada una de estas situaciones exige una valoración distinta. Interpretar el estado sin tener en cuenta estos factores puede llevar a esperar cuando convendría actuar o a iniciar actuaciones innecesarias.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -87,12 +138,10 @@ export default function EstadoExpedienteExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si tienes dudas sobre si el tiempo transcurrido entra dentro de lo
-          normal, puedes consultar también la página sobre{" "}
-          <a href="/cuanto-tarda-extranjeria" className="underline">
-            cuánto tarda extranjería en resolver
-          </a>
-          .
+          Si tienes dudas sobre si el tiempo transcurrido entra dentro de lo normal, conviene valorar primero qué plazos suelen manejarse en este tipo de procedimientos,
+          <Link href="/cuanto-tarda-extranjeria" className="underline">
+          especialmente en relación con cuánto tarda extranjería en resolver
+          </Link>.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -107,12 +156,10 @@ export default function EstadoExpedienteExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si necesitas valorar esa situación, puedes consultar también la página
-          sobre{" "}
-          <a href="/silencio-administrativo-extranjeria" className="underline">
-            silencio administrativo en extranjería
-          </a>
-          .
+          Cuando no existe resolución en un plazo relevante, puede ser necesario analizar si se ha producido algún efecto jurídico por falta de respuesta,
+          <Link href="/silencio-administrativo-extranjeria" className="underline">
+          como ocurre en determinados supuestos de silencio administrativo en extranjería
+          </Link>.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -141,14 +188,10 @@ export default function EstadoExpedienteExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si ya existe una resolución desfavorable o necesitas valorar qué puede hacerse tras ella, puedes consultar la página sobre{" "}
-          <a href="/denegacion-extranjeria" className="underline">
-            denegación de extranjería
-          </a>{" "}
-          y, si necesitas valorar cómo impugnar una resolución, puedes consultar también la página sobre{" "}
-          <a href="/recurso-denegacion-extranjeria" className="underline">
-            recurso de denegación de extranjería
-          </a>.
+          Si ya existe una resolución desfavorable o necesitas valorar sus efectos, el análisis debe centrarse en la denegación y en las opciones disponibles,
+          <Link href="/denegacion-extranjeria" className="underline">
+          lo que implica entender qué supone una denegación de extranjería
+          </Link>.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -163,16 +206,14 @@ export default function EstadoExpedienteExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si tu expediente está relacionado con una vía de arraigo o con otra
-          fórmula de regularización, también puedes consultar las páginas sobre{" "}
-          <a href="/arraigo-social" className="underline">
-            arraigo social o arraigo sociolaboral
-          </a>{" "}
-          y{" "}
-          <a href="/regularizacion-espana" className="underline">
-            regularización en España
-          </a>
-          .
+          Si tu expediente está relacionado con una vía de arraigo o con otra fórmula de regularización, también puede ser útil revisar el contexto específico de ese procedimiento,
+          <Link href="/arraigo-social" className="underline">
+            especialmente en supuestos de arraigo social o arraigo sociolaboral
+          </Link>,
+          así como otras opciones de
+          <Link href="/regularizacion-espana" className="underline">
+          regularización en España
+          </Link>.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -193,9 +234,23 @@ export default function EstadoExpedienteExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si necesitas revisar el estado de tu expediente de extranjería y qué
-          puede hacerse en tu situación, puedes solicitar una revisión inicial
-          para valorar las opciones disponibles en tu caso.
+          Cuando existen dudas sobre el estado del expediente, una revisión jurídica permite determinar si el procedimiento sigue su curso normal, si ha transcurrido un plazo relevante o si conviene adoptar alguna actuación en función de la situación concreta.
+        </p>
+
+        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
+          Según tu situación, el siguiente paso puede ser distinto
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si el expediente se encuentra en plazo y sin incidencias, puede ser suficiente con continuar la tramitación y revisar periódicamente su evolución.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si existe una demora relevante, puede ser necesario analizar si el plazo ha transcurrido y si procede valorar otras actuaciones.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si ya existe una resolución o una incidencia, la situación cambia y conviene determinar con precisión qué opciones existen en función del tipo de procedimiento.
         </p>
 
         {/* CTA */}
