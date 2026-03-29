@@ -33,7 +33,7 @@ export default function DenegacionArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Tras las últimas modificaciones en la normativa de extranjería, algunas de las situaciones que tradicionalmente se encuadraban como arraigo social han evolucionado, incluyendo supuestos como el arraigo sociolaboral. Por eso, es importante analizar cada caso con precisión y no basarse únicamente en denominaciones generales, ya que una valoración incorrecta puede condicionar las opciones disponibles.
+          Tras las últimas modificaciones en la normativa de extranjería, es importante analizar cada caso con precisión y no basarse únicamente en formulaciones generales, ya que una valoración incorrecta puede condicionar las opciones disponibles.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -43,11 +43,11 @@ export default function DenegacionArraigoSocialPage() {
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Motivos frecuentes de denegación del arraigo social o, en su caso, arraigo sociolaboral
+          Motivos frecuentes de denegación del arraigo social
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Muchas denegaciones de arraigo social o arraigo sociolaboral se producen por problemas de documentación,
+          Muchas denegaciones de arraigo social se producen por problemas de documentación,
           insuficiencia de prueba o incumplimiento de requisitos específicos del
           procedimiento.
         </p>
@@ -71,28 +71,28 @@ export default function DenegacionArraigoSocialPage() {
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          ¿Se puede recurrir una denegación de arraigo social o arraigo sociolaboral?
+          ¿Se puede recurrir una denegación de arraigo social?
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En muchos casos, puede ser posible recurrir una denegación de arraigo social o sociolaboral. Sin embargo, no siempre es la opción más conveniente, ya que recurrir sin una base suficiente puede prolongar el procedimiento sin mejorar el resultado.
+          En muchos casos, puede ser posible recurrir una denegación de arraigo social. Sin embargo, no siempre es la opción más conveniente, ya que recurrir sin una base suficiente puede prolongar el procedimiento sin mejorar el resultado.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Antes de decidir si recurres, es importante comprobar qué plazo tienes
           para hacerlo y si todavía estás a tiempo de actuar. Puedes consultar la
           página sobre{" "}
-          <a href="/plazo-recurso-extranjeria" className="underline">
+          <Link href="/plazo-recurso-extranjeria" className="underline">
             plazo para recurrir en extranjería
-          </a>.
+          </Link>.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si quieres conocer con más detalle cómo funciona la impugnación, puedes
           consultar la página sobre{" "}
-          <a href="/recurso-denegacion-extranjeria" className="underline">
+          <Link href="/recurso-denegacion-extranjeria" className="underline">
             recurso de denegación de extranjería
-          </a>.
+          </Link>.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -141,7 +141,7 @@ export default function DenegacionArraigoSocialPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           Puedes consultar también la página sobre{" "}
           <Link href="/arraigo-social" className="underline">
-            arraigo social o arraigo sociolaboral
+            arraigo social
           </Link>{" "}
           y sobre la{" "}
           <Link href="/regularizacion-espana" className="underline">
@@ -155,7 +155,7 @@ export default function DenegacionArraigoSocialPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si has recibido una denegación de arraigo social o sociolaboral, conviene revisar la
+          Si has recibido una denegación de arraigo social, conviene revisar la
           resolución, la documentación aportada y las opciones disponibles antes
           de actuar.
         </p>
@@ -167,7 +167,7 @@ export default function DenegacionArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Cuando se recibe una denegación de arraigo, analizar el caso con precisión permite valorar si existe margen de actuación o si conviene replantear la estrategia antes de que la situación se consolide.
+          Cuando se recibe una denegación de arraigo social, analizar el caso con precisión permite valorar si existe margen de actuación o si conviene replantear la estrategia antes de que la situación se consolide.
         </p>
 
         {/* CTA */}
