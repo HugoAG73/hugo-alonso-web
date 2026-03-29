@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function DenegacionExtranjeriaPage() {
   return (
@@ -6,7 +7,7 @@ export default function DenegacionExtranjeriaPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -15,205 +16,114 @@ export default function DenegacionExtranjeriaPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
       {/* CONTENIDO */}
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Denegación de extranjería: ¿qué hacer tras una resolución desfavorable?
+          Denegación de extranjería: qué significa la resolución y qué opciones tienes
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
-          Si has recibido una denegación en tu solicitud de residencia,
-          regularización o arraigo, es importante revisar la resolución y
-          valorar con precisión qué opciones pueden existir en tu caso.
+          Recibir una denegación en un expediente de extranjería implica que la Administración ha considerado que no se cumplen los requisitos necesarios para conceder la autorización solicitada. A partir de ese momento, la situación cambia: ya no se trata de esperar una resolución, sino de decidir cómo actuar frente a ella.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No todas las denegaciones deben afrontarse del mismo modo. En algunos
-          supuestos puede ser posible recurrir; en otros, puede ser más
-          conveniente estudiar una nueva solicitud o replantear la estrategia.
+          Sin embargo, no todas las denegaciones tienen el mismo alcance ni deben abordarse de la misma forma. El contenido de la resolución, su motivación y el plazo disponible para reaccionar son determinantes para valorar qué opciones existen y si conviene actuar de inmediato.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Qué hacer tras una denegación de extranjería
+          Qué significa realmente una denegación
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Tras recibir una resolución desfavorable, lo primero es analizar los
-          motivos concretos de la denegación y comprobar qué plazo existe para
-          actuar.
+          La denegación no siempre implica que la solicitud carezca completamente de viabilidad. En muchos casos, refleja que la Administración considera que existen defectos, insuficiencias o incumplimientos que impiden conceder la autorización en ese momento.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Antes de tomar cualquier decisión, conviene revisar la resolución, la
-          documentación presentada y los posibles errores o carencias del
-          expediente. Ese análisis previo permite determinar si resulta más
-          adecuado recurrir o preparar una nueva vía.
+          Por eso, antes de asumir que no existen alternativas, es importante analizar el contenido de la resolución y los motivos concretos en los que se basa.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Motivos frecuentes de denegación en extranjería
+          Por qué se ha producido la denegación
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En la práctica, muchas denegaciones se producen por cuestiones
-          documentales, problemas de prueba o deficiencias en el planteamiento
-          del expediente.
-        </p>
-
-        <ul className="mt-4 list-disc pl-5 space-y-2 text-slate-700">
-          <li>Documentación insuficiente o incorrectamente presentada</li>
-          <li>Falta de acreditación suficiente de permanencia en España</li>
-          <li>Contratos de trabajo que no cumplen los requisitos exigidos</li>
-          <li>Antecedentes penales o dudas sobre su relevancia</li>
-          <li>Errores en la preparación o en la estrategia del expediente</li>
-        </ul>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Identificar correctamente el motivo de la denegación es fundamental
-          para no repetir errores y para valorar si existe una respuesta jurídica
-          adecuada.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Tras las últimas modificaciones en la normativa de extranjería, algunas de las situaciones que tradicionalmente se encuadraban como arraigo social han evolucionado, incluyendo supuestos como el arraigo sociolaboral. Por eso, es importante analizar cada caso con precisión y no basarse únicamente en denominaciones generales.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Si la resolución desfavorable afecta específicamente a una solicitud de arraigo, puedes consultar también la página sobre{" "}
-          <a href="/denegacion-arraigo-social" className="underline">
-            denegación de arraigo social
-          </a>, donde se explican los motivos más frecuentes y qué puede valorarse en ese tipo de situaciones.
+          La causa de la denegación suele encontrarse en la fundamentación de la resolución. En muchos casos, está relacionada con la falta de cumplimiento de requisitos, con la valoración de la documentación presentada o con la forma en que se ha planteado el expediente,
+          <Link href="/por-que-deniegan-extranjeria" className="underline">
+            especialmente en relación con los motivos más habituales de denegación en extranjería
+          </Link>
+          .
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          No todas las denegaciones son iguales
+          Qué opciones existen tras una denegación
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          La viabilidad de una respuesta depende del procedimiento afectado, de
-          la causa concreta de la denegación y del momento en que se encuentre el
-          expediente.
+          Tras una resolución desfavorable, pueden existir distintas vías de actuación. Entre ellas, la posibilidad de presentar un recurso administrativo o, en determinados supuestos, acudir a la vía judicial.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No es lo mismo una denegación en un procedimiento de arraigo que una
-          resolución desfavorable en otro tipo de autorización de residencia. Por
-          eso es importante revisar cada caso de forma individual.
+          La elección de una u otra opción depende del contenido de la resolución y de la viabilidad de cada alternativa,
+          <Link href="/recurso-denegacion-extranjeria" className="underline">
+            especialmente en relación con cómo recurrir una denegación en extranjería
+          </Link>
+          o, en su caso,
+          <Link href="/recurso-contencioso-extranjeria" className="underline">
+            cuándo puede ser necesario acudir a un recurso contencioso en extranjería
+          </Link>
+          .
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          La cuestión no es solo si existe alguna vía de reacción, sino cuál resulta adecuada en función de la resolución recibida, ya que una decisión precipitada o una inacción prolongada pueden limitar opciones posteriores.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          ¿Se puede recurrir una denegación?
+          Por qué es importante decidir a tiempo
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En muchos casos, sí puede ser posible recurrir una denegación. Sin
-          embargo, no siempre es la opción más conveniente.
+          Las opciones tras una denegación están sujetas a plazos. No analizar la resolución dentro de ese plazo puede limitar las posibilidades de actuación y hacer que la situación se consolide.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Antes de decidir si recurres, es importante comprobar qué plazo tienes para hacerlo y si todavía estás a tiempo de actuar. Puedes consultar la página sobre{" "}
-          <a href="/plazo-recurso-extranjeria" className="underline">
-            plazo para recurrir en extranjería
-          </a>.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Para conocer con más detalle los tipos de recurso y los aspectos que conviene revisar antes de recurrir la resolución, puedes consultar la página sobre{" "}
-          <a href="/recurso-denegacion-extranjeria" className="underline">
-            recurso de denegación de extranjería
-          </a>.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Antes de interponer un recurso, conviene valorar si existen argumentos
-          sólidos, si la documentación permite sostener la impugnación y si esa
-          vía ofrece una posibilidad real de modificar el resultado.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Si la vía administrativa no resulta suficiente o ya se ha agotado, puede ser necesario acudir a la jurisdicción contencioso-administrativa. Puedes consultar la página sobre{" "}
-          <a href="/recurso-contencioso-extranjeria" className="underline">
-            recurso contencioso-administrativo en extranjería
-          </a>, donde se explica cuándo procede esta vía y qué aspectos deben valorarse antes de iniciarla.
+          Por eso, no se trata solo de conocer las opciones, sino de valorar cuál es la más adecuada en función del caso concreto antes de que el plazo expire.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Cuándo puede no ser conveniente recurrir
+          Qué hacer tras recibir una denegación
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No en todos los casos el recurso es la mejor solución. En determinadas
-          situaciones, puede resultar más adecuado preparar una nueva solicitud o
-          corregir previamente las deficiencias del expediente.
+          Si has recibido una denegación, lo recomendable no es tomar una decisión automática, sino analizar el contenido de la resolución, los motivos en los que se basa y las opciones disponibles en tu caso.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Interponer un recurso sin una base suficiente puede prolongar el
-          problema sin aportar una solución real. Por eso es importante valorar
-          con criterio qué opción conviene en cada caso.
+          Una revisión jurídica permite determinar si la resolución presenta margen de impugnación, si conviene iniciar un nuevo procedimiento o si existe alguna alternativa que resulte más adecuada antes de que la situación se consolide.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Importancia de la revisión del expediente
+          Según el tipo de denegación, las opciones pueden ser distintas
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          La revisión del expediente permite entender por qué se ha producido la
-          denegación, detectar errores en la documentación o en la estrategia y
-          ordenar correctamente los siguientes pasos.
+          Si la denegación se basa en un defecto subsanable, puede ser posible corregirlo en una nueva solicitud.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En muchos supuestos, la diferencia entre insistir en una vía que no
-          conviene y plantear una solución jurídicamente adecuada está en ese
-          análisis previo.
-        </p>
-
-        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Otras vías que pueden valorarse
-        </h2>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          En algunos casos, tras una denegación puede resultar más conveniente
-          estudiar otras opciones de regularización antes que insistir en el
-          mismo procedimiento.
+          Si afecta a la interpretación jurídica del expediente, puede ser necesario valorar la interposición de un recurso.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Puedes consultar también información sobre el{" "}
-          <a href="/arraigo-social" className="underline">
-            arraigo social o arraigo sociolaboral
-          </a>{" "}
-          y sobre la{" "}
-          <a href="/regularizacion-espana" className="underline">
-            regularización en España
-          </a>
-          , ya que en determinados supuestos puede ser más adecuado replantear la
-          estrategia antes de continuar.
-        </p>
-
-        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          ¿Qué hacer en tu caso?
-        </h2>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Si has recibido una denegación, conviene revisar la resolución, la
-          documentación aportada y las opciones disponibles antes de actuar.
+          Si existen dudas sobre el contenido de la resolución, conviene revisar el caso antes de decidir cómo actuar.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          El análisis previo permite determinar si existe margen para recurrir,
-          si resulta preferible preparar una nueva solicitud o si conviene
-          adoptar otra estrategia para evitar nuevos errores.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Si necesitas valorar qué puede hacerse tras una denegación de
-          extranjería, puedes solicitar una revisión inicial para valorar las opciones disponibles en tu caso.
+          Cuando ya existe una resolución denegatoria, analizar el caso a tiempo permite decidir con más precisión si conviene recurrir, replantear la solicitud o evitar actuaciones que puedan cerrar opciones útiles.
         </p>
 
         {/* CTA */}
@@ -222,7 +132,7 @@ export default function DenegacionExtranjeriaPage() {
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
-            Solicitar revisión de mi caso
+            Revisar mi denegación
           </a>
 
           <a
@@ -234,38 +144,14 @@ export default function DenegacionExtranjeriaPage() {
             Consultar por WhatsApp
           </a>
 
-          <a
-            href="/"
+          <Link
+            href="/recurso-denegacion-extranjeria"
             className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
           >
-            Volver a la web
-          </a>
+            Ver cómo recurrir una denegación
+          </Link>
         </div>
       </section>
-
-      <footer className="border-t border-stone-200 bg-stone-50">
-        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
-          <div>
-            Abogado colegiado en el Ilustre Colegio de Abogados de Madrid
-            <br />
-            © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
-          </div>
-          <div className="flex gap-6">
-            <a href="/despacho" className="hover:text-slate-800">
-              Despacho
-            </a>
-            <a href="/aviso-legal" className="hover:text-slate-800">
-              Aviso legal
-            </a>
-            <a href="/politica-privacidad" className="hover:text-slate-800">
-              Política de privacidad
-            </a>
-            <a href="/cookies" className="hover:text-slate-800">
-              Cookies
-            </a>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }

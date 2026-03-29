@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function RecursoDenegacionExtranjeriaPage() {
   return (
@@ -6,7 +7,7 @@ export default function RecursoDenegacionExtranjeriaPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -15,181 +16,118 @@ export default function RecursoDenegacionExtranjeriaPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
       {/* CONTENIDO */}
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Recurso de denegación de extranjería: plazos, opciones y cómo actuar tras una resolución desfavorable
+          Recurso de denegación en extranjería: cuándo merece la pena y qué implica
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
-          Si has recibido una denegación en un procedimiento de extranjería, es
-          importante revisar la resolución, comprobar el plazo disponible y
-          valorar si existen fundamentos suficientes para recurrir o si resulta más
-          adecuado plantear una nueva vía.
+          Tras recibir una denegación en extranjería, una de las primeras dudas es si conviene presentar un recurso. Aunque en muchos casos existe esta posibilidad, no todas las resoluciones son igualmente recurribles ni todos los recursos tienen la misma viabilidad.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No en todos los casos resulta conveniente recurrir ni todas las denegaciones deben
-          afrontarse del mismo modo. Antes de actuar, conviene analizar la causa
-          concreta de la resolución y la estrategia más adecuada en tu caso.
+          La decisión de recurrir no depende solo de la existencia de un plazo, sino del contenido de la resolución y de las posibilidades reales de que el recurso pueda modificar el resultado del expediente, ya que no todas las denegaciones ofrecen el mismo margen de revisión.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Plazo para recurrir una denegación de extranjería
+          Qué significa recurrir una denegación
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Las resoluciones de extranjería establecen plazos concretos para poder
-          reaccionar frente a una denegación. Actuar fuera de plazo puede impedir
-          cualquier revisión posterior de la resolución por la vía que
-          correspondiera.
+          Presentar un recurso implica solicitar a la Administración que revise la resolución dictada. Esto puede hacerse sobre la base de errores en la valoración del expediente, en la interpretación de la normativa o en la apreciación de los hechos.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Por eso es importante revisar cuanto antes la resolución y determinar
-          qué margen temporal existe para decidir si conviene recurrir o adoptar
-          otra estrategia.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Antes de iniciar cualquier recurso, conviene comprobar con precisión el plazo disponible. Puedes consultar la página sobre{" "}
-          <a href="/plazo-recurso-extranjeria" className="underline">
-            plazo para recurrir en extranjería
-          </a>.
+          Sin embargo, el recurso no consiste únicamente en discrepar con la denegación, sino en fundamentar jurídicamente por qué la resolución debería modificarse.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          ¿Conviene recurrir la denegación?
+          Cuándo puede tener sentido presentar un recurso
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No en todos los casos recurrir es la mejor opción. En algunas
-          situaciones puede existir base suficiente para impugnar la resolución;
-          en otras, puede resultar más adecuado corregir deficiencias y estudiar
-          una nueva solicitud.
+          Un recurso puede ser viable cuando existen elementos que permiten cuestionar la resolución: documentación que no ha sido correctamente valorada, interpretación discutible de los requisitos o aspectos que no han sido tenidos en cuenta en el expediente.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          La decisión depende del motivo de la denegación, de la documentación
-          disponible, del tipo de procedimiento afectado y de la posibilidad real
-          de modificar el resultado mediante recurso.
+          En estos casos, el recurso puede abrir la posibilidad de revisar la decisión adoptada y modificar el resultado del procedimiento.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Qué tipo de recurso puede interponerse
+          Cuándo puede no ser la mejor opción
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En función del caso, puede ser posible interponer un recurso
-          administrativo o valorar la vía judicial correspondiente. La elección
-          no debe hacerse de forma automática, sino en función del contenido de
-          la resolución y de las opciones reales del expediente.
+          No siempre es recomendable recurrir. En algunos supuestos, la denegación se basa en la falta clara de requisitos o en circunstancias que difícilmente pueden modificarse mediante un recurso administrativo.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Antes de decidir qué recurso plantear, conviene revisar si existen
-          argumentos sólidos, si la prueba disponible permite sostener la
-          impugnación y si esa actuación resulta realmente útil en tu situación.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Si la vía administrativa no resulta suficiente o ya se ha agotado, puede ser necesario acudir a la jurisdicción contencioso-administrativa. Puedes consultar la página sobre{" "}
-          <a href="/recurso-contencioso-extranjeria" className="underline">
-            recurso contencioso-administrativo en extranjería
-          </a>, donde se explica cuándo procede esta vía y qué aspectos deben valorarse antes de iniciarla.
+          En estos casos, puede ser más adecuado valorar otras opciones, como iniciar un nuevo procedimiento con una base más sólida o analizar si existe alguna alternativa diferente.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Errores frecuentes al recurrir una denegación
+          Por qué es importante analizar la viabilidad antes de recurrir
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En la práctica, muchos recursos fracasan no solo por el motivo inicial
-          de la denegación, sino por errores en la forma de reaccionar frente a
-          la resolución.
+          Presentar un recurso sin un análisis previo puede no solo resultar ineficaz, sino también retrasar otras opciones que podrían ser más adecuadas en el caso concreto o incluso hacer que se pierdan oportunidades que convendría haber valorado a tiempo.
         </p>
 
-        <ul className="mt-4 list-disc pl-5 space-y-2 text-slate-700">
-          <li>Recurrir sin analizar adecuadamente la causa de la denegación</li>
-          <li>No atacar el motivo concreto que figura en la resolución</li>
-          <li>Presentar documentación insuficiente o irrelevante</li>
-          <li>Actuar fuera de plazo</li>
-          <li>Insistir en una vía que no resulta adecuada en ese momento</li>
-        </ul>
-
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Evitar estos errores es fundamental para no perder tiempo, no debilitar
-          la posición jurídica del expediente y no cerrar opciones futuras.
+          Por eso, antes de recurrir, es importante valorar si la resolución presenta margen de impugnación,
+          <Link href="/denegacion-extranjeria" className="underline">
+            especialmente en relación con cómo interpretar una denegación en extranjería
+          </Link>
+          .
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Importancia del análisis previo
+          Qué ocurre si el recurso no prospera
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          El análisis previo permite entender por qué se ha producido la
-          denegación, qué margen existe para impugnarla y si conviene recurrir o
-          preparar una actuación distinta.
+          Si el recurso es desestimado, puede ser necesario valorar otras vías, como acudir a la vía judicial en determinados supuestos,
+          <Link href="/recurso-contencioso-extranjeria" className="underline">
+            especialmente en relación con cuándo puede ser necesario acudir al recurso contencioso en extranjería
+          </Link>
+          .
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En muchos casos, la diferencia entre un recurso útil y una actuación
-          que solo prolonga el problema está en revisar con precisión la
-          resolución, la documentación aportada y la estrategia disponible.
+          La estrategia a seguir dependerá del contenido de la resolución y de las circunstancias del expediente.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Otras vías que pueden valorarse
+          Qué hacer antes de presentar un recurso
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En determinados supuestos, tras una denegación puede resultar más
-          conveniente estudiar otras opciones de regularización antes que insistir
-          en el mismo procedimiento.
+          Antes de recurrir, lo recomendable es analizar en detalle la resolución, los motivos en los que se basa y la documentación del expediente.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si todavía no tienes claro por qué se ha producido la resolución
-          desfavorable, también puedes consultar la página sobre{" "}
-          <a href="/denegacion-extranjeria" className="underline">
-            denegación de extranjería
-          </a>
-          . Además, en algunos casos puede ser útil valorar vías actualmente en
-          vigor, como el{" "}
-          <a href="/arraigo-social" className="underline">
-            arraigo social o arraigo sociolaboral
-          </a>{" "}
-          o la{" "}
-          <a href="/regularizacion-espana" className="underline">
-            regularización en España
-          </a>
-          , si la situación aconseja replantear la estrategia.
+          Este análisis permite determinar si el recurso tiene posibilidades reales o si conviene optar por una alternativa diferente.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          ¿Qué hacer en tu caso?
+          Según el caso, recurrir puede ser una oportunidad o un error
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si has recibido una denegación, conviene revisar la resolución, el
-          plazo disponible, la documentación aportada y las opciones reales antes
-          de decidir cómo actuar.
+          Si existen fundamentos sólidos para cuestionar la resolución, el recurso puede ser una vía adecuada para intentar modificar el resultado.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Ese análisis permite determinar si existe margen para recurrir, si
-          resulta más adecuado presentar una nueva solicitud o si conviene adoptar
-          otra estrategia para evitar nuevos errores.
+          Si no hay margen real de impugnación, recurrir puede prolongar el procedimiento sin mejorar la situación.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si necesitas valorar si procede interponer un recurso frente a una
-          denegación de extranjería, puedes solicitar una revisión inicial para
-          valorar las opciones disponibles en tu caso.
+          Por eso, la decisión de recurrir debe basarse en un análisis previo del expediente y no únicamente en la existencia de la posibilidad formal de hacerlo, ya que elegir una vía inadecuada puede condicionar el resultado y limitar las opciones posteriores.
         </p>
 
         {/* CTA */}
@@ -198,7 +136,7 @@ export default function RecursoDenegacionExtranjeriaPage() {
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
-            Solicitar revisión de mi caso
+            Revisar viabilidad de mi recurso
           </a>
 
           <a
@@ -210,38 +148,14 @@ export default function RecursoDenegacionExtranjeriaPage() {
             Consultar por WhatsApp
           </a>
 
-          <a
-            href="/"
+          <Link
+            href="/recurso-contencioso-extranjeria"
             className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
           >
-            Volver a la web
-          </a>
+            Ver recurso contencioso
+          </Link>
         </div>
       </section>
-
-      <footer className="border-t border-stone-200 bg-stone-50">
-        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
-          <div>
-            Abogado colegiado en el Ilustre Colegio de Abogados de Madrid
-            <br />
-            © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
-          </div>
-          <div className="flex gap-6">
-            <a href="/despacho" className="hover:text-slate-800">
-              Despacho
-            </a>
-            <a href="/aviso-legal" className="hover:text-slate-800">
-              Aviso legal
-            </a>
-            <a href="/politica-privacidad" className="hover:text-slate-800">
-              Política de privacidad
-            </a>
-            <a href="/cookies" className="hover:text-slate-800">
-              Cookies
-            </a>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }

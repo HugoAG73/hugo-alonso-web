@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function RecursoContenciosoExtranjeriaPage() {
   return (
@@ -6,7 +7,7 @@ export default function RecursoContenciosoExtranjeriaPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -15,116 +16,102 @@ export default function RecursoContenciosoExtranjeriaPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
       {/* CONTENIDO */}
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Recurso contencioso-administrativo en extranjería: cuándo acudir a la vía judicial
+          Recurso contencioso en extranjería: cuándo acudir a la vía judicial y qué implica
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
-          Cuando una solicitud en materia de extranjería ha sido denegada y la vía administrativa no ha dado una solución, la única vía disponible puede ser acudir a la jurisdicción contencioso-administrativa para revisar la actuación de la Administración.
+          Cuando una denegación en extranjería no se modifica mediante recurso administrativo o cuando se considera que la resolución no es conforme a derecho, puede ser necesario acudir a la vía judicial a través del recurso contencioso-administrativo.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Esta vía permite revisar la actuación de la Administración ante un órgano judicial, pero requiere un análisis previo detallado para determinar si existe base suficiente para sostener la impugnación.
-        </p>
-
-        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          El recurso contencioso como última vía
-        </h2>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          El recurso contencioso-administrativo suele ser la última vía disponible cuando no ha sido posible resolver el caso por vía administrativa. En este momento, el análisis jurídico es especialmente importante, ya que la estrategia que se plantee condiciona el desarrollo del procedimiento judicial.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          A diferencia de las fases anteriores, en esta vía no se trata solo de aportar documentación, sino de construir una argumentación jurídica sólida que permita cuestionar la actuación de la Administración.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          El recurso contencioso-administrativo puede plantearse cuando se ha dictado una resolución desfavorable y se han agotado las vías administrativas o no resulta conveniente seguir insistiendo en ellas.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          También puede ser necesario acudir a esta vía cuando la Administración no resuelve en plazo o cuando la resolución presenta defectos relevantes desde el punto de vista jurídico.
+          Este paso supone un cambio relevante: ya no se trata de una revisión interna por la Administración, sino de un procedimiento ante un órgano judicial en el que se analiza la legalidad de la resolución impugnada, lo que exige valorar previamente si el caso presenta base suficiente para sostener la vía judicial.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Plazo para interponer el recurso contencioso
+          Qué implica acudir al recurso contencioso
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          El plazo para acudir a la vía contencioso-administrativa es limitado y depende del tipo de resolución y del procedimiento seguido previamente.
+          El recurso contencioso no es una continuación del procedimiento administrativo, sino un proceso judicial con sus propias reglas, plazos y exigencias. Su finalidad es que un juez valore si la resolución administrativa se ajusta o no al ordenamiento jurídico.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Antes de iniciar esta vía, es importante comprobar con precisión el plazo disponible. Puedes consultar también la página sobre{" "}
-          <a href="/plazo-recurso-extranjeria" className="underline">
-            plazo para recurrir en extranjería
-          </a>.
+          Esto implica que el análisis debe centrarse en los fundamentos jurídicos del caso, en la correcta aplicación de la normativa y en la valoración de la prueba aportada.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Diferencia entre recurso administrativo y contencioso
+          Cuándo puede ser necesario acudir a la vía judicial
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          El recurso administrativo se presenta ante la propia Administración que ha dictado la resolución, mientras que el recurso contencioso se plantea ante un órgano judicial.
+          No todos los casos requieren acudir a la vía contenciosa. Sin embargo, puede ser necesario cuando la denegación se basa en una interpretación discutible de la normativa, cuando existen errores en la valoración del expediente o cuando el recurso administrativo no ha permitido modificar la resolución.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Por ello, el nivel de exigencia en la argumentación jurídica, en la prueba y en la estrategia procesal es mayor en esta fase.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Si quieres conocer cómo funciona la vía administrativa previa, puedes consultar la página sobre{" "}
-          <a href="/recurso-denegacion-extranjeria" className="underline">
-            recurso de denegación de extranjería
-          </a>.
+          En estos supuestos, la vía judicial permite someter la decisión administrativa a control jurisdiccional,
+          <Link href="/recurso-denegacion-extranjeria" className="underline">
+            especialmente en relación con cuándo puede tener sentido recurrir una denegación en extranjería
+          </Link>
+          .
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          ¿Conviene acudir siempre al contencioso?
+          Por qué no todos los casos son adecuados para un contencioso
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No en todos los casos la vía contencioso-administrativa es la mejor opción. En algunos supuestos, puede resultar más adecuado replantear la solicitud o corregir los problemas detectados en el expediente.
+          Acudir a la vía judicial no siempre es la mejor opción. Se trata de un procedimiento más complejo, con mayor duración y que requiere una base jurídica sólida para que tenga sentido plantearlo.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Acudir a esta vía sin una base suficiente puede implicar costes y tiempos elevados, además de limitar otras posibles alternativas si no se plantea correctamente desde el inicio.
+          Por eso, antes de iniciar un contencioso, es fundamental analizar si el caso presenta fundamentos suficientes para sostener una impugnación ante los tribunales, ya que plantear una vía judicial sin base puede suponer un esfuerzo innecesario sin mejorar el resultado.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Importancia del análisis previo
+          Qué ocurre si no se actúa dentro de plazo
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Antes de interponer un recurso contencioso, es fundamental analizar la resolución, el expediente administrativo y las posibles opciones disponibles.
+          El acceso a la vía judicial está sujeto a plazos. Si no se actúa dentro del tiempo establecido, la posibilidad de impugnar la resolución puede perderse, lo que hace que la situación se consolide y limite las opciones posteriores.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Ese análisis permite determinar si existen argumentos jurídicos sólidos y si la vía judicial puede ser adecuada en tu caso concreto.
+          Por ello, no se trata solo de valorar si acudir a la vía judicial, sino de hacerlo dentro del plazo y con una estrategia adecuada.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          ¿Qué hacer en tu caso?
+          Qué hacer antes de iniciar un recurso contencioso
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si te encuentras en una situación en la que la vía administrativa no ha resuelto tu caso, conviene valorar con precisión si procede acudir al recurso contencioso-administrativo.
+          Antes de acudir a la vía judicial, lo recomendable es analizar la resolución, el expediente completo y las actuaciones previas para determinar si existe base suficiente para sostener el procedimiento.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Una revisión previa permite identificar si existe margen de actuación y definir la estrategia más adecuada en cada caso.
+          Este análisis permite valorar no solo la viabilidad del contencioso, sino también si existen alternativas más adecuadas en función del caso concreto.
+        </p>
+
+        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
+          Según el caso, el contencioso puede ser una vía adecuada o no
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si existen fundamentos jurídicos sólidos, el recurso contencioso puede ser una vía eficaz para impugnar la resolución y obtener un pronunciamiento judicial.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si necesitas valorar si tu caso puede plantearse ante la vía judicial, puedes solicitar una revisión inicial para analizar las opciones disponibles.
+          Si el caso no presenta una base suficiente, acudir a la vía judicial puede suponer un esfuerzo innecesario sin mejorar el resultado.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Por eso, la decisión de acudir a la vía contenciosa debe basarse en un análisis previo del expediente y no únicamente en la existencia de la posibilidad de hacerlo, ya que iniciar un procedimiento judicial sin una estrategia adecuada puede no modificar el resultado y limitar las opciones disponibles.
         </p>
 
         {/* CTA */}
@@ -133,7 +120,7 @@ export default function RecursoContenciosoExtranjeriaPage() {
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
-            Solicitar revisión de mi caso
+            Evaluar mi caso para contencioso
           </a>
 
           <a
@@ -145,31 +132,14 @@ export default function RecursoContenciosoExtranjeriaPage() {
             Consultar por WhatsApp
           </a>
 
-          <a
-            href="/"
+          <Link
+            href="/recurso-denegacion-extranjeria"
             className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
           >
-            Volver a la web
-          </a>
+            Volver a recurso de denegación
+          </Link>
         </div>
       </section>
-
-      {/* FOOTER */}
-      <footer className="border-t border-stone-200 bg-stone-50">
-        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
-          <div>
-            Abogado colegiado en el Ilustre Colegio de Abogados de Madrid
-            <br />
-            © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
-          </div>
-          <div className="flex gap-6">
-            <a href="/despacho">Despacho</a>
-            <a href="/aviso-legal">Aviso legal</a>
-            <a href="/politica-privacidad">Política de privacidad</a>
-            <a href="/cookies">Cookies</a>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }
