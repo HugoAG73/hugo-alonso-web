@@ -79,6 +79,10 @@ export default function ExpedienteEnTramiteExtranjeriaPage() {
           <Link href="/cuanto-tarda-extranjeria" className="underline">
             especialmente en relación con cuánto tarda extranjería en resolver
           </Link>
+          y en qué situaciones un expediente puede permanecer en tramitación durante más tiempo del habitual,
+          <Link href="/expediente-en-tramite-cuanto-tarda" className="underline">
+            algo que puede analizarse con más detalle cuando se trata de determinar cuánto tarda un expediente en trámite
+          </Link>
           .
         </p>
 

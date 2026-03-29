@@ -71,11 +71,15 @@ export default function ExpedienteEnEstudioExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En estos casos, no siempre es evidente si el procedimiento sigue su curso normal o si existe algún elemento que pueda afectar al resultado final.
+          En estos casos, no siempre es evidente si el procedimiento sigue su curso normal o si la duración de la fase de estudio empieza a reflejar una incidencia que convenga valorar.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Cuando el tiempo transcurrido empieza a ser significativo, puede ser necesario analizar si se ha producido alguna situación que requiera actuación,
+          Cuando el tiempo transcurrido empieza a ser significativo, puede ser necesario analizar si la fase de estudio sigue entrando dentro de lo normal o si la duración de ese estado exige una revisión más precisa,
+          <Link href="/expediente-en-estudio-cuanto-tarda" className="underline">
+            especialmente cuando se trata de determinar cuánto tarda un expediente en estudio
+          </Link>
+          y si además se ha producido alguna situación que requiera actuación,
           <Link href="/silencio-administrativo-extranjeria" className="underline">
             como ocurre en determinados supuestos de silencio administrativo en extranjería
           </Link>
