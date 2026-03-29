@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ArraigoSocialPage() {
   return (
@@ -7,7 +8,7 @@ export default function ArraigoSocialPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -16,7 +17,7 @@ export default function ArraigoSocialPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -24,11 +25,31 @@ export default function ArraigoSocialPage() {
       <section className="mx-auto max-w-3xl px-6 py-20">
 
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Arraigo social o arraigo sociolaboral: ¿puedes regularizar tu situación en tu caso concreto?
+          Arraigo social en España: cómo valorar si tu caso es viable
         </h1>
 
+        <p className="mt-8 text-base leading-7 text-slate-700">
+          El arraigo social es una de las principales vías para regularizar la situación en España, pero no siempre resulta aplicable en todos los casos ni basta con cumplir formalmente determinados requisitos.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En muchos supuestos, las dudas no están en saber qué se exige, sino en determinar si la situación concreta puede encajar realmente en esta vía y cómo plantear el expediente para evitar problemas durante la tramitación.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En este tipo de procedimientos, iniciar la solicitud sin analizar previamente el caso puede dar lugar a incidencias o a una denegación que complique futuras opciones de regularización.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          ¿Cuándo puede encajar el arraigo sociolaboral?
+          ¿Qué es el arraigo social?
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Se trata de una autorización de residencia por circunstancias excepcionales que permite regularizar la situación administrativa de personas extranjeras que llevan tiempo en España y cumplen determinados requisitos, aunque su viabilidad depende de cómo se acrediten estos elementos y de las circunstancias concretas de cada caso.
+        </p>
+
+        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
+          ¿Cuándo puede encajar el arraigo social?
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -40,7 +61,7 @@ export default function ArraigoSocialPage() {
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Problemas frecuentes en el arraigo sociolaboral
+          Problemas frecuentes en el arraigo social
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -55,6 +76,10 @@ export default function ArraigoSocialPage() {
         </ul>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
+          Aunque estos requisitos pueden parecer claros, en la práctica la dificultad suele estar en cómo se acreditan y en cómo se valoran en conjunto dentro del expediente.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
           Estos aspectos deben revisarse previamente antes de iniciar la solicitud para evitar incidencias o denegaciones.
         </p>
 
@@ -63,15 +88,7 @@ export default function ArraigoSocialPage() {
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          ¿Qué es el arraigo sociolaboral?
-        </h2>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Se trata de una autorización de residencia por circunstancias excepcionales que permite regularizar la situación administrativa de personas extranjeras que llevan tiempo en España y cumplen determinados requisitos.
-        </p>
-
-        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Requisitos principales del arraigo sociolaboral
+          Requisitos principales del arraigo social
         </h2>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
@@ -86,12 +103,16 @@ export default function ArraigoSocialPage() {
           <li>Integración o vinculación con el entorno social</li>
         </ul>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          La forma en que se acreditan estos requisitos y cómo se presentan dentro del expediente puede influir directamente en el resultado del procedimiento.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          Cuándo el arraigo sociolaboral puede no ser la mejor opción
+          Cuándo el arraigo social puede no ser la mejor opción
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No todos los casos encajan en esta vía. En determinadas situaciones, puede ser más adecuado valorar otras opciones de regularización o posponer la solicitud hasta contar con una base documental suficiente.
+          No todos los casos encajan en esta vía. En determinadas situaciones, puede ser más adecuado valorar otras opciones de regularización o posponer la solicitud hasta contar con una base suficiente, ya que iniciar un expediente sin encaje claro puede dar lugar a una denegación que complique actuaciones posteriores.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -100,16 +121,16 @@ export default function ArraigoSocialPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si ya has recibido una resolución desfavorable en extranjería, también puedes consultar información sobre la{" "}
-          <a href="/denegacion-extranjeria" className="underline">
+          <Link href="/denegacion-extranjeria" className="underline">
             denegación de extranjería
-          </a>, ya que en algunos casos conviene valorar si resulta más adecuado recurrir o replantear la estrategia.
+          </Link>, ya que en algunos casos conviene valorar si resulta más adecuado recurrir o replantear la estrategia.
           </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si la resolución desfavorable afecta específicamente a una solicitud de arraigo, puedes consultar también la página sobre{" "}
-          <a href="/denegacion-arraigo-social" className="underline">
+          <Link href="/denegacion-arraigo-social" className="underline">
             denegación de arraigo social
-          </a>, donde se explican los motivos más frecuentes y qué puede valorarse en ese tipo de situaciones.
+          </Link>, donde se explican los motivos más frecuentes y qué puede valorarse en ese tipo de situaciones.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -118,13 +139,13 @@ export default function ArraigoSocialPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           También puedes consultar información sobre la{" "}
-          <a href="/regularizacion-espana" className="underline">
+          <Link href="/regularizacion-espana" className="underline">
             regularización en España
-          </a>, ya que en algunos casos puede ser más adecuado analizar esa vía antes de iniciar un procedimiento de arraigo.
+          </Link>, ya que en algunos casos puede ser más adecuado analizar esa vía antes de iniciar un procedimiento de arraigo.
 	</p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Además del arraigo sociolaboral, existen otras modalidades de arraigo en la normativa de extranjería, como el arraigo laboral o el arraigo familiar.
+          Además del arraigo social, existen otras modalidades de arraigo en la normativa de extranjería, como el arraigo laboral o el arraigo familiar.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -136,7 +157,7 @@ export default function ArraigoSocialPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No en todos los casos es posible acceder al arraigo sociolaboral. En muchos casos, pequeños detalles pueden determinar si el procedimiento puede iniciarse con garantías.
+          No en todos los casos es posible acceder al arraigo social. En muchos casos, pequeños detalles pueden determinar si el procedimiento puede iniciarse con garantías.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -149,6 +170,10 @@ export default function ArraigoSocialPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si tienes dudas sobre si cumples los requisitos o sobre cómo plantear el procedimiento, puedes solicitar una revisión inicial de tu caso.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Cuando existen dudas sobre si un caso puede encajar en el arraigo social, analizar la situación antes de presentar la solicitud permite evitar errores que pueden afectar al resultado del procedimiento.
         </p>
 
         {/* CTA */}

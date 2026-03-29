@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function RenovarResidenciaFueraDePlazoPage() {
   return (
@@ -6,7 +7,7 @@ export default function RenovarResidenciaFueraDePlazoPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -15,7 +16,7 @@ export default function RenovarResidenciaFueraDePlazoPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -32,10 +33,7 @@ export default function RenovarResidenciaFueraDePlazoPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No todas las renovaciones fuera de plazo deben afrontarse del mismo
-          modo. Antes de actuar, conviene analizar la fecha de vencimiento, el
-          tiempo transcurrido, el tipo de autorización y las circunstancias
-          concretas del expediente.
+          No todas las renovaciones fuera de plazo deben afrontarse del mismo modo. Antes de actuar, conviene analizar la fecha de vencimiento, el tiempo transcurrido, el tipo de autorización y las circunstancias concretas del expediente, ya que una actuación incorrecta puede limitar las opciones disponibles.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -75,7 +73,7 @@ export default function RenovarResidenciaFueraDePlazoPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Dejar pasar el tiempo sin revisar la situación o sin adoptar ninguna actuación puede limitar de forma significativa las opciones disponibles.
+          Dejar pasar el tiempo sin revisar la situación o sin adoptar ninguna actuación puede limitar de forma significativa las opciones disponibles y hacer que determinadas vías dejen de ser viables.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -101,6 +99,10 @@ export default function RenovarResidenciaFueraDePlazoPage() {
         </ul>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
+          En muchos casos, estos errores se producen por actuar con prisa o sin analizar previamente la situación, lo que puede dar lugar a incidencias que podrían haberse evitado con una revisión adecuada.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
           Detectar estos problemas antes de presentar ninguna actuación permite
           evitar incidencias mayores y proteger mejor la situación del
           interesado.
@@ -111,10 +113,7 @@ export default function RenovarResidenciaFueraDePlazoPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Cuando la renovación se plantea fuera de plazo, es necesario analizar
-          si todavía existe margen para solicitarla, si conviene justificar la
-          situación de una determinada forma o si resulta más adecuado estudiar
-          otra estrategia.
+          Cuando la renovación se plantea fuera de plazo, es necesario analizar si todavía existe margen para solicitarla, si conviene justificar la situación de una determinada forma o si resulta más adecuado estudiar otra estrategia, ya que no todas las situaciones ofrecen las mismas posibilidades.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -146,29 +145,29 @@ export default function RenovarResidenciaFueraDePlazoPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si necesitas una visión general del procedimiento ordinario, también
           puedes consultar la página sobre{" "}
-          <a href="/renovacion-residencia" className="underline">
+          <Link href="/renovacion-residencia" className="underline">
             renovación de residencia
-          </a>
+          </Link>
           .
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           En algunos casos, además, puede ser necesario estudiar si existe otra
           vía de{" "}
-          <a href="/regularizacion-espana" className="underline">
+          <Link href="/regularizacion-espana" className="underline">
             regularización en España
-          </a>{" "}
+          </Link>{" "}
           o, si ya se ha dictado una resolución negativa, revisar la página sobre{" "}
-          <a href="/denegacion-extranjeria" className="underline">
+          <Link href="/denegacion-extranjeria" className="underline">
             denegación de extranjería
-          </a>{" "}
+          </Link>{" "}
           y, en su caso, la de{" "}
-          <a
+          <Link
             href="/recurso-denegacion-extranjeria"
             className="underline"
           >
             recurso de denegación de extranjería
-          </a>
+          </Link>
           .
         </p>
 
@@ -189,9 +188,7 @@ export default function RenovarResidenciaFueraDePlazoPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si necesitas revisar una renovación de residencia fuera de plazo,
-          puedes solicitar una revisión inicial para valorar las opciones
-          disponibles en tu caso.
+          Cuando el plazo ya ha vencido, analizar el caso con precisión permite valorar si todavía existe margen de actuación o si conviene adoptar otra estrategia antes de que la situación se complique.
         </p>
 
         {/* CTA */}

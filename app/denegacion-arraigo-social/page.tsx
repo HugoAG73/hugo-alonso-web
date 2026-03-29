@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function DenegacionArraigoSocialPage() {
   return (
@@ -6,7 +7,7 @@ export default function DenegacionArraigoSocialPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -15,7 +16,7 @@ export default function DenegacionArraigoSocialPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -32,7 +33,7 @@ export default function DenegacionArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Tras las últimas modificaciones en la normativa de extranjería, algunas de las situaciones que tradicionalmente se encuadraban como arraigo social han evolucionado, incluyendo supuestos como el arraigo sociolaboral. Por eso, es importante analizar cada caso con precisión y no basarse únicamente en denominaciones generales.
+          Tras las últimas modificaciones en la normativa de extranjería, algunas de las situaciones que tradicionalmente se encuadraban como arraigo social han evolucionado, incluyendo supuestos como el arraigo sociolaboral. Por eso, es importante analizar cada caso con precisión y no basarse únicamente en denominaciones generales, ya que una valoración incorrecta puede condicionar las opciones disponibles.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -60,6 +61,10 @@ export default function DenegacionArraigoSocialPage() {
         </ul>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
+          En muchos casos, estos problemas no se detectan antes de presentar la solicitud, lo que puede dar lugar a una denegación que podría haberse evitado con una revisión previa del expediente.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
           Identificar correctamente el motivo de la denegación es fundamental
           para no repetir errores y para valorar qué actuación puede resultar
           más adecuada.
@@ -70,8 +75,7 @@ export default function DenegacionArraigoSocialPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En muchos casos, puede ser posible recurrir una denegación de arraigo
-          social o sociolaboral. Sin embargo, no siempre es la opción más conveniente.
+          En muchos casos, puede ser posible recurrir una denegación de arraigo social o sociolaboral. Sin embargo, no siempre es la opción más conveniente, ya que recurrir sin una base suficiente puede prolongar el procedimiento sin mejorar el resultado.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -96,9 +100,7 @@ export default function DenegacionArraigoSocialPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Dejar transcurrir el plazo sin revisar la resolución o sin adoptar
-          ninguna actuación puede limitar de forma significativa las opciones
-          disponibles.
+          Dejar transcurrir el plazo sin revisar la resolución o sin adoptar ninguna actuación puede limitar de forma significativa las opciones disponibles y hacer que determinadas vías dejen de ser viables.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -138,13 +140,13 @@ export default function DenegacionArraigoSocialPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Puedes consultar también la página sobre{" "}
-          <a href="/arraigo-social" className="underline">
+          <Link href="/arraigo-social" className="underline">
             arraigo social o arraigo sociolaboral
-          </a>{" "}
+          </Link>{" "}
           y sobre la{" "}
-          <a href="/regularizacion-espana" className="underline">
+          <Link href="/regularizacion-espana" className="underline">
             regularización en España
-          </a>
+          </Link>
           .
         </p>
 
@@ -165,8 +167,7 @@ export default function DenegacionArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si necesitas revisar una denegación de arraigo social o sociolaboral, puedes solicitar
-          una revisión inicial para valorar las opciones disponibles en tu caso.
+          Cuando se recibe una denegación de arraigo, analizar el caso con precisión permite valorar si existe margen de actuación o si conviene replantear la estrategia antes de que la situación se consolide.
         </p>
 
         {/* CTA */}

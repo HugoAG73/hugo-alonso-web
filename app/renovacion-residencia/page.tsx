@@ -7,7 +7,7 @@ export default function RenovacionResidenciaPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -16,7 +16,7 @@ export default function RenovacionResidenciaPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -33,9 +33,7 @@ export default function RenovacionResidenciaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Actuar sin revisar estos aspectos puede llevar a presentar una solicitud fuera de plazo, 
-          incompleta o con riesgo de denegación. Por eso, antes de iniciar la renovación, conviene 
-          analizar con precisión en qué situación se encuentra el expediente.
+          Actuar sin revisar estos aspectos puede llevar a presentar una solicitud fuera de plazo, incompleta o con riesgo de denegación, lo que puede afectar a la continuidad de la residencia si no se corrige a tiempo.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -43,10 +41,7 @@ export default function RenovacionResidenciaPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          La renovación de residencia debe plantearse dentro del plazo previsto
-          por la normativa. Actuar con retraso o dejar pasar el tiempo sin
-          revisar la situación puede complicar el procedimiento y generar
-          problemas evitables.
+          La renovación de residencia debe plantearse dentro del plazo previsto por la normativa. Actuar con retraso o dejar pasar el tiempo sin revisar la situación puede complicar el procedimiento y limitar las opciones disponibles.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -105,6 +100,10 @@ export default function RenovacionResidenciaPage() {
         </ul>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
+          En muchos casos, estos problemas no se detectan antes de presentar la solicitud, lo que puede dar lugar a requerimientos o a una resolución desfavorable que podría haberse evitado con una revisión previa.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
           Estos problemas no siempre se identifican a simple vista. En muchos casos,
           la solicitud se presenta pensando que todo está correcto y es posteriormente
           cuando surgen requerimientos o resoluciones desfavorables.
@@ -120,10 +119,7 @@ export default function RenovacionResidenciaPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No en todos los casos la falta de un requisito implica automáticamente
-          la imposibilidad de renovar. En determinadas situaciones, puede ser
-          necesario valorar con detalle si existe margen para sostener la
-          renovación o si conviene estudiar otra alternativa.
+          No en todos los casos la falta de un requisito implica automáticamente la imposibilidad de renovar. En determinadas situaciones, puede ser necesario valorar con detalle si existe margen para sostener la renovación o si conviene estudiar otra alternativa, ya que iniciar el procedimiento sin base suficiente puede dar lugar a una denegación.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -187,6 +183,10 @@ export default function RenovacionResidenciaPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Antes de presentar la solicitud, una revisión jurídica permite comprobar si la renovación puede plantearse con base suficiente o si existe algún aspecto que convenga corregir previamente.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Cuando existen dudas sobre si la renovación puede plantearse correctamente, analizar el caso antes de presentar la solicitud permite evitar errores que pueden afectar a la continuidad de la residencia.
         </p>
 
         {/* CTA */}
