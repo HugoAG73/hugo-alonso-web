@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -66,7 +67,7 @@ export default function Home() {
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2 lg:px-8">
-          <a href="/" aria-label="Ir a la página principal">
+          <Link href="/" aria-label="Ir a la página principal">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -75,7 +76,7 @@ export default function Home() {
               priority
               className="h-[70px] w-auto md:h-[85px]"
             />
-          </a>
+          </Link>
 
           <div className="hidden items-center gap-6 md:flex">
             <a
@@ -110,20 +111,54 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-xl leading-9 text-slate-800">
-              Estudio tu caso y te indico, con criterio jurídico, si existe una vía de regularización viable en tu situación.
+              Estudio tu caso y te indico, con criterio jurídico, si existe una vía de regularización viable en tu situación o si conviene esperar o replantear la estrategia.
             </p>
 
             <p className="mt-3 max-w-2xl text-base leading-7 text-slate-700">
-              Si tu situación permite iniciar un procedimiento, te indicaré cuál puede encajar mejor y cómo conviene plantearlo.
+              Si tu situación permite iniciar un procedimiento, te indicaré cuál puede resultar jurídicamente más adecuada.
             </p>
 
             <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-700">
-              Un planteamiento incorrecto puede cerrar opciones o debilitar futuras vías de regularización.
+              Un planteamiento incorrecto puede cerrar opciones o limitar futuras vías de regularización.
             </p>
 
             <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
               Abogado de extranjería en Madrid, colegiado en el Ilustre Colegio de la Abogacía de Madrid (ICAM), con atención directa y estudio personal de cada caso.
             </p>
+
+          <div className="mt-10 space-y-3 text-sm text-slate-700">
+            <p className="font-medium text-slate-900">
+              Principales vías de regularización:
+            </p>
+
+            <div className="flex flex-col gap-2 underline">
+              <Link href="/arraigo-social">
+                Arraigo social
+              </Link>
+
+              <Link href="/renovacion-residencia">
+                Renovación de residencia
+              </Link>
+
+              <Link href="/renovacion-fuera-de-plazo">
+                Renovación fuera de plazo
+              </Link>
+           </div>
+
+            <p className="mt-4 font-medium text-slate-900">
+              Situaciones frecuentes:
+            </p>
+
+           <div className="flex flex-col gap-2 underline">
+             <Link href="/denegacion-extranjeria">
+               Denegación de extranjería
+             </Link>
+
+             <Link href="/denegacion-arraigo-social">
+               Denegación de arraigo social
+             </Link>
+          </div>
+       </div>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
@@ -150,26 +185,26 @@ export default function Home() {
             </div>
 
             <p className="mt-4 text-sm text-slate-600">
-              La regularización exige valorar los hechos, la permanencia en España, la documentación disponible y los riesgos antes de decidir qué vía puede resultar jurídicamente adecuada.
+              La regularización exige valorar los hechos, la permanencia en España, la documentación disponible y los riesgos antes de decidir qué vía puede resultar jurídicamente adecuada o si conviene no iniciar aún el procedimiento.
             </p>
 
             <div className="mt-8 space-y-2 text-sm text-slate-600">
-              <p>
-                Puedes ampliar información sobre algunas de las principales vías y sobre situaciones frecuentes en extranjería:
+              <p className="mt-8 text-sm text-slate-600">
+                Puedes ampliar información sobre las principales vías de regularización y sobre situaciones que pueden afectar al resultado del expediente:
               </p>
 
               <div className="flex flex-col gap-1 underline">
-                <a href="/regularizacion-espana">
+                <Link href="/regularizacion-espana">
                   Regularización en España: requisitos y viabilidad
-                </a>
+                </Link>
 
-                <a href="/arraigo-social">
-                  Arraigo social (arraigo sociolaboral): cómo funciona
-                </a>
+                <Link href="/arraigo-social">
+                  Arraigo social: cómo funciona
+                </Link>
 
-                <a href="/denegacion-extranjeria">
+                <Link href="/denegacion-extranjeria">
                   Denegación de extranjería: qué hacer tras una resolución desfavorable
-                </a>
+                </Link>
               </div>
             </div>
 
