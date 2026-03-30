@@ -29,7 +29,7 @@ export default function DenegacionArraigoSocialPage() {
         <p className="mt-8 text-base leading-7 text-slate-700">
           Si has recibido una denegación en tu solicitud de arraigo social, es
           importante actuar con rapidez, revisar los motivos de la resolución y
-          valorar qué opciones pueden existir en tu caso antes de adoptar cualquier decisión.
+          valorar con precisión qué opciones pueden existir en tu caso antes de adoptar cualquier decisión.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -172,12 +172,12 @@ export default function DenegacionArraigoSocialPage() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Solicitar revisión de mi caso
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -186,13 +186,6 @@ export default function DenegacionArraigoSocialPage() {
             className="inline-flex items-center justify-center rounded-2xl bg-green-600 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Consultar por WhatsApp
-          </a>
-
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a la web
           </a>
         </div>
       </section>
@@ -206,10 +199,10 @@ export default function DenegacionArraigoSocialPage() {
             © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
           </div>
           <div className="flex gap-6">
-            <a href="/despacho">Despacho</a>
-            <a href="/aviso-legal">Aviso legal</a>
-            <a href="/politica-privacidad">Política de privacidad</a>
-            <a href="/cookies">Cookies</a>
+            <Link href="/despacho">Despacho</Link>
+            <Link href="/aviso-legal">Aviso legal</Link>
+            <Link href="/politica-privacidad">Política de privacidad</Link>
+            <Link href="/cookies">Cookies</Link>
           </div>
         </div>
       </footer>

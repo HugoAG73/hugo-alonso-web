@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function CuantoTardaExtranjeriaPage() {
   return (
@@ -6,7 +7,7 @@ export default function CuantoTardaExtranjeriaPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -15,7 +16,7 @@ export default function CuantoTardaExtranjeriaPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -90,9 +91,9 @@ export default function CuantoTardaExtranjeriaPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si necesitas revisar qué puede implicar la falta de respuesta en tu
           caso, puedes consultar también la página sobre{" "}
-          <a href="/silencio-administrativo-extranjeria" className="underline">
+          <Link href="/silencio-administrativo-extranjeria" className="underline">
             silencio administrativo en extranjería
-          </a>
+          </Link>
           .
         </p>
 
@@ -126,13 +127,13 @@ export default function CuantoTardaExtranjeriaPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si tu expediente está relacionado con una vía de arraigo o con otra
           fórmula de regularización, también puedes consultar las páginas sobre{" "}
-          <a href="/arraigo-social" className="underline">
-            arraigo social o arraigo sociolaboral
-          </a>{" "}
+          <Link href="/arraigo-social" className="underline">
+            arraigo social
+          </Link>{" "}
           y{" "}
-          <a href="/regularizacion-espana" className="underline">
+          <Link href="/regularizacion-espana" className="underline">
             regularización en España
-          </a>
+          </Link>
           .
         </p>
 
@@ -154,10 +155,14 @@ export default function CuantoTardaExtranjeriaPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           En algunos casos, tras un periodo prolongado sin resolución, puede producirse una respuesta desfavorable o ser necesario reaccionar frente a una denegación. Puedes consultar también la página sobre{" "}
-          <a href="/denegacion-extranjeria" className="underline">
+          <Link href="/denegacion-extranjeria" className="underline">
     denegación de extranjería
-          </a>{" "}
+          </Link>{" "}
           para entender qué opciones pueden valorarse en ese tipo de situaciones.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Esperar sin revisar la situación puede hacer que se pierda margen de actuación o que se retrase una decisión que podría resultar relevante en el procedimiento.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -185,12 +190,12 @@ export default function CuantoTardaExtranjeriaPage() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Solicitar revisión de mi caso
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -200,14 +205,8 @@ export default function CuantoTardaExtranjeriaPage() {
           >
             Consultar por WhatsApp
           </a>
-
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a la web
-          </a>
         </div>
+
       </section>
 
       {/* FOOTER */}
@@ -219,10 +218,10 @@ export default function CuantoTardaExtranjeriaPage() {
             © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
           </div>
           <div className="flex gap-6">
-            <a href="/despacho">Despacho</a>
-            <a href="/aviso-legal">Aviso legal</a>
-            <a href="/politica-privacidad">Política de privacidad</a>
-            <a href="/cookies">Cookies</a>
+            <Link href="/despacho">Despacho</Link>
+            <Link href="/aviso-legal">Aviso legal</Link>
+            <Link href="/politica-privacidad">Política de privacidad</Link>
+            <Link href="/cookies">Cookies</Link>
           </div>
         </div>
       </footer>

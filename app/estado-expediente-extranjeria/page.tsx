@@ -7,7 +7,7 @@ export default function EstadoExpedienteExtranjeriaPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -16,7 +16,7 @@ export default function EstadoExpedienteExtranjeriaPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -173,8 +173,7 @@ export default function EstadoExpedienteExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Esperar sin revisar el expediente puede retrasar decisiones útiles o
-          hacer que determinadas opciones se valoren demasiado tarde.
+          Esperar sin revisar el expediente puede hacer que se pierda margen de actuación o que determinadas opciones se valoren demasiado tarde.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -208,7 +207,7 @@ export default function EstadoExpedienteExtranjeriaPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si tu expediente está relacionado con una vía de arraigo o con otra fórmula de regularización, también puede ser útil revisar el contexto específico de ese procedimiento,
           <Link href="/arraigo-social" className="underline">
-            especialmente en supuestos de arraigo social o arraigo sociolaboral
+            especialmente en supuestos de arraigo social
           </Link>,
           así como otras opciones de
           <Link href="/regularizacion-espana" className="underline">
@@ -255,12 +254,12 @@ export default function EstadoExpedienteExtranjeriaPage() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Solicitar revisión de mi caso
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -269,13 +268,6 @@ export default function EstadoExpedienteExtranjeriaPage() {
             className="inline-flex items-center justify-center rounded-2xl bg-green-600 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Consultar por WhatsApp
-          </a>
-
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a la web
           </a>
         </div>
       </section>
@@ -289,10 +281,10 @@ export default function EstadoExpedienteExtranjeriaPage() {
             © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
           </div>
           <div className="flex gap-6">
-            <a href="/despacho">Despacho</a>
-            <a href="/aviso-legal">Aviso legal</a>
-            <a href="/politica-privacidad">Política de privacidad</a>
-            <a href="/cookies">Cookies</a>
+            <Link href="/despacho">Despacho</Link>
+            <Link href="/aviso-legal">Aviso legal</Link>
+            <Link href="/politica-privacidad">Política de privacidad</Link>
+            <Link href="/cookies">Cookies</Link>
           </div>
         </div>
       </footer>

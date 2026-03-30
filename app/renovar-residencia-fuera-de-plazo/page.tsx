@@ -28,8 +28,12 @@ export default function RenovarResidenciaFueraDePlazoPage() {
 
         <p className="mt-8 text-base leading-7 text-slate-700">
           Si el plazo para renovar tu autorización de residencia ya ha vencido,
-          es importante actuar con rapidez, revisar tu situación y valorar qué opciones
+          es importante analizar la situación con rapidez, revisar tu situación y valorar qué opciones
           pueden existir en tu caso.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Dejar pasar el tiempo sin analizar la situación puede hacer que determinadas opciones dejen de ser viables o que la situación administrativa se complique.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -187,18 +191,14 @@ export default function RenovarResidenciaFueraDePlazoPage() {
           adoptar una estrategia distinta para evitar una posible denegación.
         </p>
 
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Cuando el plazo ya ha vencido, analizar el caso con precisión permite valorar si todavía existe margen de actuación o si conviene adoptar otra estrategia antes de que la situación se complique.
-        </p>
-
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Solicitar revisión de mi caso
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -207,13 +207,6 @@ export default function RenovarResidenciaFueraDePlazoPage() {
             className="inline-flex items-center justify-center rounded-2xl bg-green-600 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Consultar por WhatsApp
-          </a>
-
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a la web
           </a>
         </div>
       </section>
@@ -227,18 +220,18 @@ export default function RenovarResidenciaFueraDePlazoPage() {
             © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
           </div>
           <div className="flex gap-6">
-            <a href="/despacho" className="hover:text-slate-800">
+            <Link href="/despacho" className="hover:text-slate-800">
               Despacho
-            </a>
-            <a href="/aviso-legal" className="hover:text-slate-800">
+            </Link>
+            <Link href="/aviso-legal" className="hover:text-slate-800">
               Aviso legal
-            </a>
-            <a href="/politica-privacidad" className="hover:text-slate-800">
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-slate-800">
               Política de privacidad
-            </a>
-            <a href="/cookies" className="hover:text-slate-800">
+            </Link>
+            <Link href="/cookies" className="hover:text-slate-800">
               Cookies
-            </a>
+            </Link>
           </div>
         </div>
       </footer>

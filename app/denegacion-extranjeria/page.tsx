@@ -23,11 +23,15 @@ export default function DenegacionExtranjeriaPage() {
       {/* CONTENIDO */}
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Denegación de extranjería: qué significa la resolución y qué opciones tienes
+          Denegación de extranjería: qué significa la resolución y qué opciones puedes valorar
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
           Recibir una denegación en un expediente de extranjería implica que la Administración ha considerado que no se cumplen los requisitos necesarios para conceder la autorización solicitada. A partir de ese momento, la situación cambia: ya no se trata de esperar una resolución, sino de decidir cómo actuar frente a ella.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Esperar sin analizar la resolución o retrasar la decisión puede hacer que se pierda margen de actuación o que determinadas opciones dejen de ser viables.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -128,12 +132,12 @@ export default function DenegacionExtranjeriaPage() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Revisar mi denegación
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -143,13 +147,6 @@ export default function DenegacionExtranjeriaPage() {
           >
             Consultar por WhatsApp
           </a>
-
-          <Link
-            href="/recurso-denegacion-extranjeria"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Ver cómo recurrir una denegación
-          </Link>
         </div>
       </section>
     </main>

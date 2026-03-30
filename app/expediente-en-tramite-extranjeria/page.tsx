@@ -23,8 +23,7 @@ export default function ExpedienteEnTramiteExtranjeriaPage() {
       {/* CONTENIDO */}
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Expediente en trámite en extranjería: qué significa y cuándo conviene
-          preocuparse
+          Expediente en trámite en extranjería: qué significa y cuándo puede indicar una incidencia relevante
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
@@ -212,12 +211,12 @@ export default function ExpedienteEnTramiteExtranjeriaPage() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Solicitar revisión de mi caso
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -227,13 +226,6 @@ export default function ExpedienteEnTramiteExtranjeriaPage() {
           >
             Consultar por WhatsApp
           </a>
-
-          <Link
-            href="/estado-expediente-extranjeria"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a estado del expediente
-          </Link>
         </div>
       </section>
 
@@ -246,18 +238,18 @@ export default function ExpedienteEnTramiteExtranjeriaPage() {
             © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
           </div>
           <div className="flex gap-6">
-            <a href="/despacho" className="hover:text-slate-800">
+            <Link href="/despacho" className="hover:text-slate-800">
               Despacho
-            </a>
-            <a href="/aviso-legal" className="hover:text-slate-800">
+            </Link>
+            <Link href="/aviso-legal" className="hover:text-slate-800">
               Aviso legal
-            </a>
-            <a href="/politica-privacidad" className="hover:text-slate-800">
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-slate-800">
               Política de privacidad
-            </a>
-            <a href="/cookies" className="hover:text-slate-800">
+            </Link>
+            <Link href="/cookies" className="hover:text-slate-800">
               Cookies
-            </a>
+            </Link>
           </div>
         </div>
       </footer>

@@ -23,7 +23,7 @@ export default function ExpedienteConRequerimientoExtranjeriaPage() {
       {/* CONTENIDO */}
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Expediente con requerimiento en extranjería: qué significa y cómo actuar dentro de plazo
+          Expediente con requerimiento en extranjería: qué significa y cómo actuar dentro del plazo concedido
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
@@ -32,6 +32,10 @@ export default function ExpedienteConRequerimientoExtranjeriaPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Aunque en muchos casos el requerimiento puede resolverse sin mayores consecuencias, también puede influir directamente en el resultado del expediente si no se responde adecuadamente o si la documentación presentada no resulta suficiente, lo que puede condicionar el sentido de la resolución.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Responder sin analizar el alcance del requerimiento puede hacer que se aporte documentación insuficiente o que se refuerce una interpretación desfavorable del expediente.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -136,12 +140,12 @@ export default function ExpedienteConRequerimientoExtranjeriaPage() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Revisar requerimiento de mi expediente
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -151,13 +155,6 @@ export default function ExpedienteConRequerimientoExtranjeriaPage() {
           >
             Consultar por WhatsApp
           </a>
-
-          <Link
-            href="/estado-expediente-extranjeria"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a estado del expediente
-          </Link>
         </div>
       </section>
     </main>

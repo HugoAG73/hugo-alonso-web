@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function DespachoPage() {
   return (
@@ -7,7 +8,7 @@ export default function DespachoPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -16,7 +17,7 @@ export default function DespachoPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -46,6 +47,10 @@ export default function DespachoPage() {
             No todos los supuestos pueden tramitarse ni todas las situaciones
             tienen una solución viable. Por eso, el primer paso siempre es un
             análisis jurídico riguroso de la situación concreta.
+          </p>
+
+          <p>
+            Iniciar un procedimiento sin un encaje claro puede dar lugar a una denegación que complique actuaciones posteriores o limite otras opciones de regularización.
           </p>
 
           <p>
@@ -90,20 +95,19 @@ export default function DespachoPage() {
 
 
           <p className="font-medium text-slate-800">
-            El objetivo es que tomes decisiones con información clara, evitando
-            errores que puedan afectar a tu situación administrativa.
+            El objetivo es que puedas tomar decisiones con información clara y con conocimiento de las posibles consecuencias.
           </p>
         </div>
 
         {/* BOTONES */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
           
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5"
           >
             Solicitar valoración
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400?text=Hola,%20quiero%20hacer%20una%20consulta%20sobre%20mi%20situaci%C3%B3n."
@@ -113,13 +117,6 @@ export default function DespachoPage() {
           >
             Escribirme por WhatsApp
           </a>
-
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a la web
-          </a>
         </div>
       </section>
 
@@ -127,18 +124,18 @@ export default function DespachoPage() {
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div>© 2026 Hugo Alonso Abogado. Todos los derechos reservados.</div>
           <div className="flex gap-6">
-            <a href="/despacho" className="hover:text-slate-800">
+            <Link href="/despacho" className="hover:text-slate-800">
               Despacho
-            </a>
-            <a href="/aviso-legal" className="hover:text-slate-800">
+            </Link>
+            <Link href="/aviso-legal" className="hover:text-slate-800">
               Aviso legal
-            </a>
-            <a href="/politica-privacidad" className="hover:text-slate-800">
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-slate-800">
               Política de privacidad
-            </a>
-            <a href="/cookies" className="hover:text-slate-800">
+            </Link>
+            <Link href="/cookies" className="hover:text-slate-800">
               Cookies
-            </a>
+            </Link>
           </div>
         </div>
       </footer>

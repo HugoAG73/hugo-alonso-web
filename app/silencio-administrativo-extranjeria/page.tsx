@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function SilencioAdministrativoExtranjeriaPage() {
   return (
@@ -6,7 +7,7 @@ export default function SilencioAdministrativoExtranjeriaPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -15,7 +16,7 @@ export default function SilencioAdministrativoExtranjeriaPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -27,8 +28,12 @@ export default function SilencioAdministrativoExtranjeriaPage() {
 
         <p className="mt-8 text-base leading-7 text-slate-700">
           Si ha transcurrido el plazo sin recibir resolución en tu expediente de
-          extranjería, es importante revisar qué efecto puede tener el silencio
+          extranjería, es importante analizar qué efecto puede tener el silencio
           administrativo y qué actuaciones conviene valorar en tu caso.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Interpretar de forma incorrecta el efecto del silencio administrativo o actuar sin analizar el expediente puede dar lugar a decisiones que perjudiquen la situación administrativa.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -40,9 +45,9 @@ export default function SilencioAdministrativoExtranjeriaPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si tienes dudas sobre cuánto puede tardar extranjería en resolver tu solicitud y si el tiempo transcurrido entra dentro de lo normal en tu caso, puedes consultar también la página sobre{" "}
-          <a href="/cuanto-tarda-extranjeria" className="underline">
+          <Link href="/cuanto-tarda-extranjeria" className="underline">
             cuánto tarda extranjería en resolver
-          </a>.
+          </Link>.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -153,29 +158,29 @@ export default function SilencioAdministrativoExtranjeriaPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si el problema deriva de una resolución negativa o de una denegación
           expresa, también puede ser útil consultar la página sobre{" "}
-          <a href="/denegacion-extranjeria" className="underline">
+          <Link href="/denegacion-extranjeria" className="underline">
             denegación de extranjería
-          </a>{" "}
+          </Link>{" "}
           y, si lo que necesitas es valorar una posible impugnación, la página
           sobre{" "}
-          <a
+          <Link
             href="/recurso-denegacion-extranjeria"
             className="underline"
           >
             recurso de denegación de extranjería
-          </a>
+          </Link>
           .
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En otros casos, puede resultar útil revisar si existe alguna vía de{" "}
-          <a href="/regularizacion-espana" className="underline">
+          En otros casos, puede resultar conveniente revisar si existe alguna vía de{" "}
+          <Link href="/regularizacion-espana" className="underline">
             regularización en España
-          </a>{" "}
+          </Link>{" "}
           o si conviene valorar una autorización concreta, como el{" "}
-          <a href="/arraigo-social" className="underline">
-            arraigo social o arraigo sociolaboral
-          </a>
+          <Link href="/arraigo-social" className="underline">
+            arraigo social
+          </Link>
           , en función de la situación del interesado.
         </p>
 
@@ -204,12 +209,12 @@ export default function SilencioAdministrativoExtranjeriaPage() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Solicitar revisión de mi caso
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -218,13 +223,6 @@ export default function SilencioAdministrativoExtranjeriaPage() {
             className="inline-flex items-center justify-center rounded-2xl bg-green-600 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Consultar por WhatsApp
-          </a>
-
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a la web
           </a>
         </div>
       </section>
@@ -238,18 +236,18 @@ export default function SilencioAdministrativoExtranjeriaPage() {
             © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
           </div>
           <div className="flex gap-6">
-            <a href="/despacho" className="hover:text-slate-800">
+            <Link href="/despacho" className="hover:text-slate-800">
               Despacho
-            </a>
-            <a href="/aviso-legal" className="hover:text-slate-800">
+            </Link>
+            <Link href="/aviso-legal" className="hover:text-slate-800">
               Aviso legal
-            </a>
-            <a href="/politica-privacidad" className="hover:text-slate-800">
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-slate-800">
               Política de privacidad
-            </a>
-            <a href="/cookies" className="hover:text-slate-800">
+            </Link>
+            <Link href="/cookies" className="hover:text-slate-800">
               Cookies
-            </a>
+            </Link>
           </div>
         </div>
       </footer>

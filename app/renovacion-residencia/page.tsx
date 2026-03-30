@@ -33,7 +33,11 @@ export default function RenovacionResidenciaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Actuar sin revisar estos aspectos puede llevar a presentar una solicitud fuera de plazo, incompleta o con riesgo de denegación, lo que puede afectar a la continuidad de la residencia si no se corrige a tiempo.
+          Presentar la renovación sin revisar previamente los requisitos o la situación concreta puede dar lugar a incidencias o a una denegación que podría haberse evitado.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Actuar sin analizar estos aspectos puede llevar a presentar una solicitud fuera de plazo, incompleta o con riesgo de denegación, lo que puede afectar a la continuidad de la residencia si no se corrige a tiempo.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -165,38 +169,14 @@ export default function RenovacionResidenciaPage() {
           </Link>.
         </p>
 
-        <h2 className="mt-12 text-2xl font-semibold text-slate-900">
-          ¿Qué hacer en tu caso?
-        </h2>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Si tienes que renovar tu residencia, conviene revisar la fecha de
-          vencimiento, la documentación disponible y los requisitos aplicables
-          antes de presentar la solicitud.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Ese análisis permite valorar si la renovación puede plantearse con
-          seguridad, si existe algún riesgo que deba corregirse previamente o si
-          resulta más adecuado estudiar otra estrategia.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Antes de presentar la solicitud, una revisión jurídica permite comprobar si la renovación puede plantearse con base suficiente o si existe algún aspecto que convenga corregir previamente.
-        </p>
-
-        <p className="mt-4 text-base leading-7 text-slate-700">
-          Cuando existen dudas sobre si la renovación puede plantearse correctamente, analizar el caso antes de presentar la solicitud permite evitar errores que pueden afectar a la continuidad de la residencia.
-        </p>
-
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Solicitar revisión de mi caso
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -205,13 +185,6 @@ export default function RenovacionResidenciaPage() {
             className="inline-flex items-center justify-center rounded-2xl bg-green-600 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Consultar por WhatsApp
-          </a>
-
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a la web
           </a>
         </div>
       </section>
@@ -225,18 +198,18 @@ export default function RenovacionResidenciaPage() {
             © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
           </div>
           <div className="flex gap-6">
-            <a href="/despacho" className="hover:text-slate-800">
+            <Link href="/despacho" className="hover:text-slate-800">
               Despacho
-            </a>
-            <a href="/aviso-legal" className="hover:text-slate-800">
+            </Link>
+            <Link href="/aviso-legal" className="hover:text-slate-800">
               Aviso legal
-            </a>
-            <a href="/politica-privacidad" className="hover:text-slate-800">
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-slate-800">
               Política de privacidad
-            </a>
-            <a href="/cookies" className="hover:text-slate-800">
+            </Link>
+            <Link href="/cookies" className="hover:text-slate-800">
               Cookies
-            </a>
+            </Link>
           </div>
         </div>
       </footer>

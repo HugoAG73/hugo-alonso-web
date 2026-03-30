@@ -31,7 +31,13 @@ export default function PorQueDenieganExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Entender por qué se produce una denegación es importante, no solo para conocer qué ha fallado, sino también para determinar si existen opciones para recurrir o si la situación puede corregirse en un nuevo procedimiento.
+          Entender por qué se produce una denegación es clave, no solo para conocer qué ha fallado, sino también para determinar si existen opciones para recurrir o si la situación puede corregirse en un nuevo procedimiento.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Analizar correctamente el motivo de la denegación desde el inicio puede evitar
+  errores al decidir cómo actuar y ayudar a no perder opciones que podrían ser
+  relevantes en tu caso.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -152,12 +158,12 @@ export default function PorQueDenieganExtranjeriaPage() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Revisar resolución de mi expediente
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -167,15 +173,33 @@ export default function PorQueDenieganExtranjeriaPage() {
           >
             Consultar por WhatsApp
           </a>
-
-          <Link
-            href="/denegacion-extranjeria"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Ir a denegación de extranjería
-          </Link>
         </div>
       </section>
+
+      {/* FOOTER */}
+      <footer className="border-t border-stone-200 bg-stone-50">
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+          <div>
+            Abogado colegiado en el Ilustre Colegio de Abogados de Madrid
+            <br />
+            © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
+          </div>
+          <div className="flex gap-6">
+            <Link href="/despacho" className="hover:text-slate-800">
+              Despacho
+            </Link>
+            <Link href="/aviso-legal" className="hover:text-slate-800">
+              Aviso legal
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-slate-800">
+              Política de privacidad
+            </Link>
+            <Link href="/cookies" className="hover:text-slate-800">
+              Cookies
+            </Link>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }

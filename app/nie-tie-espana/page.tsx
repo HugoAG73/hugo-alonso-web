@@ -91,6 +91,10 @@ export default function NieTieEspanaPage() {
             el problema en el documento equivocado: a veces no falta una tarjeta, sino
             comprobar una resolución, actuar dentro de plazo o revisar una denegación.
           </p>
+
+          <p className="mt-4 text-lg leading-8 text-slate-700">
+            Analizar a tiempo esta diferencia puede evitar actuaciones innecesarias o detectar si el problema real no está en el documento, sino en el expediente.
+          </p>
         </div>
       </section>
 
@@ -453,10 +457,10 @@ export default function NieTieEspanaPage() {
 
           <div className="mt-8">
             <Link
-              href="/contacto"
+              href="/#contacto"
               className="inline-flex items-center rounded-xl bg-slate-950 px-5 py-3 text-sm font-medium text-white transition hover:bg-slate-800"
             >
-              Solicitar revisión del caso
+              Solicitar revisión de mi situación
             </Link>
           </div>
         </div>

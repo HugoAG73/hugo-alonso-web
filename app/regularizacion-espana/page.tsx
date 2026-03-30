@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function RegularizacionPage() {
   return (
@@ -7,7 +8,7 @@ export default function RegularizacionPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -16,7 +17,7 @@ export default function RegularizacionPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -24,7 +25,7 @@ export default function RegularizacionPage() {
       <section className="mx-auto max-w-3xl px-6 py-20">
 
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Regularización en España: ¿qué opciones existen en tu caso y cuál puede ser viable?
+          Regularización en España: qué opciones existen y cuál puede ser viable en tu caso
         </h1>
 
         <p className="mt-6 text-base leading-7 text-slate-700">
@@ -33,6 +34,10 @@ export default function RegularizacionPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Antes de tomar decisiones, es importante determinar si existe una vía viable de regularización en tu situación concreta y si conviene iniciar un procedimiento o esperar.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Actuar sin analizar previamente qué vía puede ser viable en tu caso puede dar lugar a solicitudes que no prosperen o a decisiones que limiten opciones futuras.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -49,9 +54,9 @@ export default function RegularizacionPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si ya dispones de una autorización de residencia y necesitas renovarla, puedes consultar la página sobre{" "}
-          <a href="/renovacion-residencia" className="underline">
+          <Link href="/renovacion-residencia" className="underline">
             renovación de residencia
-          </a>, donde se explican los plazos, los requisitos y los problemas más habituales en este tipo de procedimientos.
+          </Link>, donde se explican los plazos, los requisitos y los problemas más habituales en este tipo de procedimientos.
         </p>
 
 	<h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -96,9 +101,9 @@ export default function RegularizacionPage() {
 
 	<p className="mt-4 text-base leading-7 text-slate-700">
  	  Entre estas vías se encuentra el{" "}
-  	<a href="/arraigo-social" className="underline">
-    	  arraigo social (arraigo sociolaboral)
- 	</a>, que puede ser una alternativa real en función de la situación concreta.
+  	<Link href="/arraigo-social" className="underline">
+    	  arraigo social
+ 	</Link>, que puede ser una alternativa real en función de la situación concreta.
 	</p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -143,20 +148,20 @@ export default function RegularizacionPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si ya has recibido una resolución desfavorable en un procedimiento de extranjería, también puedes consultar la página sobre{" "}
-          <a href="/denegacion-extranjeria" className="underline">
+          <Link href="/denegacion-extranjeria" className="underline">
             denegación de extranjería
-          </a>, donde se explica qué puede revisarse tras una resolución negativa y cuándo puede ser conveniente recurrir o plantear una nueva solicitud.
+          </Link>, donde se explica qué puede revisarse tras una resolución negativa y cuándo puede ser conveniente recurrir o plantear una nueva solicitud.
         </p>
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
 
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Solicitar revisión de mi caso
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -166,14 +171,6 @@ export default function RegularizacionPage() {
           >
             Consultar por WhatsApp
           </a>
-
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a la web
-          </a>
-
         </div>
 
       </section>
@@ -187,14 +184,21 @@ export default function RegularizacionPage() {
             © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
           </div>
           <div className="flex gap-6">
-            <a href="/despacho">Despacho</a>
-            <a href="/aviso-legal">Aviso legal</a>
-            <a href="/politica-privacidad">Política de privacidad</a>
-            <a href="/cookies">Cookies</a>
+            <Link href="/despacho" className="hover:text-slate-800">
+              Despacho
+            </Link>
+            <Link href="/aviso-legal" className="hover:text-slate-800">
+              Aviso legal
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-slate-800">
+              Política de privacidad
+            </Link>
+            <Link href="/cookies" className="hover:text-slate-800">
+              Cookies
+            </Link>
           </div>
         </div>
       </footer>
-
     </main>
   );
 }

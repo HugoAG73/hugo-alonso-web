@@ -23,7 +23,7 @@ export default function ExpedienteEnEstudioCuantoTardaPage() {
       {/* CONTENIDO */}
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Cuánto tarda un expediente en estudio en extranjería y cuándo puede ser un problema
+          Cuánto tarda un expediente en estudio en extranjería y cuándo puede indicar una incidencia relevante
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
@@ -32,6 +32,10 @@ export default function ExpedienteEnEstudioCuantoTardaPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           El problema es que muchas personas interpretan que, si el expediente permanece en estudio durante un tiempo prolongado, necesariamente existe una incidencia. En la práctica, esto no siempre es así, aunque sí puede ser un indicio que conviene analizar con más detalle.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Esperar sin analizar la situación puede hacer que se pierda margen de actuación o que no se detecte a tiempo una posible incidencia en el expediente.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -128,12 +132,12 @@ export default function ExpedienteEnEstudioCuantoTardaPage() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Solicitar revisión de mi caso
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -143,13 +147,6 @@ export default function ExpedienteEnEstudioCuantoTardaPage() {
           >
             Consultar por WhatsApp
           </a>
-
-          <Link
-            href="/expediente-en-estudio-extranjeria"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a expediente en estudio
-          </Link>
         </div>
       </section>
     </main>

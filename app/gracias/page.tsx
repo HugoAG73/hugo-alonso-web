@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function GraciasPage() {
   return (
     <main className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2.5 lg:px-8">
-          <a href="/" aria-label="Volver a la página principal">
+          <Link href="/" aria-label="Volver a la página principal">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -14,7 +15,7 @@ export default function GraciasPage() {
               priority
               className="h-[70px] w-auto md:h-[85px]"
             />
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -29,8 +30,7 @@ export default function GraciasPage() {
           </h1>
 
           <p className="mt-6 text-base leading-7 text-slate-600">
-            Revisaré tu situación y te responderé lo antes posible. Si tu caso es
-            urgente, también puedes escribirme directamente por WhatsApp.
+            Revisaré tu situación y te responderé lo antes posible con una primera valoración.
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

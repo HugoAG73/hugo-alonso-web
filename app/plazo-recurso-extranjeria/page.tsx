@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function PlazoRecursoExtranjeriaPage() {
   return (
@@ -6,7 +7,7 @@ export default function PlazoRecursoExtranjeriaPage() {
       {/* HEADER */}
       <header className="border-b border-stone-200 bg-white">
         <div className="flex justify-center py-4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo-header-cropped.png"
               alt="Hugo Alonso Abogado"
@@ -15,7 +16,7 @@ export default function PlazoRecursoExtranjeriaPage() {
               className="h-[70px] w-auto md:h-[85px]"
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -27,7 +28,7 @@ export default function PlazoRecursoExtranjeriaPage() {
 
         <p className="mt-8 text-base leading-7 text-slate-700">
           Si has recibido una resolución desfavorable en un procedimiento de
-          extranjería, es importante actuar con rapidez, comprobar qué plazo existe para
+          extranjería, es importante analizar la situación con rapidez, comprobar qué plazo existe para
           recurrir y qué opciones pueden plantearse en tu caso.
         </p>
 
@@ -36,6 +37,10 @@ export default function PlazoRecursoExtranjeriaPage() {
           resoluciones deben afrontarse del mismo modo. Antes de actuar,
           conviene revisar la fecha de notificación, el tipo de resolución y la
           vía que puede resultar adecuada.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Esperar sin analizar la resolución o dejar transcurrir el plazo puede hacer que se pierda la posibilidad de recurrir o limitar de forma significativa las opciones disponibles.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -134,22 +139,22 @@ export default function PlazoRecursoExtranjeriaPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si necesitas una visión general de la resolución negativa, puedes
           consultar la página sobre{" "}
-          <a href="/denegacion-extranjeria" className="underline">
+          <Link href="/denegacion-extranjeria" className="underline">
             denegación de extranjería
-          </a>
+          </Link>
           .
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si ya estás valorando la impugnación, también puedes consultar la
           página sobre{" "}
-          <a href="/recurso-denegacion-extranjeria" className="underline">
+          <Link href="/recurso-denegacion-extranjeria" className="underline">
             recurso de denegación de extranjería
-          </a>{" "}
+          </Link>{" "}
           y, si el asunto puede requerir acudir a la vía judicial, la de{" "}
-          <a href="/recurso-contencioso-extranjeria" className="underline">
+          <Link href="/recurso-contencioso-extranjeria" className="underline">
             recurso contencioso-administrativo en extranjería
-          </a>
+          </Link>
           .
         </p>
 
@@ -178,12 +183,12 @@ export default function PlazoRecursoExtranjeriaPage() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Solicitar revisión de mi caso
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -192,13 +197,6 @@ export default function PlazoRecursoExtranjeriaPage() {
             className="inline-flex items-center justify-center rounded-2xl bg-green-600 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Consultar por WhatsApp
-          </a>
-
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Volver a la web
           </a>
         </div>
       </section>
@@ -212,18 +210,18 @@ export default function PlazoRecursoExtranjeriaPage() {
             © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
           </div>
           <div className="flex gap-6">
-            <a href="/despacho" className="hover:text-slate-800">
+            <Link href="/despacho" className="hover:text-slate-800">
               Despacho
-            </a>
-            <a href="/aviso-legal" className="hover:text-slate-800">
+            </Link>
+            <Link href="/aviso-legal" className="hover:text-slate-800">
               Aviso legal
-            </a>
-            <a href="/politica-privacidad" className="hover:text-slate-800">
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-slate-800">
               Política de privacidad
-            </a>
-            <a href="/cookies" className="hover:text-slate-800">
+            </Link>
+            <Link href="/cookies" className="hover:text-slate-800">
               Cookies
-            </a>
+            </Link>
           </div>
         </div>
       </footer>

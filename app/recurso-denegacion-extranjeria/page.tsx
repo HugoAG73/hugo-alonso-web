@@ -34,6 +34,10 @@ export default function RecursoDenegacionExtranjeriaPage() {
           La decisión de recurrir no depende solo de la existencia de un plazo, sino del contenido de la resolución y de las posibilidades reales de que el recurso pueda modificar el resultado del expediente, ya que no todas las denegaciones ofrecen el mismo margen de revisión.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Presentar un recurso sin analizar correctamente el contenido de la resolución o sin valorar su viabilidad puede hacer que se pierdan opciones que podrían ser más adecuadas en el caso concreto.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Qué significa recurrir una denegación
         </h2>
@@ -51,7 +55,7 @@ export default function RecursoDenegacionExtranjeriaPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Un recurso puede ser viable cuando existen elementos que permiten cuestionar la resolución: documentación que no ha sido correctamente valorada, interpretación discutible de los requisitos o aspectos que no han sido tenidos en cuenta en el expediente.
+          Un recurso puede presentar viabilidad cuando existen elementos que permiten cuestionar la resolución: documentación que no ha sido correctamente valorada, interpretación discutible de los requisitos o aspectos que no han sido tenidos en cuenta en el expediente.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -132,12 +136,12 @@ export default function RecursoDenegacionExtranjeriaPage() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <a
+          <Link
             href="/#contacto"
             className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg transition hover:-translate-y-0.5"
           >
             Revisar viabilidad de mi recurso
-          </a>
+          </Link>
 
           <a
             href="https://wa.me/34686310400"
@@ -147,15 +151,33 @@ export default function RecursoDenegacionExtranjeriaPage() {
           >
             Consultar por WhatsApp
           </a>
-
-          <Link
-            href="/recurso-contencioso-extranjeria"
-            className="inline-flex items-center justify-center rounded-2xl border border-stone-300 px-6 py-4 text-sm font-medium text-slate-700 transition hover:bg-stone-100"
-          >
-            Ver recurso contencioso
-          </Link>
         </div>
       </section>
+
+      {/* FOOTER */}
+      <footer className="border-t border-stone-200 bg-stone-50">
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+          <div>
+            Abogado colegiado en el Ilustre Colegio de Abogados de Madrid
+            <br />
+            © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
+          </div>
+          <div className="flex gap-6">
+            <Link href="/despacho" className="hover:text-slate-800">
+              Despacho
+            </Link>
+            <Link href="/aviso-legal" className="hover:text-slate-800">
+              Aviso legal
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-slate-800">
+              Política de privacidad
+            </Link>
+            <Link href="/cookies" className="hover:text-slate-800">
+              Cookies
+            </Link>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
