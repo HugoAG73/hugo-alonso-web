@@ -79,12 +79,12 @@ export default function Home() {
           </Link>
 
           <div className="hidden items-center gap-6 md:flex">
-            <a
+            <Link
               href="/despacho"
               className="text-sm font-medium text-slate-600 transition hover:text-slate-950"
             >
               Despacho
-            </a>
+            </Link>
 
             <a
               href="https://wa.me/34686310400?text=Hola,%20quiero%20saber%20si%20puedo%20regularizar%20mi%20situaci%C3%B3n%20en%20Espa%C3%B1a."
@@ -107,7 +107,7 @@ export default function Home() {
             </div>
 
             <h1 className="mt-8 max-w-4xl text-4xl font-semibold tracking-tight text-slate-950 lg:text-6xl">
-              ¿Es viable regularizar tu situación en España?
+              Regularización en España: ¿es viable tu caso?
             </h1>
 
             <p className="mt-6 max-w-2xl text-xl leading-9 text-slate-800">
@@ -123,7 +123,7 @@ export default function Home() {
             </p>
 
             <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
-              Abogado de extranjería en Madrid, colegiado en el Ilustre Colegio de la Abogacía de Madrid (ICAM), con atención directa y estudio personal de cada caso.
+              Abogado colegiado en el Ilustre Colegio de la Abogacía de Madrid (ICAM), con atención directa y estudio personal de cada caso.
             </p>
 
           <div className="mt-10 space-y-3 text-sm text-slate-700">
@@ -140,33 +140,33 @@ export default function Home() {
                 Renovación de residencia
               </Link>
 
-              <Link href="/renovacion-fuera-de-plazo">
-                Renovación fuera de plazo
+              <Link href="/renovar-residencia-fuera-de-plazo">
+                Renovación de residencia fuera de plazo
               </Link>
-           </div>
+            </div>
 
             <p className="mt-4 font-medium text-slate-900">
               Situaciones frecuentes:
             </p>
 
-           <div className="flex flex-col gap-2 underline">
-             <Link href="/denegacion-extranjeria">
-               Denegación de extranjería
-             </Link>
+            <div className="flex flex-col gap-2 underline">
+              <Link href="/denegacion-extranjeria">
+                Denegación de extranjería
+              </Link>
 
-             <Link href="/denegacion-arraigo-social">
-               Denegación de arraigo social
-             </Link>
+              <Link href="/denegacion-arraigo-social">
+                Denegación de arraigo social
+              </Link>
+            </div>
           </div>
-       </div>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <a
-                href="#contacto"
+              <Link
+                href="/#contacto"
                 className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5"
               >
                 Solicitar revisión de mi caso
-              </a>
+              </Link>
 
               <a
                 href="https://wa.me/34686310400?text=Hola,%20quiero%20saber%20si%20puedo%20regularizar%20mi%20situaci%C3%B3n%20en%20Espa%C3%B1a."
@@ -179,18 +179,14 @@ export default function Home() {
             </div>
 
             <div className="mt-6 flex flex-col gap-2 text-sm text-slate-600">
-              <div>✔ Respuesta inicial en menos de 24h</div>
+              <div>✔ Respuesta inicial habitualmente en 24h</div>
               <div>✔ Revisión confidencial</div>
               <div>✔ Sin compromiso inicial</div>
             </div>
 
-            <p className="mt-4 text-sm text-slate-600">
-              La regularización exige valorar los hechos, la permanencia en España, la documentación disponible y los riesgos antes de decidir qué vía puede resultar jurídicamente adecuada o si conviene no iniciar aún el procedimiento.
-            </p>
-
             <div className="mt-8 space-y-2 text-sm text-slate-600">
               <p className="mt-8 text-sm text-slate-600">
-                Puedes ampliar información sobre las principales vías de regularización y sobre situaciones que pueden afectar al resultado del expediente:
+                Puedes ampliar información sobre la viabilidad de la regularización, el estado del expediente y las opciones de recurso en función de la situación concreta:
               </p>
 
               <div className="flex flex-col gap-1 underline">
@@ -198,12 +194,12 @@ export default function Home() {
                   Regularización en España: requisitos y viabilidad
                 </Link>
 
-                <Link href="/arraigo-social">
-                  Arraigo social: cómo funciona
+                <Link href="/estado-expediente-extranjeria">
+                  Estado del expediente de extranjería: fases y significado
                 </Link>
 
-                <Link href="/denegacion-extranjeria">
-                  Denegación de extranjería: qué hacer tras una resolución desfavorable
+                <Link href="/recurso-denegacion-extranjeria">
+                  Recurso de denegación en extranjería
                 </Link>
               </div>
             </div>
@@ -247,7 +243,7 @@ export default function Home() {
             </div>
 
             <h2 className="mt-3 text-2xl font-semibold tracking-tight text-slate-950">
-              Comprueba si tu caso es viable
+              Solicita una primera revisión de viabilidad
             </h2>
 
             <p className="mt-4 text-sm leading-6 text-slate-600">
@@ -300,7 +296,7 @@ export default function Home() {
               />
 
               <p className="text-sm text-slate-600">
-                Respuesta inicial en menos de 24h. Revisión confidencial y sin compromiso.
+                ✔ Respuesta inicial habitualmente en 24h. Revisión confidencial y sin compromiso.
               </p>
 
               <p className="text-xs leading-5 text-slate-500">
@@ -416,35 +412,32 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-        <div className="grid gap-8 rounded-[2.5rem] border border-stone-200 bg-white p-8 shadow-sm lg:grid-cols-[1fr_0.9fr] lg:p-12">
-          <div>
-            <div className="text-xs uppercase tracking-[0.3em] text-slate-500">
-              Contacto
-            </div>
-            <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-950">
-              Consulta con abogado de extranjería en Madrid
-            </h2>
-            <p className="mt-6 max-w-xl text-base leading-7 text-slate-600">
-              Si deseas una revisión profesional de tu situación, puedes
-              contactar para una primera valoración y definir la mejor
-              estrategia de actuación.
-            </p>
-          </div>
-          <div className="grid gap-4 text-sm text-slate-700">
-            <div className="rounded-2xl border border-stone-200 bg-stone-50 p-5">
-              Email: hugoalonso@icam.es
-            </div>
-            <div className="rounded-2xl border border-stone-200 bg-stone-50 p-5">
-              Teléfono: 686 310 400
-            </div>
-            <div className="rounded-2xl border border-stone-200 bg-stone-50 p-5">
-              Despacho: Calle Guillermo de Osma núm. 5, bajo 1, C.P. 28045
-              Madrid
-            </div>
-            <div className="rounded-2xl border border-stone-200 bg-stone-50 p-5">
-              Consulta presencial y online
-            </div>
+      <section className="mx-auto max-w-4xl px-6 pb-20">
+        <div className="rounded-[2rem] border border-stone-200 bg-white p-8 shadow-sm">
+          <h2 className="text-2xl font-semibold text-slate-950">
+            Valora tu situación antes de iniciar el procedimiento
+          </h2>
+
+          <p className="mt-4 text-base leading-7 text-slate-600">
+            Si quieres saber si existe una vía jurídicamente viable en tu caso, puedes solicitar una primera revisión o plantear tu consulta por WhatsApp.
+          </p>
+
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+            <Link
+              href="/#contacto"
+              className="inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-slate-900/10 transition hover:-translate-y-0.5"
+            >
+              Solicitar revisión de mi caso
+            </Link>
+
+            <a
+              href="https://wa.me/34686310400?text=Hola,%20quiero%20saber%20si%20puedo%20regularizar%20mi%20situaci%C3%B3n%20en%20Espa%C3%B1a."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-2xl bg-green-600 px-6 py-4 text-sm font-medium text-white shadow-lg shadow-green-600/20 transition hover:-translate-y-0.5"
+            >
+              Consultar por WhatsApp
+            </a>
           </div>
         </div>
       </section>
@@ -457,18 +450,18 @@ export default function Home() {
             © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
           </div>
           <div className="flex gap-6">
-            <a href="/despacho" className="hover:text-slate-800">
+            <Link href="/despacho" className="hover:text-slate-800">
               Despacho
-            </a>
-            <a href="/aviso-legal" className="hover:text-slate-800">
+            </Link>
+            <Link href="/aviso-legal" className="hover:text-slate-800">
               Aviso legal
-            </a>
-            <a href="/politica-privacidad" className="hover:text-slate-800">
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-slate-800">
               Política de privacidad
-            </a>
-            <a href="/cookies" className="hover:text-slate-800">
+            </Link>
+            <Link href="/cookies" className="hover:text-slate-800">
               Cookies
-            </a>
+            </Link>
           </div>
         </div>
       </footer>
