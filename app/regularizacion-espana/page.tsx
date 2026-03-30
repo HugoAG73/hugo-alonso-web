@@ -53,10 +53,25 @@ export default function RegularizacionPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
+          Dependiendo de la situación concreta, puede ser posible acceder al{" "}
+          <Link href="/arraigo-social" className="underline">
+            arraigo social
+          </Link>.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
           Si ya dispones de una autorización de residencia y necesitas renovarla, puedes consultar la página sobre{" "}
           <Link href="/renovacion-residencia" className="underline">
             renovación de residencia
           </Link>, donde se explican los plazos, los requisitos y los problemas más habituales en este tipo de procedimientos.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En determinados supuestos, también puede valorarse una{" "}
+          <Link href="/renovar-residencia-fuera-de-plazo" className="underline">
+            renovación de residencia fuera de plazo
+          </Link>{" "}
+          si la situación lo permite.
         </p>
 
 	<h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -102,7 +117,7 @@ export default function RegularizacionPage() {
 	<p className="mt-4 text-base leading-7 text-slate-700">
  	  Entre estas vías se encuentra el{" "}
   	<Link href="/arraigo-social" className="underline">
-    	  arraigo social
+    	  arraigo social en España
  	</Link>, que puede ser una alternativa real en función de la situación concreta.
 	</p>
 
@@ -119,7 +134,23 @@ export default function RegularizacionPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
+          También es importante revisar el{" "}
+          <Link href="/estado-expediente-extranjeria" className="underline">
+            estado del expediente de extranjería
+          </Link>{" "}
+          antes de tomar decisiones.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
           Cada caso debe valorarse de forma individual para determinar si existe una vía viable y definir la estrategia más adecuada.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En caso de duda, también conviene revisar{" "}
+          <Link href="/por-que-deniegan-extranjeria" className="underline">
+            por qué deniegan extranjería
+          </Link>{" "}
+          en situaciones similares.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">

@@ -38,6 +38,14 @@ export default function ExpedienteEnEstudioExtranjeriaPage() {
           Esperar sin analizar la situación puede hacer que se pierda margen de actuación o que no se detecte a tiempo una posible incidencia en el expediente.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Para interpretar correctamente este estado, también puede ser útil revisar cómo se analiza el{" "}
+          <Link href="/estado-expediente-extranjeria" className="underline">
+            estado del expediente de extranjería
+          </Link>{" "}
+          en su conjunto y qué puede implicar en función del procedimiento.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Qué significa que un expediente esté en estudio
         </h2>
@@ -50,6 +58,13 @@ export default function ExpedienteEnEstudioExtranjeriaPage() {
           Sin embargo, ese estado no permite saber si el análisis está en una fase inicial, si se han detectado incidencias o si el expediente está próximo a resolverse.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En otros casos, el expediente puede encontrarse en fases distintas de la tramitación, como cuando aparece{" "}
+          <Link href="/expediente-en-tramite-extranjeria" className="underline">
+            en trámite
+          </Link>, lo que responde a una situación diferente dentro del procedimiento.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Cuándo puede ser un estado normal
         </h2>
@@ -59,11 +74,13 @@ export default function ExpedienteEnEstudioExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Por eso, antes de interpretar este estado como un problema, conviene valorar el tiempo transcurrido desde la solicitud,
+          Por eso, antes de interpretar este estado como un problema, conviene valorar el tiempo transcurrido desde la solicitud,{" "}
           <Link href="/cuanto-tarda-extranjeria" className="underline">
             especialmente en relación con cuánto tarda extranjería en resolver
-          </Link>
-          .
+          </Link>. También puede ser útil comparar esta fase con otras situaciones del procedimiento, como cuando el expediente aparece{" "}
+          <Link href="/expediente-en-tramite-cuanto-tarda" className="underline">
+            en trámite y cuánto tarda
+          </Link>.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -79,15 +96,17 @@ export default function ExpedienteEnEstudioExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Cuando el tiempo transcurrido empieza a ser significativo, puede ser necesario analizar si la fase de estudio sigue entrando dentro de lo normal o si la duración de ese estado exige una revisión más precisa,
+          Cuando el tiempo transcurrido empieza a ser significativo, puede ser necesario analizar si la fase de estudio sigue entrando dentro de lo normal,{" "}
           <Link href="/expediente-en-estudio-cuanto-tarda" className="underline">
             especialmente cuando se trata de determinar cuánto tarda un expediente en estudio
-          </Link>
-          y si además se ha producido alguna situación que requiera actuación,
+          </Link>.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          También conviene valorar si se ha producido alguna situación que requiera actuación,{" "}
           <Link href="/silencio-administrativo-extranjeria" className="underline">
             como ocurre en determinados supuestos de silencio administrativo en extranjería
-          </Link>
-          .
+          </Link>.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -101,13 +120,30 @@ export default function ExpedienteEnEstudioExtranjeriaPage() {
         <ul className="mt-4 list-disc pl-5 space-y-2 text-slate-700">
           <li>El tipo de procedimiento iniciado</li>
           <li>La documentación presentada</li>
-          <li>La existencia de requerimientos previos</li>
+          <li>
+            La existencia de{" "}
+            <Link href="/expediente-con-requerimiento-extranjeria" className="underline">
+              requerimientos
+            </Link>{" "}
+            previos
+          </li>
           <li>El tiempo transcurrido desde la solicitud</li>
           <li>La evolución del estado del expediente</li>
         </ul>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Este análisis permite determinar si el expediente se encuentra dentro de una fase normal de estudio o si existen elementos que aconsejen revisar el caso con mayor detalle.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En algunos casos, también puede ser útil comprobar si el expediente presenta otras situaciones más específicas, como cuando aparece{" "}
+          <Link href="/expediente-paralizado-extranjeria" className="underline">
+            paralizado
+          </Link>{" "}
+          o{" "}
+          <Link href="/expediente-sin-cambios-extranjeria" className="underline">
+            sin cambios
+          </Link>.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -119,11 +155,14 @@ export default function ExpedienteEnEstudioExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si ya existe una resolución desfavorable o necesitas valorar sus efectos, el análisis debe centrarse en la resolución dictada,
+          Si ya existe una resolución desfavorable o necesitas valorar sus efectos, el análisis debe centrarse en la resolución dictada,{" "}
           <Link href="/denegacion-extranjeria" className="underline">
             lo que implica entender qué supone una denegación de extranjería
-          </Link>
-          .
+          </Link>. También puede ser útil revisar{" "}
+          <Link href="/por-que-deniegan-extranjeria" className="underline">
+            por qué deniegan extranjería
+          </Link>{" "}
+          en este tipo de procedimientos.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">

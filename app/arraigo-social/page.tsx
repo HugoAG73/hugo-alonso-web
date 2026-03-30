@@ -29,7 +29,10 @@ export default function ArraigoSocialPage() {
         </h1>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
-          El arraigo social es una de las principales vías para regularizar la situación en España, pero no siempre resulta aplicable en todos los casos ni basta con cumplir formalmente determinados requisitos.
+          El arraigo social es una de las principales vías para{" "}
+          <Link href="/regularizacion-espana" className="underline">
+            regularizar la situación en España
+          </Link>, pero no siempre resulta aplicable en todos los casos ni basta con cumplir formalmente determinados requisitos.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -37,7 +40,11 @@ export default function ArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En este tipo de procedimientos, iniciar la solicitud sin analizar previamente el caso puede dar lugar a incidencias o a una denegación que complique futuras opciones de regularización.
+          En este tipo de procedimientos, iniciar la solicitud sin analizar previamente el caso puede dar lugar a incidencias o a una{" "}
+          <Link href="/denegacion-extranjeria" className="underline">
+            denegación en extranjería
+          </Link>{" "}
+          que dificulte actuaciones posteriores.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -80,7 +87,22 @@ export default function ArraigoSocialPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Estos aspectos deben revisarse previamente antes de iniciar la solicitud para evitar incidencias o denegaciones.
+          Estos aspectos deben revisarse antes de iniciar la solicitud para evitar incidencias o denegaciones.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Durante la tramitación, conviene revisar el{" "}
+          <Link href="/estado-expediente-extranjeria" className="underline">
+            estado del expediente de extranjería
+          </Link>{" "}
+          para detectar posibles incidencias.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En muchos casos, los problemas del expediente están relacionados con motivos habituales que se explican en{" "}
+          <Link href="/por-que-deniegan-extranjeria" className="underline">
+            por qué deniegan extranjería
+          </Link>.
         </p>
 
         <p className="mt-8 text-base leading-7 text-slate-700">
@@ -112,7 +134,11 @@ export default function ArraigoSocialPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          No todos los casos encajan en esta vía. En determinadas situaciones, puede ser más adecuado valorar otras opciones de regularización o posponer la solicitud hasta contar con una base suficiente, ya que iniciar un expediente sin encaje claro puede dar lugar a una denegación que complique actuaciones posteriores.
+          No todos los casos encajan en esta vía. En determinadas situaciones, puede ser más adecuado valorar otras opciones de regularización o posponer la solicitud hasta contar con una base suficiente, ya que iniciar un expediente sin encaje claro puede dar lugar a una{" "}
+          <Link href="/denegacion-extranjeria" className="underline">
+            denegación en extranjería
+          </Link>{" "}
+          que complique actuaciones posteriores.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -141,7 +167,7 @@ export default function ArraigoSocialPage() {
           También puedes consultar información sobre la{" "}
           <Link href="/regularizacion-espana" className="underline">
             regularización en España
-          </Link>, ya que en algunos casos puede ser más adecuado analizar esa vía antes de iniciar un procedimiento de arraigo.
+          </Link>, ya que en algunos casos puede ser más adecuado analizar esa opción antes de iniciar un procedimiento de arraigo.
 	</p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -207,18 +233,18 @@ export default function ArraigoSocialPage() {
   	   © 2026 Hugo Alonso Abogado. Todos los derechos reservados.
 	</div>
           <div className="flex gap-6">
-            <a href="/despacho" className="hover:text-slate-800">
+            <Link href="/despacho" className="hover:text-slate-800">
               Despacho
-            </a>
-            <a href="/aviso-legal" className="hover:text-slate-800">
+            </Link>
+            <Link href="/aviso-legal" className="hover:text-slate-800">
               Aviso legal
-            </a>
-            <a href="/politica-privacidad" className="hover:text-slate-800">
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-slate-800">
               Política de privacidad
-            </a>
-            <a href="/cookies" className="hover:text-slate-800">
+            </Link>
+            <Link href="/cookies" className="hover:text-slate-800">
               Cookies
-            </a>
+            </Link>
           </div>
         </div>
       </footer>

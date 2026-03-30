@@ -31,11 +31,26 @@ export default function ExpedienteSinCambiosExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En la práctica, muchos expedientes pasan por fases en las que no se reflejan cambios visibles, lo que puede hacer difícil determinar si el procedimiento sigue su curso normal o si existe alguna incidencia.
+          En la práctica, muchos expedientes pasan por fases en las que no se reflejan cambios visibles, lo que puede hacer difícil determinar si el procedimiento sigue su curso normal o si existe alguna incidencia, especialmente cuando el expediente figura{" "}
+          <Link href="/expediente-en-tramite-extranjeria" className="underline">
+            en trámite
+          </Link>{" "}
+          o{" "}
+          <Link href="/expediente-en-estudio-extranjeria" className="underline">
+            en estudio
+          </Link>.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Esperar sin analizar la situación puede hacer que se pierda margen de actuación o que no se detecte a tiempo una incidencia que esté afectando al expediente.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Para interpretar correctamente esta situación, también puede ser útil revisar cómo se analiza el{" "}
+          <Link href="/estado-expediente-extranjeria" className="underline">
+            estado del expediente de extranjería
+          </Link>{" "}
+          en su conjunto y qué puede implicar en función del procedimiento.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -59,7 +74,7 @@ export default function ExpedienteSinCambiosExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Por eso, antes de interpretar la falta de cambios como un problema, conviene valorar el tiempo transcurrido y el tipo de procedimiento,
+          Por eso, antes de interpretar la falta de cambios como un problema, conviene valorar el tiempo transcurrido y el tipo de procedimiento,{" "}
           <Link href="/expediente-en-tramite-cuanto-tarda" className="underline">
             especialmente en relación con cuánto puede tardar un expediente en trámite
           </Link>
@@ -98,6 +113,13 @@ export default function ExpedienteSinCambiosExtranjeriaPage() {
           Dos expedientes sin cambios pueden encontrarse en situaciones completamente distintas.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En algunos casos, la falta de cambios puede ir más allá de una simple ausencia de actualización y reflejar una situación distinta, como cuando el expediente aparece{" "}
+          <Link href="/expediente-paralizado-extranjeria" className="underline">
+            paralizado
+          </Link>, lo que requiere un análisis más específico.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Qué hacer si tu expediente no muestra cambios
         </h2>
@@ -116,6 +138,17 @@ export default function ExpedienteSinCambiosExtranjeriaPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Cuando existen dudas sobre la falta de cambios en un expediente, una revisión jurídica permite determinar si el procedimiento sigue su curso normal o si la situación requiere algún tipo de actuación en función del caso concreto.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si finalmente el expediente termina con una resolución desfavorable, el análisis deja de centrarse en la falta de cambios y pasa a la resolución dictada,{" "}
+          <Link href="/denegacion-extranjeria" className="underline">
+            lo que implica entender qué supone una denegación de extranjería
+          </Link>. También puede ser útil revisar{" "}
+          <Link href="/por-que-deniegan-extranjeria" className="underline">
+            por qué deniegan extranjería
+          </Link>{" "}
+          en este tipo de procedimientos.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">

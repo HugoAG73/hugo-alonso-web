@@ -38,12 +38,28 @@ export default function ExpedienteParalizadoExtranjeriaPage() {
           Esperar sin analizar la situación puede hacer que se pierda margen de actuación o que no se detecte a tiempo una incidencia que esté afectando al expediente.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Para valorar correctamente si existe una paralización real, también puede ser útil revisar cómo se interpreta el{" "}
+          <Link href="/estado-expediente-extranjeria" className="underline">
+            estado del expediente de extranjería
+          </Link>{" "}
+          en su conjunto y qué puede implicar en función del procedimiento.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Cuándo puede hablarse realmente de un expediente paralizado
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          La idea de expediente paralizado suele utilizarse cuando no se observan cambios durante un tiempo prolongado o cuando el procedimiento parece no avanzar. No obstante, esa percepción debe distinguirse de los supuestos en los que el expediente simplemente sigue en trámite o en estudio dentro de un plazo todavía razonable.
+          La idea de expediente paralizado suele utilizarse cuando no se observan cambios durante un tiempo prolongado o cuando el procedimiento parece no avanzar. No obstante, esa percepción debe distinguirse de los supuestos en los que el expediente simplemente sigue{" "}
+          <Link href="/expediente-en-tramite-extranjeria" className="underline">
+            en trámite
+          </Link>{" "}
+          o{" "}
+          <Link href="/expediente-en-estudio-extranjeria" className="underline">
+            en estudio
+          </Link>{" "}
+          dentro de un plazo todavía razonable.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -71,7 +87,7 @@ export default function ExpedienteParalizadoExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Antes de considerar que el expediente está paralizado, conviene valorar cuánto puede tardar en función de la fase en la que se encuentra,
+          Antes de considerar que el expediente está paralizado, conviene valorar cuánto puede tardar en función de la fase en la que se encuentra,{" "}
           <Link href="/expediente-en-tramite-cuanto-tarda" className="underline">
             especialmente cuando el expediente sigue en trámite
           </Link>
@@ -91,7 +107,7 @@ export default function ExpedienteParalizadoExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En estos supuestos, puede ser necesario analizar si el procedimiento sigue realmente abierto en condiciones normales o si la falta de respuesta exige valorar otras vías,
+          En estos supuestos, puede ser necesario analizar si el procedimiento sigue realmente abierto en condiciones normales o si la falta de respuesta exige valorar otras vías,{" "}
           <Link href="/silencio-administrativo-extranjeria" className="underline">
             como ocurre en determinados supuestos de silencio administrativo en extranjería
           </Link>
@@ -109,13 +125,26 @@ export default function ExpedienteParalizadoExtranjeriaPage() {
         <ul className="mt-4 list-disc pl-5 space-y-2 text-slate-700">
           <li>La fecha exacta de presentación de la solicitud</li>
           <li>La fase en la que figura el procedimiento</li>
-          <li>La existencia de requerimientos o incidencias previas</li>
+          <li>
+            La existencia de{" "}
+            <Link href="/expediente-con-requerimiento-extranjeria" className="underline">
+              requerimientos
+            </Link>{" "}
+            o incidencias previas
+          </li>
           <li>La documentación presentada y su suficiencia</li>
           <li>El tiempo transcurrido sin avances visibles</li>
         </ul>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Ese análisis permite distinguir entre una simple demora, una falta de actualización visible y una situación que realmente pueda requerir actuación.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En algunos casos, también puede ser útil comprobar si el expediente presenta otras situaciones similares, como cuando aparece{" "}
+          <Link href="/expediente-sin-cambios-extranjeria" className="underline">
+            sin cambios
+          </Link>, lo que puede requerir una interpretación distinta.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
@@ -136,6 +165,17 @@ export default function ExpedienteParalizadoExtranjeriaPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Cuando existen dudas sobre una posible paralización, una revisión jurídica permite determinar si el expediente sigue su curso normal, si la demora exige una actuación concreta o si conviene valorar otras opciones en función del caso.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Si finalmente el expediente termina con una resolución desfavorable, el análisis deja de centrarse en la paralización y pasa a la resolución dictada,{" "}
+          <Link href="/denegacion-extranjeria" className="underline">
+            lo que implica entender qué supone una denegación de extranjería
+          </Link>. También puede ser útil revisar{" "}
+          <Link href="/por-que-deniegan-extranjeria" className="underline">
+            por qué deniegan extranjería
+          </Link>{" "}
+          en este tipo de procedimientos.
         </p>
 
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">

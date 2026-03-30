@@ -43,7 +43,10 @@ export default function DenegacionExtranjeriaPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          La denegación no siempre implica que la solicitud carezca completamente de viabilidad. En muchos casos, refleja que la Administración considera que existen defectos, insuficiencias o incumplimientos que impiden conceder la autorización en ese momento.
+          La denegación no siempre implica que la solicitud carezca completamente de viabilidad dentro de un proceso de{" "}
+          <Link href="/regularizacion-espana" className="underline">
+            regularización en España
+          </Link>.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -55,7 +58,7 @@ export default function DenegacionExtranjeriaPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          La causa de la denegación suele encontrarse en la fundamentación de la resolución. En muchos casos, está relacionada con la falta de cumplimiento de requisitos, con la valoración de la documentación presentada o con la forma en que se ha planteado el expediente,
+          La causa de la denegación suele encontrarse en la fundamentación de la resolución. En muchos casos, está relacionada con la falta de cumplimiento de requisitos, con la valoración de la documentación presentada o con la forma en que se ha planteado el expediente,{" "}
           <Link href="/por-que-deniegan-extranjeria" className="underline">
             especialmente en relación con los motivos más habituales de denegación en extranjería
           </Link>
@@ -71,15 +74,17 @@ export default function DenegacionExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          La elección de una u otra opción depende del contenido de la resolución y de la viabilidad de cada alternativa,
+          La elección de una u otra opción depende del contenido de la resolución y de la viabilidad de cada alternativa. En muchos casos, puede valorarse la interposición de un{" "}
           <Link href="/recurso-denegacion-extranjeria" className="underline">
-            especialmente en relación con cómo recurrir una denegación en extranjería
-          </Link>
-          o, en su caso,
+            recurso administrativo en extranjería
+          </Link>.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En determinados supuestos, también puede ser necesario acudir a la vía judicial mediante un{" "}
           <Link href="/recurso-contencioso-extranjeria" className="underline">
-            cuándo puede ser necesario acudir a un recurso contencioso en extranjería
-          </Link>
-          .
+            recurso contencioso en extranjería
+          </Link>.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -91,7 +96,11 @@ export default function DenegacionExtranjeriaPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Las opciones tras una denegación están sujetas a plazos. No analizar la resolución dentro de ese plazo puede limitar las posibilidades de actuación y hacer que la situación se consolide.
+          Las opciones tras una denegación están sujetas a plazos, por lo que conviene conocer el{" "}
+          <Link href="/plazo-recurso-extranjeria" className="underline">
+            plazo para recurrir en extranjería
+          </Link>{" "}
+          aplicable en cada caso.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
@@ -104,6 +113,14 @@ export default function DenegacionExtranjeriaPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           Si has recibido una denegación, lo recomendable no es tomar una decisión automática, sino analizar el contenido de la resolución, los motivos en los que se basa y las opciones disponibles en tu caso.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Antes de tomar decisiones, conviene revisar el{" "}
+          <Link href="/estado-expediente-extranjeria" className="underline">
+            estado del expediente de extranjería
+          </Link>{" "}
+          y la documentación que consta en el procedimiento.
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
