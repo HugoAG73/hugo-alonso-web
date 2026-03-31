@@ -41,6 +41,14 @@ export default function ExpedienteEnTramiteSinRespuestaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
+          Este tipo de situaciones suele generar dudas sobre los plazos, especialmente en relación con{" "}
+          <Link href="/cuanto-tarda-nie" className="underline">
+            cuánto tarda el NIE
+          </Link>{" "}
+          o procedimientos similares.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
           Este estado suele corresponder a la fase en la que el expediente se
           encuentra{" "}
           <Link href="/expediente-en-tramite-extranjeria" className="underline">

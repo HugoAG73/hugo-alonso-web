@@ -41,6 +41,13 @@ export default function CuantoTardaNiePage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
+          En muchos casos, estas dudas surgen cuando el expediente se mantiene durante un tiempo prolongado{" "}
+          <Link href="/expediente-en-tramite-sin-respuesta" className="underline">
+            en trámite sin respuesta
+          </Link>.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
           En este sentido, conviene distinguir entre la asignación del número de identidad de extranjero y la expedición de la tarjeta física, ya que se trata de trámites diferentes que pueden tener tiempos de resolución distintos.
         </p>
 

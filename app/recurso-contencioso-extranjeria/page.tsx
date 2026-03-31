@@ -59,7 +59,7 @@ export default function RecursoContenciosoExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          En estos supuestos, la vía judicial permite someter la decisión administrativa a control jurisdiccional,
+          En estos supuestos, la vía judicial permite someter la decisión administrativa a control jurisdiccional,{" "}
           <Link href="/recurso-denegacion-extranjeria" className="underline">
             especialmente en relación con cuándo puede tener sentido recurrir una denegación en extranjería
           </Link>

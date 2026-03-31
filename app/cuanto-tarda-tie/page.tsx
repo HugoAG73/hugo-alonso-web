@@ -42,6 +42,13 @@ export default function CuantoTardaTiePage() {
           En este sentido, conviene tener en cuenta que la TIE no es un procedimiento autónomo, sino una fase posterior a una autorización ya concedida, lo que explica que sus tiempos dependan en gran medida del proceso previo.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En la práctica, estas dudas suelen aparecer cuando el expediente se mantiene durante un tiempo prolongado{" "}
+          <Link href="/expediente-en-tramite-sin-respuesta" className="underline">
+            en trámite sin respuesta
+          </Link>.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           De qué depende el tiempo de expedición de la TIE
         </h2>

@@ -83,7 +83,7 @@ export default function RecursoDenegacionExtranjeriaPage() {
         </p>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Por eso, antes de recurrir, es importante valorar si la resolución presenta margen de impugnación,
+          Por eso, antes de recurrir, es importante valorar si la resolución presenta margen de impugnación,{" "}
           <Link href="/denegacion-extranjeria" className="underline">
             especialmente en relación con cómo interpretar una denegación en extranjería
           </Link>
@@ -95,7 +95,7 @@ export default function RecursoDenegacionExtranjeriaPage() {
         </h2>
 
         <p className="mt-4 text-base leading-7 text-slate-700">
-          Si el recurso es desestimado, puede ser necesario valorar otras vías, como acudir a la vía judicial en determinados supuestos,
+          Si el recurso es desestimado, puede ser necesario valorar otras vías, como acudir a la vía judicial en determinados supuestos,{" "}
           <Link href="/recurso-contencioso-extranjeria" className="underline">
             especialmente en relación con cuándo puede ser necesario acudir al recurso contencioso en extranjería
           </Link>

@@ -49,6 +49,13 @@ export default function ExpedienteExtranjeriaBloqueadoPage() {
           intervenir.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En muchos casos, esta situación se produce cuando el expediente se ha mantenido durante un tiempo prolongado{" "}
+          <Link href="/expediente-en-tramite-sin-respuesta" className="underline">
+            en trámite sin respuesta
+          </Link>, lo que puede generar la percepción de bloqueo.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Cuándo un expediente puede parecer bloqueado
         </h2>
