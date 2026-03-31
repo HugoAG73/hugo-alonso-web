@@ -95,8 +95,8 @@ export default function ExpedienteSinCambiosExtranjeriaPage() {
 
         <p className="mt-4 text-base leading-7 text-slate-700">
           En estos casos, puede ser necesario analizar si la ausencia de movimiento refleja una situación normal o si puede tener efectos jurídicos que convenga valorar,
-          <Link href="/silencio-administrativo-extranjeria" className="underline">
-            {" "}como ocurre en determinados supuestos de silencio administrativo en extranjería
+          <Link href="/silencio-administrativo-extranjeria" className="underline">{" "}
+            como ocurre en determinados supuestos de silencio administrativo en extranjería
           </Link>
           .
         </p>
