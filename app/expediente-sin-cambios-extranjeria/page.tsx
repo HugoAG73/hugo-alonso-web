@@ -78,7 +78,7 @@ export default function ExpedienteSinCambiosExtranjeriaPage() {
           <Link href="/expediente-en-tramite-cuanto-tarda" className="underline">
             especialmente en relación con cuánto puede tardar un expediente en trámite
           </Link>
-          o, en su caso,
+          o, en su caso,{" "}
           <Link href="/expediente-en-estudio-cuanto-tarda" className="underline">
             cuánto puede durar la fase de estudio
           </Link>
