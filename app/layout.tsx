@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Hugo Alonso Abogado",
   description: "Abogado en Madrid. Consulta jurídica y contacto profesional.",
+  verification: {
+    google: "Crpfr-Rjsg62dBq8pKlDi0eVq59IknejcVJyKKsaKDY",
+  },
 };
 
 export default function RootLayout({
