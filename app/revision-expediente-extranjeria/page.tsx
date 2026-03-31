@@ -42,6 +42,25 @@ export default function RevisionExpedienteExtranjeriaPage() {
           En la práctica, una revisión adecuada no solo permite entender el estado del expediente, sino también anticipar posibles problemas, corregir incidencias a tiempo y valorar si conviene adoptar alguna actuación antes de que se produzca una resolución desfavorable.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          Este tipo de revisión suele ser especialmente útil en situaciones en las que existen dudas sobre el tiempo de tramitación, como cuando se analiza{" "}
+          <Link href="/cuanto-tarda-nie" className="underline">
+            cuánto tarda el NIE
+          </Link>{" "}
+          o{" "}
+          <Link href="/cuanto-tarda-tie" className="underline">
+            cuánto tarda la TIE
+          </Link>, así como cuando el expediente parece no avanzar.
+        </p>
+
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          También resulta especialmente útil cuando el expediente se mantiene durante un tiempo prolongado{" "}
+          <Link href="/expediente-en-tramite-sin-respuesta" className="underline">
+            en trámite sin respuesta
+          </Link>{" "}
+          o cuando existen dudas sobre si el procedimiento está avanzando correctamente.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Cuándo puede ser recomendable revisar un expediente
         </h2>

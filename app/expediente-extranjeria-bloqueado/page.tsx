@@ -191,6 +191,14 @@ export default function ExpedienteExtranjeriaBloqueadoPage() {
           y cómo valorar correctamente cada situación.
         </p>
 
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          En estos casos, puede ser recomendable realizar una{" "}
+          <Link href="/revision-expediente-extranjeria" className="underline">
+            revisión del expediente
+          </Link>{" "}
+          para determinar si existe alguna incidencia y valorar si conviene adoptar alguna actuación.
+        </p>
+
         <h2 className="mt-12 text-2xl font-semibold text-slate-900">
           Qué ocurre si el expediente es denegado
         </h2>
